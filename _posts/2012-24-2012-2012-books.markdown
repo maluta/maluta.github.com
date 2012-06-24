@@ -1,0 +1,18 @@
+---
+layout: post
+title: Books for 2012 
+---
+
+This is my 2012 list of books about work, management, software engineering, design and entrepreneurship.
+
+1. Here Comes Everybody: The Power of Organizing Without Organizations
+2. Rework
+3. Brilliant, Crazy, Cocky: How the Top 1% of Entrepreneurs Profit from Global Chaos
+4. The Laws of Simplicity
+5. Out of Our Minds: Learning to be Creative
+6. The Start-up of You: Adapt to the Future, Invest in Yourself, and Transform Your Career
+7. The Mythical Man-Month: Essays on Software Engineering
+8. Interface Culture 
+9. Reinventing Fire
+10. The Pragmatic Programmer
+11. Execution 
