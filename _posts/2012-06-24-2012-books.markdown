@@ -15,4 +15,29 @@ This is my 2012 list of books about work, management, software engineering, desi
 8. Interface Culture 
 9. Reinventing Fire
 10. The Pragmatic Programmer
-11. Execution 
+11. Execution
+
+
+**Here Comes Everybody: The Power of Organizing Without Organizations** ([buy](http://www.amazon.com/Here-Comes-Everybody-Organizations-ebook/dp/B005R8P5H8/ref=tmm_kin_title_1?ie=UTF8&m=AGFP5ZROMRZFO&qid=1326989988&sr=8-1)) _written by Clay Shirky_
+
+**Rework** ([buy](http://www.amazon.com/Rework-ebook/dp/B002MUAJ2A/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1326990416&sr=1-1)) _written by Jason Fried and David Heinemeier Hansson_
+
+**Brilliant, Crazy, Cocky: How the Top 1% of Entrepreneurs Profit from Global Chaos** ([buy](
+http://www.amazon.com/Brilliant-Crazy-Cocky-Entrepreneurs-ebook/dp/B004IPPIKK/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1326990479&sr=1-1)) _written by Sarah Lacy_
+
+**The Laws of Simplicity** ([buy](http://www.amazon.com/Laws-Simplicity-Technology-Business-ebook/dp/B002V1I698/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1326990508&sr=1-1)) _written by John Maeda_
+
+**Out of Our Minds: Learning to be Creative** ([buy](http://www.amazon.com/Out-Our-Minds-Learning-ebook/dp/B005CKKETU/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1326990567&sr=1-1)) _written by Ken Robinson_
+
+**The Start-up of You: Adapt to the Future, Invest in Yourself, and Transform Your Career** ([buy](http://www.amazon.com/Start-up-You-Future-Yourself-Transform/dp/0307888908/ref=sr_1_1?ie=UTF8&qid=1327507243&sr=8-1)) _written by Reid Hoffman and Ben Casnocha_
+
+**The Mythical Man-Month: Essays on Software Engineering** ([buy](http://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=zg_bs_377567011_5)) _written by Frederick P. Brooks_
+
+**Interface Culture** ([buy](http://www.amazon.com/Interface-Culture-Steven-A-Johnson/dp/0465036805/ref=sr_1_sc_1?ie=UTF8&qid=1332211102&sr=8-1-spell)) _written by Steven A. Johnson_
+
+**Reinventing Fire** ([buy](http://www.amazon.com/Reinventing-Fire-Business-Solutions-Energy/dp/1603583718)) _written by Armory Lovins_
+
+**The Pragmatic Programmer** ([buy](http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X)) _written by Andrew Hunt and David Thomas_
+
+**Execution** ([buy](http://www.amazon.com/Execution-Discipline-Getting-Things-ebook/dp/B000Q9IR0A/)) _written Ram Charan, Larry Bossidy and Charles Burck_
+
