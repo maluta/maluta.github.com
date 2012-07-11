@@ -1,0 +1,33 @@
+--
+layout: post
+title: Git tips 
+---
+
+There are plenty of Git tips. These are *my* study reference and it's *always* updated. I strongly recomend that _you_ create your own ;-)
+
+# 1. Partial commits
+
+    git add -p FILE
+    git commit -a
+
+# 2. Submiting your branch
+
+    git branch my_branch
+    git checkout my_branch
+
+    ## edit something ##
+
+    git push origin origin:refs/heads/my_branch
+    git push origin my_branch
+
+    ## if you previously cloned the repo ##
+
+    # to others;;;
+
+    git clone ...
+    git checkout -b my_branch origin/my_branch
+
+    # if you already cloned.
+
+    git pull --rebase origin my_branch
+
