@@ -31,3 +31,22 @@ There are plenty of Git tips. These are *my* study reference and it's *always* u
 
     git pull --rebase origin my_branch
 
+# 3. Checking new patches BEFORE applying it.
+
+    git fetch
+    git log origin/master
+
+# 4. Alias
+
+Suppose this command:
+
+    git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+Setting an alias:
+
+    git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+Now just:
+
+    git lg
+
