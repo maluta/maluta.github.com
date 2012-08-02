@@ -1,0 +1,15 @@
+---
+layout: post
+title: SSH tips
+---
+
+Usage:
+
+    ssh -R<REMOTE PORT>:<LOCAL HOST>:<LOCAL PORT> <USER>@<ADDRESS> -N -f
+    ssh <REMOTE USER>@<REMOTE HOST> -p <REMOTE PORT>
+
+Example:
+
+    ssh -R20000:localhost:20 maluta@192.168.20.13 -N -f
+    ssh root@localhost -p 20000
+
