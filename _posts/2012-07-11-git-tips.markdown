@@ -22,7 +22,7 @@ There are plenty of Git tips. These are *my* study reference and it's *always* u
 
     ## if you previously cloned the repo ##
 
-    # to others;;;
+    # to others
 
     git clone ...
     git checkout -b my_branch origin/my_branch
@@ -50,3 +50,18 @@ Now just:
 
     git lg
 
+# 5. Merge
+
+    if you are working on a repo and someone push some things and you aren't on "latest" commit
+
+    git pull --rebase
+
+    IS THE SAME AS
+
+    git fetch
+    git rebase origin/p6
+
+# 6. Tags
+
+    git tag TAGNAME
+    git push origin --tags
