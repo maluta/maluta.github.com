@@ -60,7 +60,7 @@ _Search for sushi in Paris._
 
 _Gravity movie_
 
-![](../images/20131103-android_screenshot_gravitymovie.png)
+![](/images/20131103-android_screenshot_gravitymovie.png)
 
 **Distance**
 
