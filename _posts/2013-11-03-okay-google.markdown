@@ -3,7 +3,9 @@ layout: post
 title: Okay Google
 ---
 
-Here some interesing questions:
+Recently I bought a new Android smartphone that comes with voice recognition. This feature allows you to interact with the system with your voice, the procedure is simple: start by saying _"Okay Google"_ followed by your query.
+
+Here some interesting questions:
 
 ![](/images/20131103-android_screenshot_okaygoogle.png)
 ![](/images/20131103-android_screenshot_okaygoogleresult.png)
@@ -73,4 +75,6 @@ _What's the distance from Paris to Geneva?_
 _What's the value of Google stock?_
 
 ![](/images/20131103-android_screenshot_googlestock.png)
+
+Note that all this queries requires access to Google server. If you are offline you can only do basic things like _"Call my mother"_
 
