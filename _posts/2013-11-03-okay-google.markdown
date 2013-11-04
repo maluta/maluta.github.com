@@ -5,10 +5,9 @@ title: Okay Google
 
 Recently I bought a new Android smartphone that comes with voice recognition. This feature allows you to interact with the system with your voice, the procedure is simple: start by saying _"Okay Google"_ followed by your query.
 
-Here some interesting questions:
+![](/images/20131103-android_screenshot_okaygoogle.png) ![](/images/20131103-android_screenshot_okaygoogleresult.png)
 
-![](/images/20131103-android_screenshot_okaygoogle.png)
-![](/images/20131103-android_screenshot_okaygoogleresult.png)
+Here some interesting questions:
 
 **Network**
 
