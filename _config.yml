@@ -2,6 +2,9 @@ markdown: rdiscount
 pygments: true
 permalink: /blog/:title
 auto: true
-comments: true
+comments:
+  provider: disqus
+  disqus:
+     short_name: maluta
 rdiscount:
   extensions: [smart]

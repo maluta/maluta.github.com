@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Bitmask
+comments: true
 ---
-
 
 [this post is a backup recovery from my previous blog]
 
