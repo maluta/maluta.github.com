@@ -1,0 +1,91 @@
+---
+layout: post
+title: kthreads (1)
+tags: [oldblog]
+---
+
+<small>[Warning: This post is a backup recovery from my previous Wordpress blog. All content was automatically converted accessing a MySQL database using a Python script (<a href="http://maluta.github.io/blog/convert-wordpress-to-jekyll/">details</a>). Mostly are in Portuguese but if you are interesent I can translate to English. If you found any problem dont't hesitate to contact me in comments.]</small>
+
+
+
+<p style="text-align: right;"><em>Creating a thread at kernel-space</em></p>
+<p style="text-align: justify;">Now that I know that <a href="http://kindman.org/blog/2009/12/12/academia-motivation/" target="_blank">somebody</a> at Academia reads my posts :-) I'll put code with a _little_ <span style="text-decoration: line-through;">documentation</span> information together. Today we will do a quick review about <em>kernel threads </em>or to be more precisely, a way to perform some operations in the background. <em>Kernel threads</em> are standard process that:</p>
+
+<ol>
+	<li>Exist solely in kernel-space.</li>
+	<li>Don't have an address space.</li>
+	<li>Don't context switch to user-space.</li>
+	<li>Are schedulable and preemptable as normal process.</li>
+</ol>
+And let's see an example:
+<pre><span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;linux/init.h&gt;</span></strong></span>
+<span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;linux/module.h&gt;</span></strong></span>
+<span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;linux/sched.h&gt;</span></strong></span>
+<span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;linux/delay.h&gt;</span></strong></span>
+
+<strong>static</strong> <strong>int</strong> <span style="color: #2040a0;">thread3</span><span style="color: #4444ff;">(</span><strong>void</strong> <span style="color: #4444ff;">*</span><span style="color: #2040a0;">unused</span><span style="color: #4444ff;">)</span> <span style="color: #4444ff;"><strong>{</strong></span>
+
+	<strong>int</strong> <span style="color: #2040a0;">count3</span> <span style="color: #4444ff;">=</span> <span style="color: #ff0000;">0</span><span style="color: #4444ff;">;</span>
+	<strong>while</strong> <span style="color: #4444ff;">(</span><span style="color: #2040a0;">count3</span> <span style="color: #4444ff;">&lt;</span> <span style="color: #ff0000;">1000</span><span style="color: #4444ff;">)</span> <span style="color: #4444ff;"><strong>{</strong></span>
+		<span style="color: #2040a0;">msleep</span><span style="color: #4444ff;">(</span><span style="color: #ff0000;">100</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+		<span style="color: #2040a0;">printk</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"Thread 3: %d<span style="color: #77dd77;">\n</span>"</span>, <span style="color: #2040a0;">count3</span><span style="color: #4444ff;">+</span><span style="color: #4444ff;">+</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+	<span style="color: #4444ff;"><strong>}</strong></span>
+	<strong>return</strong> <span style="color: #ff0000;">0</span><span style="color: #4444ff;">;</span>
+<span style="color: #4444ff;"><strong>}</strong></span> 
+
+<strong>static</strong> <strong>int</strong> <span style="color: #2040a0;">thread2</span><span style="color: #4444ff;">(</span><strong>void</strong> <span style="color: #4444ff;">*</span><span style="color: #2040a0;">unused</span><span style="color: #4444ff;">)</span> <span style="color: #4444ff;"><strong>{</strong></span>
+
+	<strong>int</strong> <span style="color: #2040a0;">count2</span> <span style="color: #4444ff;">=</span> <span style="color: #ff0000;">0</span><span style="color: #4444ff;">;</span>
+	<strong>while</strong> <span style="color: #4444ff;">(</span><span style="color: #2040a0;">count2</span> <span style="color: #4444ff;">&lt;</span> <span style="color: #ff0000;">1000</span><span style="color: #4444ff;">)</span> <span style="color: #4444ff;"><strong>{</strong></span>
+		<span style="color: #2040a0;">msleep</span><span style="color: #4444ff;">(</span><span style="color: #ff0000;">10</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+		<span style="color: #2040a0;">printk</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"Thread 2: %d<span style="color: #77dd77;">\n</span>"</span>, <span style="color: #2040a0;">count2</span><span style="color: #4444ff;">+</span><span style="color: #4444ff;">+</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+	<span style="color: #4444ff;"><strong>}</strong></span>
+	<strong>return</strong> <span style="color: #ff0000;">0</span><span style="color: #4444ff;">;</span>
+<span style="color: #4444ff;"><strong>}</strong></span>
+
+<strong>static</strong> <strong>int</strong> <span style="color: #2040a0;">__init</span> <span style="color: #2040a0;">threads_init</span><span style="color: #4444ff;">(</span><strong>void</strong><span style="color: #4444ff;">)</span>
+<span style="color: #4444ff;"><strong>{</strong></span>
+	<strong>int</strong> <span style="color: #2040a0;">count1</span><span style="color: #4444ff;">;</span>
+	<strong>int</strong> <span style="color: #2040a0;">ret1</span>, <span style="color: #2040a0;">ret2</span><span style="color: #4444ff;">;</span>
+
+	<span style="color: #2040a0;">count1</span> <span style="color: #4444ff;">=</span> <span style="color: #ff0000;">0</span><span style="color: #4444ff;">;</span>
+	<span style="color: #2040a0;">ret1</span> <span style="color: #4444ff;">=</span> <span style="color: #2040a0;">kernel_thread</span><span style="color: #4444ff;">(</span><span style="color: #2040a0;">thread2</span>, <span style="color: #2040a0;">NULL</span>, <span style="color: #2040a0;">CLONE_FS</span> <span style="color: #4444ff;">|</span> <span style="color: #2040a0;">CLONE_FILES</span> <span style="color: #4444ff;">|</span> <span style="color: #2040a0;">CLONE_SIGHAND</span> <span style="color: #4444ff;">|</span> <span style="color: #2040a0;">SIGCHLD</span> <span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+	<span style="color: #2040a0;">ret2</span> <span style="color: #4444ff;">=</span> <span style="color: #2040a0;">kernel_thread</span><span style="color: #4444ff;">(</span><span style="color: #2040a0;">thread3</span>, <span style="color: #2040a0;">NULL</span>, <span style="color: #2040a0;">CLONE_FS</span> <span style="color: #4444ff;">|</span> <span style="color: #2040a0;">CLONE_FILES</span> <span style="color: #4444ff;">|</span> <span style="color: #2040a0;">CLONE_SIGHAND</span> <span style="color: #4444ff;">|</span> <span style="color: #2040a0;">SIGCHLD</span> <span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+
+	<span style="color: #2040a0;">printk</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"-- kernel thread: module init<span style="color: #77dd77;">\n</span>"</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+	<span style="color: #2040a0;">printk</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"-- kernel thread: spawning thread 1 ret=%d<span style="color: #77dd77;">\n</span>"</span>, <span style="color: #2040a0;">ret1</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+	<span style="color: #2040a0;">printk</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"-- kernel thread: spawning thread 2 ret=%d<span style="color: #77dd77;">\n</span>"</span>, <span style="color: #2040a0;">ret2</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>	
+
+	<span style="color: #444444;">/*
+	   Don't use "long" loops on init().
+	   If you uncomment the snippet below the insmod will lock until while finishes
+	*/</span> 
+
+	<span style="color: #444444;">/*
+	while (count1 &lt; 1000) {
+		msleep(10);
+		printk("Thread 1: %d\n", count1++);
+     	}
+	*/</span>
+
+    <strong>return</strong> <span style="color: #ff0000;">0</span><span style="color: #4444ff;">;</span>
+<span style="color: #4444ff;"><strong>}</strong></span>
+
+<strong>static</strong> <strong>void</strong> <span style="color: #2040a0;">__exit</span> <span style="color: #2040a0;">threads_exit</span><span style="color: #4444ff;">(</span><strong>void</strong><span style="color: #4444ff;">)</span>
+<span style="color: #4444ff;"><strong>{</strong></span>
+    <span style="color: #2040a0;">printk</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"-- kernel thread: module removed<span style="color: #77dd77;">\n</span>"</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+<span style="color: #4444ff;"><strong>}</strong></span>
+
+<span style="color: #2040a0;">module_init</span><span style="color: #4444ff;">(</span><span style="color: #2040a0;">threads_init</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+<span style="color: #2040a0;">module_exit</span><span style="color: #4444ff;">(</span><span style="color: #2040a0;">threads_exit</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+
+<span style="color: #2040a0;">MODULE_AUTHOR</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"Tiago Maluta &lt;maluta@unifei.edu.br"</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+<span style="color: #2040a0;">MODULE_DESCRIPTION</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"kthreads examples"</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span>
+<span style="color: #2040a0;">MODULE_LICENSE</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"GPL"</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span></pre>
+Things from code that are found in docs...
+<ul>
+	<li>CLONE_FS means that<em> parent</em> and <em>child</em> share filesystem information.</li>
+	<li><span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; line-height: 18px; font-size: 12px; white-space: pre;">CLONE_FILES means that<em> parent </em>and <em>child</em> open files.</span></li>
+	<li><span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; line-height: 18px; font-size: 12px; white-space: pre;">CLONE_SIGHAND means that <em>parent</em> and <em>child</em> share signal handlers.</span></li>
+</ul>
+I use arbitrarily <em>msleep()</em> just to allow user "see" what is happening when dumping kernel ring buffer.

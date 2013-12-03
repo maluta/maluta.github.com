@@ -1,0 +1,41 @@
+---
+layout: post
+title: Otimizao
+tags: [oldblog]
+---
+
+<small>[Warning: This post is a backup recovery from my previous Wordpress blog. All content was automatically converted accessing a MySQL database using a Python script (<a href="http://maluta.github.io/blog/convert-wordpress-to-jekyll/">details</a>). Mostly are in Portuguese but if you are interesent I can translate to English. If you found any problem dont't hesitate to contact me in comments.]</small>
+
+
+
+<p style="text-align: justify;">Dentre as diversas <a href="http://www.linux-kongress.org/2009/program.html" target="_blank">apresentações</a> no <em>Linux Kongress 2009 </em>a palestra do Felix von Leitner's me chamou atenção. Com título "<em>Compiler Optimization Survey</em>" ele discutiu os aspectos relacionados a programação nos compiladores modermos e as possibilidades de otimização (<a href="http://www.linux-kongress.org/2009/slides/compiler_survey_felix_von_leitner.pdf" target="_blank">slides</a>).  A idéia básica é que:</p>
+
+<ul>
+	<li>Otimização é importante</li>
+	<li>Mas frequentemente: Código legível é mais importante</li>
+	<li>Aprenda o que seu compilador faz
+E então deixe-o fazê-lo.</li>
+</ul>
+<p style="text-align: justify;">Exemplo. As quatro instruções abaixo fazem a mesma coisa, zeram um registrador da CPU x86, qual é a melhor forma?</p>
+
+<img class="aligncenter size-full wp-image-400" title="Zerando registros" src="http://www.coding.com.br/wp-content/uploads/2009/11/a.png" alt="Zerando registros" width="153" height="88" />
+
+Analisando no GDB (x/FMT ADDRESS) temos:
+<pre>movl  0xb8    0x00    0x00    0x00    0x00
+andl  0x83    0xe0    0x00
+subl  0x29    <span style="color: #ff0000;">0xc0 </span> 
+xorl  0x31    <span style="color: #ff0000;">0xc0
+</span><span style="color: #000000;"> </span></pre>
+E agora? <strong>sub</strong> ou <strong>xor</strong>, veja que ambos produzem uma <a href="http://en.wikipedia.org/wiki/Register_renaming" target="_blank">falsa dependência</a> em %eax, mas a CPU sabe como ignorar no caso do xor.
+<p style="text-align: center;">Você sabia?</p>
+<p style="text-align: center;">O compilador sim.</p>
+<p style="text-align: left;">Se você usar o sub na prova seu professor provavelmente irá descontar alguns pontos ou te dar zero...</p>
+
+<ul>
+	<li>Se você fizer uma otimizacão, teste em dados reais.</li>
+	<li>Se tornar o código ilegível não tornar o programa <span style="text-decoration: underline;">drasticamente</span> rápido, não faça.</li>
+</ul>
+<div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 476px; width: 1px; height: 1px;">movl  0xb8    0x00    0x00    0x00    0x00
+andl  0x83    0xe0    0x00
+subl  0x29    0xc0
+xorl  0x31    0xc0</div>
