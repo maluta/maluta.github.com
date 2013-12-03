@@ -2,10 +2,6 @@ markdown: rdiscount
 pygments: true
 permalink: /blog/:title
 auto: true
-comments:
-  provider: disqus
-  disqus:
-     short_name: maluta
 analytics:
   provider: google
   google:
