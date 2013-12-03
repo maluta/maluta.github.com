@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Bitmask
-comments: true
 tags: [oldblog]
 ---
 
