@@ -6,5 +6,9 @@ comments:
   provider: disqus
   disqus:
      short_name: maluta
+analytics:
+  provider: google
+  google:
+     tracking_id: 'UA-46174575-1'
 rdiscount:
   extensions: [smart]
