@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Update (Estranho) do Apache no Ubuntu
+title: Update Estranho do Apache no Ubuntu
 tags: [oldblog]
 ---
 
