@@ -1,6 +1,6 @@
 ---
 layout: post
-title: android: dumpsys
+title: android dumpsys
 tags: [oldblog]
 ---
 
