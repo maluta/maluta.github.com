@@ -8,3 +8,7 @@ tags: [oldblog]
 
 
 
+<p style="text-align: justify;">Este ano pensei minha apresentao no Calourada Livre como uma srie de "dicas" para os bixos aprenderem sobre Software Livre ainda na graduao, associando quando possvel as matrias oferecidas no curso.</p>
+<p style="text-align: justify;"><em> </em></p>
+<p style="text-align: center;">Slides: <a title="Slides da minha apresentao no Calourada Livre realizado esta semana na Universidade Federal de Itajub." href="http://www.slideshare.net/maluta/calourada2010" target="_blank">http://www.slideshare.net/maluta/calourada2010</a></p>
+:wq

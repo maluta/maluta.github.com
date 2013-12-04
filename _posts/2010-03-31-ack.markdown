@@ -8,3 +8,5 @@ tags: [oldblog]
 
 
 
+<p style="text-align: justify;">Junto com o vim/ctags o <strong>ack</strong>  ferramenta que mais utilizo ultimamente.  um jeito rpido e eficiente para fazer buscas em arquivos texto. Para quem usa o <em>grep -r </em>vai achar til.</p>
+<p style="text-align: center;"><a href="http://betterthangrep.com/" target="_blank">http://betterthangrep.com/</a></p>

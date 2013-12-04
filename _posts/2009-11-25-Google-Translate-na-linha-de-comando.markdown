@@ -8,3 +8,4 @@ tags: [oldblog]
 
 
 
+<p style="text-align: justify;">Isto pode ser feito de mil maneiras diferentes (e at mais simples) : usando <em>shell script</em>, <em>python</em>, <em>php</em>, etc. Resolvi fazer uma prova do conceito em Qt/C++ para treinar. Para executar baixe o script de instalao <a href="http://gist.github.com/raw/242972/a00ec3c18d8c61a29a8614045c186bc883ca4771/install-translate.sh">install-translate.sh</a> que ira fazer o <em>downlad </em>dos arquivos e compilar.</p>

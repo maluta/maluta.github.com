@@ -8,3 +8,14 @@ tags: [oldblog]
 
 
 
+<div>
+<p style="text-align: justify;">I'm a heavy user of<em>command line interface </em>and often named files without extension. This behavior forces me to use<strong>file </strong>utility every time I have doubts.</p>
+
+<div id="_mcePaste" style="padding-left: 30px; text-align: justify;">$ file stick-note1</div>
+<div id="_mcePaste" style="padding-left: 30px;">stick-note1: ASCII text</div>
+<p style="text-align: justify;">When organizing my<em>home/</em> I came across with many files like that, so I decided make this script to walk throughout files and check if it's text file without extension and put .txt after.</p>
+<p style="text-align: center;"><a href="http://gist.github.com/raw/572801/382091bf34aa449d8fc0e21a36d48a4a61b084ff/name.py" target="_blank">download script</a></p>
+$ python names.py
+This only change the file on current directory and it's a "works for me" approach. Adapt to your needs.
+
+</div>

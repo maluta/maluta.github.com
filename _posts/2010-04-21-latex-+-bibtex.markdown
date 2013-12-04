@@ -8,3 +8,19 @@ tags: [oldblog]
 
 
 
+<p style="text-align: right;"><em>T tudo certo e nada funciona?</em></p>
+Supondo que voc tenha dois arquivos.
+<ol>
+	<li>artigo.tex</li>
+	<li>biblio.bbl</li>
+</ol>
+E est tendo erros quando tenta fazer uma citao (<em>\cite{Autor}</em>), tipo:
+<ul>
+	<li>LaTeX Warning: There were undefined references.</li>
+	<li>LaTeX Warning: Citation `XXXX' on page n undefined on input line N.</li>
+</ul>
+Isso acontece pois alguns arquivos precisam ser gerados (basicamente o <em>aux</em>, <em>bbl</em> e <em>blg</em>) e h uma dependncia circular. A soluo  simples:
+<pre lang="bash">pdflatex artigo.tex
+bibtex all
+pdflatex artigo.tex
+pdflatex artigo.tex</pre>

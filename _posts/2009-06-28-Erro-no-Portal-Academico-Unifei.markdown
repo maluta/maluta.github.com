@@ -8,3 +8,9 @@ tags: [oldblog]
 
 
 
+Noite de domingo, vou checar minhas notas no sistemas acadmico da universidade quando...
+
+[caption id="attachment_19" align="aligncenter" width="300" caption="Erro no Portal Acadmico da Unifei"]<a href="http://www.coding.com.br/wp-content/uploads/2009/06/portalacademico_shot.png"><img class="size-medium wp-image-19" title="Erro no Portal Acadmico da Unifei" src="http://www.coding.com.br/wp-content/uploads/2009/06/portalacademico_shot-300x176.png" alt="Erro no Portal Acadmico da Unifei" width="300" height="176" /></a>[/caption]
+<p style="text-align: right;">acesso dia 28/06/2009 as 20:05</p>
+
+, no space left on device.. armazenamento ta caro hoje em dia.. isso porque nem  poca de matrcula (ou ser que domingo a noite da pico de acesso no sistema?!)

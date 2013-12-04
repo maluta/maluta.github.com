@@ -8,3 +8,17 @@ tags: [oldblog]
 
 
 
+<p style="text-align: justify;">With<a href="http://fuse.sourceforge.net/" target="_blank">FUSE</a> it is possible to implement a fully functional filesystem in a userspace program, this allow great implementations like <a href="http://httpfs.sourceforge.net/">HTTPFS</a>.</p>
+<p style="text-align: justify;">Before start don't forget to load fuse module (i.e: <em>modprobe fuse</em>). Lets do an example, suppose you need check latest Gentoo ISO to catch some files.</p>
+
+<pre lang="sh">$ mkdir ~/GentooISO
+$ mkdir ~/GentooISO/minimal
+$ httpfs http://216.165.129.135/releases/x86/autobuilds/\
+current-iso/install-x86-minimal-20100216.iso GentooISO/
+$ cd ~/GentooISO
+$ mount -o ro,loop install-x86-minimal-20100216.iso minimal</pre>
+Note that I used216.165.129.135 instead distfiles.gentoo.org to avoid http error.
+<blockquote>HEAD (read) failed with Status 302</blockquote>
+You coud see the corret IP using, for example, <em>wget</em>.
+
+Try it! It's really fast.

@@ -8,3 +8,13 @@ tags: [oldblog]
 
 
 
+J tentou as dicas para o problema de regresso de desempenho das placas intel (driver: intel) no Ubuntu 9.04 e mesmo assim continua com baixo desempenho?
+
+tente adicionar a linha Option      "XAANoOffscreenPixmaps", na sua section "Device", ficando assim:
+
+<em>Section "Device"
+Identifier  "Configured Video Device"
+Option      "XAANoOffscreenPixmaps"
+EndSection</em>
+
+meu glxgears (sim, apesar de no ser tooo confivel ajuda como mtrica), subiu de 150FPS para 500FPS em uma Intel Corporation Mobile 945GM.

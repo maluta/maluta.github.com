@@ -8,3 +8,12 @@ tags: [oldblog]
 
 
 
+My <em>dirty</em> code to quickly add functionality of Facebook <a href="http://www.coding.com.br/wp-content/uploads/2011/03/fb_like.png"><img class="alignnone size-full wp-image-1640" title="Facebook Like Button" src="http://www.coding.com.br/wp-content/uploads/2011/03/fb_like.png" alt="" width="55" height="27" /></a> button to websites that I visit.
+
+javascript:void(location.href='http://www.facebook.com/plugins/like.php?href='+encodeURIComponent(location.href))
+<p style="text-align: center;">To use just <strong>move</strong> the link below to your bookmarks bar.</p>
+<p style="text-align: center;"><strong><a href="javascript:void(location.href='http://www.facebook.com/plugins/like.php?href='+encodeURIComponent(location.href))">I like</a></strong></p>
+
+<center><iframe src="http://www.screenr.com/embed/sWo" width="650" height="396" frameborder="0"></iframe></center>
+
+I dont know if its the correct way just opted for that because I want share some content that arent integrated with Facebook API.

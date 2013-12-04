@@ -8,3 +8,7 @@ tags: [oldblog]
 
 
 
+<p style="text-align: justify;">If you need re-generate an UBIFS and <strong>don't know</strong> the right parameters you can inspect<em> </em><a href="http://www.linfo.org/dmesg.html" target="_blank"><em>dmesg</em></a> output to filter UBI parameters.</p>
+<p style="text-align: center;"><a href="http://www.coding.com.br/wp-content/uploads/2011/01/ubi.png"><img class="aligncenter size-full wp-image-1607" title="ubi" src="http://www.coding.com.br/wp-content/uploads/2011/01/ubi.png" alt="" width="537" height="559" /></a></p>
+<p style="text-align: center;"></p>
+<p style="text-align: justify;">If you need know the steps to creante an UBI/UBIFS check the <a href="http://www.linux-mtd.infradead.org/faq/ubifs.html#L_mkfubifs" target="_blank">official documentation</a> or my <a href="http://www.delicious.com/maluta/ubifs" target="_blank">ubifs tag</a> on del.icio.us.</p>

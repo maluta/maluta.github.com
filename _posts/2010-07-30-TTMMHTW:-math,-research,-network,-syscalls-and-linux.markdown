@@ -8,3 +8,17 @@ tags: [oldblog]
 
 
 
+Some things that made me happy this week.
+<ul>
+	<li>Sage combines the power of many existing open-source packages into a common Python-based interface. <a href="http://www.sagemath.org" target="_blank">http://www.sagemath.org</a></li>
+	<li>Useful things to know about Phd thesis research <a href="http://www.cs.caltech.edu/~weixl/research/experience/phd-thesis.txt" target="_blank">http://www.cs.caltech.edu/~weixl/research/experience/phd-thesis.txt</a></li>
+	<li>Just another free touch typing tutor program <a href="http://klavaro.sourceforge.net/en/" target="_blank">http://klavaro.sourceforge.net/en/</a></li>
+	<li>poll vs select vs event-based <a href="http://daniel.haxx.se/docs/poll-vs-select.html" target="_blank">http://daniel.haxx.se/docs/poll-vs-select.html</a></li>
+	<li>Free Electrons presentation at 11th Libre Software Meeting about <em>Linux Kernel: devices and drivers architecture</em> <a href="http://2010.rmll.info/Linux-kernel-architecture-and-device-driver-model.html" target="_blank">http://2010.rmll.info/Linux-kernel-architecture-and-device-driver-model.html
+</a></li>
+	<li>Command Interface to System Calls - <a href="http://sourceforge.net/projects/clint-sc/" target="_blank">http://sourceforge.net/projects/clint-sc/</a></li>
+	<li><strong> </strong>Bloatwatch - powerful tool for watching kernel size trends <a href="http://www.selenic.com/bloatwatch" target="_blank">http://www.selenic.com/bloatwatch/</a></li>
+	<li>Get to know Ksplice <a href="http://www.ibm.com/developerworks/aix/library/au-spunix_ksplice/index.html" target="_blank">http://www.ibm.com/developerworks/aix/library/au-spunix_ksplice/index.html</a></li>
+</ul>
+<h4><a rel="nofollow" href="http://sourceforge.net/projects/clint-sc/">
+</a></h4>
