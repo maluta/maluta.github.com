@@ -27,8 +27,10 @@ hr{
 	margin: 2em 1em;
 }
 .content{
-	margin-left: 140px;
-	width: 800px;
+	margin-left: 160px;
+	margin-right: 160px;
+	max-width: 800px;
+	min-width: 600px;
 	margin-bottom: 50px;
 }
 .related{
@@ -101,7 +103,7 @@ h1{
 }
 
 #header #tiago{
-	font-size: 20px;
+	font-size: 22px;
 	letter-spacing: 1px;
 	color: #666;
 }
@@ -113,7 +115,7 @@ h1{
 #header #maluta{
 	font-size: 14px;
 	font-weight: bold;
-	letter-spacing: 10px;
+	letter-spacing: 12px;
 	color: #000;
 }
 
@@ -132,7 +134,7 @@ h1{
 }
 
 #header #sections{
-  margin: 25px 0 0 -15px;
+  margin: 0px 0 0 -8px;
 }
 #header #sections div{
   margin-bottom: 7px;
@@ -146,6 +148,7 @@ h1{
 }
 #header #sections a:hover{
   color: #ccc;
+  padding: 3px 20px;
 }
 
 
@@ -167,7 +170,7 @@ h1{
   border: 1px solid #ccc;
 }
 #post p{
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 1.2em;
   line-height: 1.7em;
 }
