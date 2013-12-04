@@ -1,6 +1,6 @@
 ---
 layout: post
-title: comeo..
+title: comeo
 tags: [oldblog]
 ---
 
