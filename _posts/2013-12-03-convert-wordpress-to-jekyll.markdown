@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Converting a Wordpress blog to Jekyll 
+title: Converting a Wordpress blog to Jekyll (GitHub Pages)
 ---
 
 I had a plenty of _old posts_ from a previous Wordpress blog. Since I'm [using](http://maluta.github.io/blog/hello-world/) GitHub pages (powered by [Jekyll](http://jekyllrb.com/) engine) I'll describe my steps if you need to do the same.
