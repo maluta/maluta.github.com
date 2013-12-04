@@ -17,4 +17,3 @@ Identifier  "Configured Video Device"
 Option      "XAANoOffscreenPixmaps"
 EndSection</em>
 
-meu glxgears (sim, apesar de não ser tãooo confiável ajuda como métrica), subiu de 150FPS para 500FPS em uma Intel Corporation Mobile 945GM.
