@@ -1,6 +1,6 @@
 ---
 layout: post
-title: and # $ % " ... 2 ! ç 
+title: and!
 tags: [oldblog]
 ---
 
