@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Baixo Desempenho Intel Ubuntu 9.04
+title: Baixo Desempenho Intel Ubuntu 
 tags: [oldblog]
 ---
 
