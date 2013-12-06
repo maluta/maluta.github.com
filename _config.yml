@@ -1,3 +1,6 @@
+name: Maluta's Blog
+description: Notes on things
+url: http://maluta.github.io
 markdown: rdiscount
 pygments: true
 permalink: /blog/:title
