@@ -16,7 +16,7 @@ So I tried, but...
 
 [![HDMI+VGA fail](http://distilleryimage7.ak.instagram.com/5e3fca68633711e396db121ccdcfffa7_8.jpg)](http://instagram.com/p/h0xCMpP0YD/)
 
-And discovered that my [computer](http://www.asus.com/Notebooks_Ultrabooks/K45VM/) doesn't support **connect** at same time the VGA and HDMI cables due mechanical restrictions. I consider this a big design failure but checking the next steps. I found that even connecting it my layout probably would probably not work.
+And discovered that my [computer](http://www.asus.com/Notebooks_Ultrabooks/K45VM/) doesn't support **connect** at same time the VGA and HDMI cables due mechanical restrictions. I consider this a big design failure but checking the next steps I found that even connecting it my layout would probably not work.
 
 This ASUS notebook has 2 video cards:
 
