@@ -23,7 +23,7 @@ This ASUS notebook has 2 video cards:
 * [GeForce 630M](http://www.geforce.com/hardware/notebook-gpus/geforce-gt-630m/features)
 * onboard [Intel HD4000](http://en.wikipedia.org/wiki/Intel_HD_Graphics) ([Ivy Bridge](http://ark.intel.com/products/64899/Intel-Core-i7-3610QM-Processor-6M-Cache-up-to-3_30-GHz))
 
-GeForce 630M seems [not to support more than two monitors](https://forums.geforce.com/default/topic/658631/geforce-700-600-series/multiple-displays-on-630m/) and HD4000 according to [Wikpedia](http://en.wikipedia.org/wiki/Intel_HD_Graphics#Three_active_displays):
+GeForce 630M seems [not support more than two monitors](https://forums.geforce.com/default/topic/658631/geforce-700-600-series/multiple-displays-on-630m/) and HD4000 according to [Wikpedia](http://en.wikipedia.org/wiki/Intel_HD_Graphics#Three_active_displays):
 
 _"(...) HD4000 GPUs in Ivy Bridge CPUs are advertised as supporting three active monitors, but many users have found that this does not work for them due to the chipsets only supporting two active monitors in many common configurations. The reason for this is that the chipsets only include two phase-locked loops (PLLs); a PLL generates a pixel clock at a certain frequency which is used to sync the timings of data being transferred between the GPU and displays."_
 
