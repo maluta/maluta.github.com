@@ -10,9 +10,9 @@ After download the content, checking the raw content (.csv) I decided do play wi
 * generate a tag (word) cloud 
 * which my average tweets per year?
 * which hour of the day I tweet more? _(this particularly info is only available from late-2010)_
-* all url listed and open it in browser 
+* all urls listed in tweets (and open it in browser)
 
-Also if you are a social media manager that like programming you can study how to improve your campaign. Said that it's time to write about code (all examples uses Python 2.x). All code are avaliable on gist, link at end of post.
+Also if you are a social media manager that like programming you can study how to improve your campaign. Said that it's time to write some code (all examples uses Python 2.x). All code are avaliable on gist, link at end of post.
 
 First thing to do is read content from CSV file, this is straightforward with python's [csv](http://docs.python.org/2/library/csv.html) module.
 
@@ -24,7 +24,7 @@ It returns an iterable _csv.reader object. Besides the content itself, each twee
         'source', 'text', 'retweeted_status_id', 'retweeted_status_user_id', 
         'retweeted_status_timestamp', 'expanded_urls']
 
-With this information you can use you creativity to better "interpret" your tweets. Starting with [data visualization](http://en.wikipedia.org/wiki/Data_visualization) I choose an example using tag cloud (tags are usually single words, and the importance of each tag is shown with font size or color). Using [PyTagCloud](https://github.com/atizo/PyTagCloud) it's easy generate the word cloud. In order to consider the relevant data I excluded _articles_, _pronouns_,  _interjections_ and other common words like _"www"_, _"bi.ly"_, etc; an example on how to do this. 
+With this information you can use your creativity to better "interpret" your tweets. Starting with [data visualization](http://en.wikipedia.org/wiki/Data_visualization) I choose an example using tag cloud (tags are usually single words, and the importance of each tag is shown with font size or color). Using [PyTagCloud](https://github.com/atizo/PyTagCloud) it's easy generate the word cloud. In order to consider the relevant data I excluded _articles_, _pronouns_,  _interjections_ and other common words like _"www"_, _"bi.ly"_, etc; an example on how to do this. 
 
 
         re.sub("(www|the|a|we|ours|this|some|who|bit.ly)", " ", buffer)
@@ -65,7 +65,7 @@ Here my stats:
         2012 — #77
         2013 — #87
 
-I need more year like 2010.
+I need more years like 2010.
 
 **Which hour of the day I tweet more?**
 
