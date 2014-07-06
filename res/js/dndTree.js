@@ -1,6 +1,6 @@
 // Get JSON data
-treeJSON = d3.json("http://maluta.github.io/res/json/volpato.json", function(error, treeData) {
-//treeJSON = d3.json("../json/volpato.json", function(error, treeData) {
+//treeJSON = d3.json("http://maluta.github.io/res/json/volpato.json", function(error, treeData) {
+treeJSON = d3.json("../json/volpato.json", function(error, treeData) {
 
     // Calculate total nodes, max label length
     var totalNodes = 0;
