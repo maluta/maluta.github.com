@@ -1,5 +1,6 @@
 // Get JSON data
 treeJSON = d3.json("http://maluta.github.io/res/json/volpato.json", function(error, treeData) {
+//treeJSON = d3.json("../json/volpato.json", function(error, treeData) {
 
     // Calculate total nodes, max label length
     var totalNodes = 0;
@@ -59,10 +60,10 @@ treeJSON = d3.json("http://maluta.github.io/res/json/volpato.json", function(err
     function sortTree() {
         tree.sort(function(a, b) {
             return b.name.toLowerCase() < a.name.toLowerCase() ? 1 : -1;
-        });
+        }); 
     }
     // Sort the tree initially incase the JSON isn't in a sorted order.
-    sortTree();
+    //sortTree();
 
     // TODO: Pan function, can be better implemented.
 
