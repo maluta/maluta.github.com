@@ -1,6 +1,6 @@
 // Get JSON data
-//treeJSON = d3.json("http://maluta.github.io/res/json/volpato.json", function(error, treeData) {
-treeJSON = d3.json("../json/volpato.json", function(error, treeData) {
+treeJSON = d3.json("http://maluta.github.io/res/json/volpato.json", function(error, treeData) {
+//treeJSON = d3.json("../json/volpato.json", function(error, treeData) {
 
     // Calculate total nodes, max label length
     var totalNodes = 0;
@@ -164,7 +164,7 @@ treeJSON = d3.json("../json/volpato.json", function(error, treeData) {
             // it's important that we suppress the mouseover event on the node being dragged. Otherwise it will absorb the mouseover event and the underlying node will not detect it d3.select(this).attr('pointer-events', 'none');
         })
         .on("drag", function(d) {
-            return; /* dont't neeed drag'n drop functionality */
+            return; /* don't neeed drag'n drop functionality */
             if (d == root) {
                 return;
             }
