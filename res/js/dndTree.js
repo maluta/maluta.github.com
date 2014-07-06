@@ -60,7 +60,7 @@ treeJSON = d3.json("http://maluta.github.io/res/json/volpato.json", function(err
     function sortTree() {
         tree.sort(function(a, b) {
             return b.name.toLowerCase() < a.name.toLowerCase() ? 1 : -1;
-        }); 
+        });
     }
     // Sort the tree initially incase the JSON isn't in a sorted order.
     //sortTree();
@@ -164,6 +164,7 @@ treeJSON = d3.json("http://maluta.github.io/res/json/volpato.json", function(err
             // it's important that we suppress the mouseover event on the node being dragged. Otherwise it will absorb the mouseover event and the underlying node will not detect it d3.select(this).attr('pointer-events', 'none');
         })
         .on("drag", function(d) {
+            return; /* dont't neeed drag'n drop functionality */
             if (d == root) {
                 return;
             }
