@@ -1,0 +1,110 @@
+
+* { margin:0; padding:0; }
+
+body {
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 50px;
+    width: 620px;
+    font: 14px "Palatino", "Book Antiqua", "Optima", "Arial", sans-serif;
+    color: #666;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.source {
+    margin-left: -15px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-size: 14px;
+	font-weight: normal;
+	color: #000;
+    font-weight:bold;
+}
+
+.title {
+    color: #aaa;
+    font-size: 13px;
+    font-weight:normal;
+    font-style: italic;
+}
+
+.quote {
+    display:block;
+}
+
+a { text-decoration:none; color: inherit; border:none; }
+a:hover   { text-decoration:none;  color: #933; }
+
+h1 {
+    font-size: 30px;
+    margin-top:15px;
+    margin-left: -20px;
+	font-weight: bold;
+	color: #000;
+    text-align: center;
+}
+
+h2 {
+    margin-left: -20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 22px;
+	font-weight: normal;
+	color: #0a0;
+	width:620px;
+	border-bottom: solid 1px #9f9;
+}
+
+h4 {
+    margin-left: -20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+	font-weight: normal;
+	color: #0a0;
+}
+
+h5 {
+    margin-left: -20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+	font-weight: normal;
+	color: #0a0;
+}
+
+
+h3 {
+	color: #777;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    font-size: 10px;
+	font-weight: normal;
+}
+
+ul, ol {
+    margin-left:20px
+}
+
+li {
+    margin-top:5px;
+}
+
+p {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+strong {
+    font-weight:bold;
+	color: #0a0;
+}
+
+b {
+    font-weight:bold;
+	color: #111;
+}
+
+img { border:none; }
