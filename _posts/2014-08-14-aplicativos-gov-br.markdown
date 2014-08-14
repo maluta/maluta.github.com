@@ -28,5 +28,5 @@ Fiz uma seleção pessoal dos 10 aplicativos que achei interessante:
 
 Recomendo explorar todas as [categorias](http://www.aplicativos.gov.br/categorias), lembrando que o endereço é **[http://www.aplicativos.gov.br/](http://www.aplicativos.gov.br/)**
 
-Quais aplicativos faltaram nesta lista? Deixei seu comentário abaixo.
+Quais aplicativos faltaram nesta lista? Deixe seu comentário abaixo.
 
