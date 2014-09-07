@@ -119,7 +119,7 @@ with open(arquivo, encoding='ISO-8859-1') as f:
 Em linha gerais, podemos ler o trecho acima como:
 
 *"Com o arquivo csv respectivo, passado como parâmetro, vamos abri-lo, chamá-lo de ``f`` e a partir disso aplicar uma função
-de leitura ``csv.reader ``para ir iterando ``for`` e ter acesso ao **conteúdo** cada linha do arquivo".*
+de leitura ``csv.reader ``para ir iterando ``for`` e ter acesso ao **conteúdo** de cada linha do arquivo".*
 
 Não se preocupe se não entendeu tudo, vamos complementar alguns detalhes no final, como o uso do parâmetro ``encoding='ISO-8859-1'``.
 A melhor maneira de entender a execução do trecho acima é experimentando, rode e veja o resultado.
@@ -137,10 +137,11 @@ para manipular os dados:
 - Fatiar o item em uma lista na qual cada item é determinado pelo delimitador
     ``split(';')``
 - Nesta lista pegar o nome do filiado ``nome_csv = valores_csv[3]``
+- Percorrer cada linha do arquivo csv. ``for linha in reader:``
 - Comparar este nome com o nome passado como parâmetro ``nome_csv.find(nome)``
-- Apresentar o resultado ``print``
+- Listar ``for`` e apresentar o resultado ``print``
 
-Traduzinho para o Python:
+Traduzinho para a sintaxe do Python:
 
 {% highlight python %}
 with open(sys.argv[1], encoding='ISO-8859-1') as f:
@@ -154,7 +155,7 @@ with open(sys.argv[1], encoding='ISO-8859-1') as f:
             print('* ' + info[0] + ': ' + info[1])
 {% endhighlight %}
 
-Leia devagar, experimente pequenas modificações e veja o que acontece.
+Leia devagar, experimente fazer pequenas modificações e veja o que acontece.
 
 Referências para aprofundar seu entendimento.
 
@@ -176,7 +177,7 @@ forem de diferentes tamanhos ele irá mesclar pela menor quantidade de itens. Ve
 **Melhorando a estética**
 
 Vamos falar das cores, no terminal do Linux podemos fazer isso de forma simples,
-apenas compondo as *strings* com um parâmetro de definição de cor. Se você estiver
+apenas compondo as *strings* com um código de definição de cor. Se você estiver
 usando o Windows ou outro sistema, por favor, faça uma pesquisa e ensine nos comentários.
 
 {% highlight python %}
@@ -215,7 +216,7 @@ e não deixe de testar!**
 Ah! Já ia me esquecendo o ``encoding`` passado como parâmetro dentro da função *open* é necessário para nos alinharmos com a codificação do arquivo csv disponibilizado pelo TSE,
 mas o assunto codificação que arquivos é assunto pra outro *post*.
 
-O código completo esta abaixo:
+Finalmente, o código completo:
 
 <script src="https://gist.github.com/maluta/f7713fcaf26b6efe7dd5.js"></script>
 
