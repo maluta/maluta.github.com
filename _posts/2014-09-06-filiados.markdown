@@ -214,7 +214,7 @@ with open(sys.argv[1], encoding='ISO-8859-1') as f:
 e não deixe de testar!**
 
 Ah! Já ia me esquecendo o ``encoding`` passado como parâmetro dentro da função *open* é necessário para nos alinharmos com a codificação do arquivo csv disponibilizado pelo TSE,
-mas o assunto codificação que arquivos é assunto pra outro *post*.
+o tema é extenso e merece um *post* específico. 
 
 Finalmente, o código completo:
 
@@ -234,4 +234,4 @@ O mesmo conceito apresentado neste texto pode ser aplicado com outras bases,
 em tempo, deixo alguns links para inspiração:
 
 - Alguns dados dos governo Brasileiro em [dados.gov.br](http://dados.gov.br/).
-- Diversas informações, sobre mobilidade urbana, no município de São Paulo disponibilzados pela [SPTrans](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx)
+- Diversas informações, sobre mobilidade urbana, no município de São Paulo, tudo disponibilizado pela [SPTrans](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx).
