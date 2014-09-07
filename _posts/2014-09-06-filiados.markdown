@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Filiados
+title: Uma aula de Python com os filiados dos partidos políticos.
 ---
 
 O Tribunal Superior Eleitoral (TSE) disponibiliza a lista de filiados dos partidos políticos, todo conteúdo esta disponível
 de graça (para detalhes veja o [Provimento-CGE nº 7/2013](http://www.tse.jus.br/arquivos/tse-provimento-no-7-2013-cge)).
 Sem dúvidas um passo importante no processo de transparência das eleições, contudo acessar a informação de fato pode
-ter algumas dificuldades que podem ser contornados com alguns conhecimentos de linguagem de programação.
+ter algumas dificuldades que podem ser contornadas com alguns conhecimentos programação.
 Vamos aprender como fazer isso!
 
 
@@ -20,38 +20,37 @@ se você não sabe nada da linguagem começe seus estudos acessando o portal do 
 A primeira coisa que precisamos é entrar no site do TSE e escolher o partido E estado em questão. Siga as recomendações do site:
 [http://www.tse.jus.br/partidos/filiacao-partidaria/relacao-de-filiados](http://www.tse.jus.br/partidos/filiacao-partidaria/relacao-de-filiados)
 
-**Já tenho o arquivo .zip salvo...**
+**Já tenho o arquivo zip salvo...**
 
 Vamos tomar como exemplo a [lista de filiados do PMDB em Rondônia](http://agencia.tse.jus.br/estatistica/sead/eleitorado/filiados/uf/filiados_pmdb_ro.zip), o arquivo salvo será: **filiados_pmdb_ro.zip**
 
-Ao descompactar o arquivo você ira ter a seguinte estrutura de pastas:
+Ao descompactar o arquivo você terá a seguinte estrutura de pastas:
 
 ![](/images/20140906-1.png)
 
-O arquivo leiame.pdf descreve a formatação e ordem do conteúdo dos arquivos .csv (dê uma lida rápida neste arquivo).
+O arquivo leiame.pdf descreve a formatação e ordem do conteúdo dos arquivos csv (dê uma lida rápida neste arquivo).
 
-Os arquivos .csv contêm a informação que buscamos de fato:
+Os arquivos csv contêm a informação que procuramos:
 
 * fil_sub_jud_pmdb_ro.csv tem a lista de candidatos com a filiação sob apreciação judicial, sem sentença final.
 * filiados_pmdb_ro.csv tem a lista de TODOS os filiados no partido no estado.
 
-Os arquivos .csv contêm dados separados por um delimitador, o mais comum é a virgula, contudo isso não é regra e
-outros caracteres podem ser utilizados como é o caso do nosso arquivo que é delimitado com o ponto-e-vírgula.
-O melhor programa para abrir um arquivo .csv é o Excel, LibreOffice, GoogleSheets, etc; pois eles "filtram" o
+Os arquivos csv contêm dados separados por um delimitador, o mais comum é a vírgula, contudo isto não é regra e
+outros caracteres podem ser utilizados como é o caso do nosso exemplo que é delimitado com o ponto-e-vírgula.
+Para abrir um arquivo csv o melhor é utilizar um programa de planilhas, como o Excel, LibreOffice, GoogleSheets, etc; pois eles "filtram" o
 delimitador e organizam dos dados nas linhas e colunas da tabela, contudo se tiver curiosidade
 abra com um editor de textos comum para ver o conteúdo na sua forma original (*raw*).
 
 De posse de toda esta informação vamos responder a duas perguntas importantes:
 
-1. **Que tipo de informação eu gostaria de extrarir? (1)**
+1. **Que tipo de informação eu gostaria de extrair? (1)**
 2. **Como fazer isso? (2)**
 
-Para o exemplo eu quero buscar o nome (ou trecho) do filiado ao partido e retornar todas a informações pertinentes e vou fazer
-isso utilizando a linguagem Python para abrir o arquivo, buscar o nome e apresentar o resultado na tela.
+(1) Para o exemplo eu quero buscar o nome (ou trecho) do filiado ao partido e retornar todas a informações pertinentes.
+(2) Irei fazer isso utilizando a linguagem Python para abrir o arquivo, buscar o nome e apresentar o resultado na tela.
 
 Ao executar:
 
-        $ python3 filiados.py filiados_pmdb_ro.csv "SILVA"
 ![](/images/20140906-3.png)
 
 Espero receber uma lista de pessoas com "SILVA" no nome bem como as informações a respeito, um exemplo:
@@ -61,7 +60,7 @@ Espero receber uma lista de pessoas com "SILVA" no nome bem como as informaçõe
 **Vamos codificar!**
 
 No restante deste texto você irá ver uma solução para o problema mas lembre-se: há
-inúmeras maneiras de fazer um programa e se obter o mesmo resultado esperado, se você fez algo diferente
+inúmeras maneiras de fazer um programa e obter o mesmo resultado esperado, se você fez algo diferente
 e deseja compartilhar deixe uma mensagem nos comentários no final.
 
 
@@ -89,8 +88,8 @@ seções = ["Data da extração das informações do banco de dados",
 {% endhighlight %}
 
 Também não podemos nos esquecer dos parâmetros passados como argumentos para o
-programa, afinal de contas queremos que nosso programa funcione com diversas entradas.
-Para isso vamos utilizar o módulo *sys* e armazenar numa variável os parâmetros correspondentes.
+programa, afinal de contas queremos que nosso programa funcione com diversas entradas do usuário.
+Para isso vamos utilizar o módulo *sys* do Python e armazenar em uma variável os parâmetros correspondentes.
 
 {% highlight python %}
 import sys
@@ -102,8 +101,8 @@ A imagem abaixo irá ajudar a entender os índices:
 
 ![](/images/20140906-4.png)
 
-Agora que preparamos a lista de seções a serem apresentadas e obtemos os parâmtros vamos
-percorrer cada linha do nosso arquivo csv, para isso precisamos utilizar dois recursos da
+Agora que preparamos a estrutura de funcionamento do programa e sabemos como armazenar os parâmtros vamos
+percorrer cada linha do nosso arquivo csv, para isso utilizaremos dois recursos da
 linguagem: estruturas de repetição e funções de manipulação de arquivos.
 
 {% highlight python %}
@@ -119,15 +118,113 @@ with open(arquivo, encoding='ISO-8859-1') as f:
 
 Em linha gerais, podemos ler o trecho acima como:
 
-"Com o arquivo .csv respectivo, passado como parâmetro, vamos chamá-lo de *f* e a partir disso aplicar uma função
-de leitura [csv.reader] para ir iterando [for] e ter acesso ao **conteúdo** cada linha do arquivo".
+*"Com o arquivo csv respectivo, passado como parâmetro, vamos abri-lo, chamá-lo de ``f`` e a partir disso aplicar uma função
+de leitura ``csv.reader ``para ir iterando ``for`` e ter acesso ao **conteúdo** cada linha do arquivo".*
 
+Não se preocupe se não entendeu tudo, vamos complementar alguns detalhes no final, como o uso do parâmetro ``encoding='ISO-8859-1'``.
 A melhor maneira de entender a execução do trecho acima é experimentando, rode e veja o resultado.
 
-**Começar, observar e manipular**
+
+**Começar simples, observar e manipular**
 
 Note que a versão final deste programa não saiu de primeira, começamos com algo bem simples, como
 percorrer as linhas de um arquivo. Entendemos como a informação nos é apresentada e a partir disso manipulamos de acordo.
 
-No nosso exemplo o que temos até agora? Uma série de listas com um item apenas. Se observamos o conteúdo
-deste item temos um texto longo, justamente com a informação que precisamos.
+No nosso exemplo o que temos até agora? Uma série de listas com um *item* apenas. Se observamos o conteúdo
+deste *item* temos um texto longo... justamente com a informação que precisamos. Agora vamos ver o que precisamos fazer
+para manipular os dados:
+
+- Fatiar o item em uma lista na qual cada item é determinado pelo delimitador
+    ``split(';')``
+- Nesta lista pegar o nome do filiado ``nome_csv = valores_csv[3]``
+- Comparar este nome com o nome passado como parâmetro ``nome_csv.find(nome)``
+- Apresentar o resultado ``print``
+
+Traduzinho para o Python:
+
+{% highlight python %}
+with open(sys.argv[1], encoding='ISO-8859-1') as f:
+    reader = csv.reader(f)
+    for linha in reader:
+        valores_csv = linha[0].split(';')
+        nome_csv = valores_csv[3]
+        if nome_csv.find(nome) != -1:
+          print("----")
+          for info in zip(seções,valores_csv):
+            print('* ' + info[0] + ': ' + info[1])
+{% endhighlight %}
+
+Leia devagar, experimente pequenas modificações e veja o que acontece.
+
+Referências para aprofundar seu entendimento.
+
+- Faça os [exercícios](http://www.codecademy.com/pt-BR/courses/python-beginner-pt-BR-rik2h/0/1) com Listas do [Codecademy](http://www.codecademy.com/pt-BR/courses/python-beginner-pt-BR-rik2h/0/1).
+- Faça os [exercícios](http://www.codecademy.com/pt-BR/courses/python-intermediate-pt-BR-g3bps/1/3) com ``with`` e ``as`` do [Codecademy](http://www.codecademy.com/pt-BR/courses/python-intermediate-pt-BR-g3bps/1/3).
+- A função ``find()`` retorna o índice (posição) da primeira ocorrência, caso nao ache nada retorna ``-1``. Teste no console.
+
+{% highlight python %}
+>>> "http://www.programae.org.br".find('.') # acha a primeira ocorrência do ponto (.)
+10
+>>> "http://www.programae.org.br".find('x') # busca por 'x' ... mas não acha nada
+-1
+{% endhighlight %}
+
+
+- A função ``zip()`` faz uma transposição dos elementos de duas, ou mais, listas, mesclando os seus valores. Se as listas
+forem de diferentes tamanhos ele irá mesclar pela menor quantidade de itens. Veja um exemplo de execução, [passo a passo](http://bit.ly/WtHxh9).
+
+**Melhorando a estética**
+
+Vamos falar das cores, no terminal do Linux podemos fazer isso de forma simples,
+apenas compondo as *strings* com um parâmetro de definição de cor. Se você estiver
+usando o Windows ou outro sistema, por favor, faça uma pesquisa e ensine nos comentários.
+
+{% highlight python %}
+YELLOW = '\033[93m'
+RED = '\033[91m'
+BLUE = '\033[94m'
+END = '\033[0m'
+
+print(YELLOW + "texto amarelho" + END)
+print(RED + "texto vermelho" + END)
+print(BLUE + "texto azul" + END)
+{% endhighlight %}
+
+A variável ``END`` é necessária para voltar com a cor inicial.
+
+**Finale!**
+
+Com tudo acertado, podemos reescrever o trecho anterior com as cores agora:
+
+{% highlight python %}
+with open(sys.argv[1], encoding='ISO-8859-1') as f:
+    reader = csv.reader(f)
+    for linha in reader:
+        valores_csv = linha[0].split(';')
+        nome_csv = valores_csv[3]
+        if nome_csv.find(nome) != -1:
+          print(RED + "----" + END)
+          for info in zip(seções,valores_csv):
+            print('* ' + BLUE + info[0] + END + ': ' + YELLOW + info[1] + END)
+{% endhighlight %}
+
+**Faça
+[DOWNLOAD do código-fonte](https://gist.githubusercontent.com/maluta/f7713fcaf26b6efe7dd5/raw/c12896cf556f8922fa5cc5a8f212998aa03a3788/filiados.py)
+e não deixe de testar!**
+
+Ah! Já ia me esquecendo o ``encoding`` passado como parâmetro dentro da função *open* é necessário para nos alinharmos com a codificação do arquivo csv disponibilizado pelo TSE,
+mas o assunto codificação que arquivos é assunto pra outro *post*.
+
+O código completo esta abaixo:
+
+<script src="https://gist.github.com/maluta/f7713fcaf26b6efe7dd5.js"></script>
+
+**Futuro**
+
+Algumas questões para melhoria do programa:
+
+- Como tratar erros dos usuários?
+- Como testar melhor nosso código?
+- A documentação poderia ser melhorada para facilitar o entendimento?
+
+**Let's code!**
