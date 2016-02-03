@@ -14,3 +14,8 @@ def show
   end
 end
 {% endhighlight %}
+
+{% highlight python %}
+def show():
+  print("teste")
+{% endhighlight %}
