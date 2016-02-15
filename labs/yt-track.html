@@ -1,8 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <HTML>
-<HEAD><TITLE></TITLE></HEAD>
-<BODY>
+<HEAD>
+<TITLE></TITLE>
+<link rel="stylesheet" href="assets/css/normalize.css">
+  <style>
+  html, body {
+    height: 100%;
+  }
 
-</BODY>
+  body {
+    padding: 8px;
+    background-color: #F6F6F6;
+    box-sizing: border-box;
+  }
+
+  .split {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .content {
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 2px #e4e4e4;
+    background-color: #fff;
+  }
+
+  .gutter {
+    background-color: transparent;
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+
+  .gutter.gutter-horizontal {
+    cursor: col-resize;
+    background-image: url('../grips/vertical.png');
+  }
+
+  .gutter.gutter-vertical {
+    cursor: row-resize;
+    background-image: url('../grips/horizontal.png');
+  }
+
+  .split.split-horizontal, .gutter.gutter-horizontal {
+    height: 100%;
+    float: left;
+  }
+  </style>
+</HEAD>
+<BODY>
+    <div id="a" class="split split-horizontal">
+      <div id="c" class="split content"><iframe width="560" height="315" src="https://www.youtube.com/embed/0URZ3q4oroU" frameborder="0" allowfullscreen></iframe></div>
+      <div id="d" class="split content"><iframe width="560" height="315" src="https://www.youtube.com/embed/WEPXcfQVEF4" frameborder="0" allowfullscreen></iframe></div>
+    </div>
+    <div id="b" class="split split-horizontal">
+      <div id="e" class="split content"></div>
+      <div id="f" class="split content"></div>
+    </div>
+</body>
+<script src="assets/js/split.js"></script>
+<script src="assets/js/lunametrics-youtube.gtm.js"></script>
+<script>
+    Split(['#a', '#b'], {
+      gutterSize: 8,
+      cursor: 'col-resize'
+    })
+
+    Split(['#c', '#d'], {
+      direction: 'vertical',
+      sizes: [25, 75],
+      gutterSize: 8,
+      cursor: 'row-resize'
+    })
+
+    Split(['#e', '#f'], {
+      direction: 'vertical',
+      sizes: [25, 75],
+      gutterSize: 8,
+      cursor: 'row-resize'
+    })
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46174575-1', 'maluta.github.io');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+analytics.load("NOhsQ1sgcIMmpjKsyyV7qZouvoyCsN8f");
+analytics.page()
+}}();
+</script>
 </HTML>
