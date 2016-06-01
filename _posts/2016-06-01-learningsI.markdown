@@ -5,17 +5,31 @@ tags: learning
 ---
 
 ## Articles ##
-[5 More Awesome New Mozilla Technologies You’ve Never Heard Of Velocity](https://davidwalsh.name/mozilla-projects)
+1. [5 More Awesome New Mozilla Technologies You’ve Never Heard Of Velocity](https://davidwalsh.name/mozilla-projects)
+2. [Sell the innovation, not the product](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d#.vk24k69fh)
+3. [How To Build Bots for Messenger](https://developers.facebook.com/blog/post/2016/04/12/bots-for-messenger/)
 
-[Sell the innovation, not the product](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d#.vk24k69fh)
+## Video ##
+
+1. [The mind behind linux](https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux) (Linus Torvalds)
+2. [The unexpected benefit of celebrating failure](https://www.ted.com/talks/astro_teller_the_unexpected_benefit_of_celebrating_failure) (Astro Teller) 
 
 ## Code ##
 
-[waterfall.py](http://tooblippe.github.io/waterfall/)
+- [waterfall.py](http://tooblippe.github.io/waterfall/) is a simple python lib to create [waterfall charts](https://en.wikipedia.org/wiki/Waterfall_chart) 
+- [mention-bot](https://github.com/facebook/mention-bot) automatically mention potential reviewers on pull requests.
 
 ## Quicknotes ##
 
-  [create] screen
-  [detach] Ctrl+a d
-  [attach] screen -r
-  
+**Screen 101**
+
+    [create] screen
+    [detach] Ctrl+a d
+    [attach] screen -r
+
+**Firefox**
+
+    Shift + F2
+    screenshot image.png --fullpage  
+
+
