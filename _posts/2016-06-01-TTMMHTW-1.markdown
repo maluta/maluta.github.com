@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Things that made me happy this week #1
+title: Things that made me happy this week (I)
 tags: learning
 ---
 
