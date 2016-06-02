@@ -4,7 +4,7 @@ title: Status Dashboards
 tags: data
 ---
 
-Here as the list of status dashboard 
+Here a list of status dashboard: 
 
 - Apple https://www.apple.com/support/systemstatus/
 - Google http://www.google.com/appsstatus
