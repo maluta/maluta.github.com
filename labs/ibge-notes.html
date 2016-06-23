@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
+    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
+    <title>Remark</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+<textarea id="source">
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+#IBGE
+[notes]
+---
+ ## Construção dos questionários
+
+ ---
+
+- Não temos certeza do que queremos saber -- é um processo complicado
+- Fazermos perguntas válidas
+- Estudo de Belson (1968)
+
+Colaboração entre os psicólogos e pesquisadores ([cognição](http://cerebroemente.weebly.com/processos-cognitivos.html))
+
+---
+
+1. compreensão do significado da pergunta
+2. recordação da informação relevante
+3. formulação de uma resposta
+4. formatação da resposta às alternativas possíveis da pergunta
+
+---
+
+1. Máxima da Qualidade
+2. Máxima de Relação
+3. Máxima de Quantidade
+4. Máxima de forma
+
+---
+
+### Entendendo a questão
+
+- A escolha de uma questão de escola é **subjetiva** e depende muito do contexto
+
+		  (opção #1) Numa escala de 0 a 10, como você avalia seu sucesso na vida?
+      (opção #2) Numa escala de -5 a 5, como você avalia seu sucesso na vida?
+
+- A pequisadora gosta da escala de 11 pontos (0 a 10) pois ela é mais natural para as pessoas.
+- Respostas Abertas & Períodos de Referência
+	- É importante tomar cuidado neste tipo de questão
+		- Com que frequência você teve raiva na **semana passada**?
+		- Com que frequência você teve raiva na **no ano passado**?
+
+---
+
+### Construção de Questionário
+
+- processo cognitivo de formulação de respostas
+- pequisas sobre comportamento
+	- período de tempo curso e recente ou evento raro importante (OK)
+	- comportamentos ou atitudes em determinado período do tempo passado (fatos que aconteceram a mais de 4 meses são ruins)
+
+*"As pessoas trucam a busca assim que obtêm a informação suficiente para formar o julgamento, raramente baseado em TODA informação"*
+
+---
+
+### Técnicas para recuperação da memória
+
+1. períodos de referencia mais curtos (ou recentes)
+2. sugerir recordações, dar pistas, sinais relativos ``<< podemos usar no formulário online >>``
+3. decomposição de uma pergunta complexa ``<< podemos usar no formulário online >>``
+4. instruir o entrevistado
+5. calendário
+
+---
+
+### Escalas de Frequência numérica
+
+Maior Frequencias
+Menos Frequencias
+
+---
+
+### Processos que afetam a comunicação
+
+- Efeito de Assimilação
+  *(algum estímulo convergentes ao sentido das questões anterior)*
+- Efeito de Constraste
+  *(tendência a receber estímulos opostos ao sentido das questões anteriores.)*
+- Garantir para os entrevistados que as respostas são anônimas
+- Perguntas sensíveis devem SEMPRE resolvida por escala
+
+---
+
+### Modelos de Inclusão e Exclusão
+(Schwarz e Bless)
+
+A ordem das questões influenciam muito
+
+---
+
+### Formatação das respostas
+
+- Questões fechadas (de alternativas)
+	- Limitação de memórica
+		- Efeito Primazia (concentração das respostas nas primeiras alternativas) ``<<quando alguém esta lendo>>``
+		- Efeito Recenticidade (concentração das respostas nas últimas alternativas) ``<<quando alguém está ouvindo>>``
+	- Simulação de respostas (elaboração cognitiva) a partir das alternativas
+	- Viés de "acessibilidade" social
+
+- Em média são 5 ou 6 opções de respostas são ideais
+- É muito importante estar presencialmente testando a aplicação dos testes de perguntas
+- Idealmente é importante inclusive a gente se colocar como entrevistador
+
+---
+
+### Desenho de Questionário
+
+- Um questionário é um grupo ou sequência de perguntas elaboradas para obeter informações sobre um ou mais temas de interesse
+
+- O objetivo primordial é traduzir as necessidades de informação em um conjunto de pequisas específicas que os respondentes podem e desejam desponder
+
+			Qual estado é maior, Bahia ou Minas Gerais?
+
+É impportante garantir que não existam interpretações duplas.
+
+---
+
+### O processo de desenho de questionário
+
+1. Rever objetivos e necessidades de informação (questões de pesquisa)
+2. Listar conceitos e temas a serem investigados (tópicos para perguntas)
+3. Decidir quais são as informações desejadas (o que medir, conceitos)
+4. Rever literatura, questionários anteriores, consutlar especialistas
+5. Eventual necessidade de pesquisa qualitativa
+6. **Elaborar um plano tabular**
+7. Operacionalizar as variáveis (como medir)
+8. Esboçar o questionário (Elaborar as perguntas / Definir a sequência)
+9. Testar e revisar o questionário
+10. Finalizar o questionário.
+
+---
+
+Um questionário bem desenhado deve
+
+- Coletar dados eficientemente 
+- 
+
+
+--- 
+
+Fatores que afetam a capacidade de resposta
+
+- A dificuldade do tema da pesquisa
+- A capacidade cognitiva do respondentes
+- O conhecimento efetivo da informação
+- O período de referência
+- A capacidade de recuperar a informação da memória 
+
+
+---
+
+- Primacy effect 
+	- muitas questõess atrapalham 
+- Em perguntas sensíveis precisamos atenuar a redação da questão
+- Interpretação da pergunta (viés)
+- Frequência 
+- Supõe conhecimento prévio
+	- é preciso contextualizar quando o termo é específico
+- exigir esforço do entrevistado 
+	- palavras difíceis
+- tendência a concordar (aquiescência)
+	- opinião contém nuances de resposta
+- viés de prestígio
+- pergunta dupla e ambígua
+	- *seus **amigos e familiares** ...?*
+- Não faça suposições implícitas 
+
+---
+
+Erros mais comums
+
+- O tipo de pergunta
+- A formulação da pergunta
+- O tamanho do questionário
+- O layout do questionário
+- Processamento do questionário
+- Erro de memória (dificuldade de lembrar)
+- Erro telescópio (excesso de informação)
+- Entrevistadores diferentes
+- Registro incorreto de respostas 
+- Reação do entrevistador
+	- a forma como o entrevistador se porta pode afetar diretamente a respostas
+
+---
+
+### Paradados
+
+Uma frente que estuda o contexto da realização das pesquisas (dados administrativos)
+
+
+[Paradados](https://en.wikipedia.org/wiki/Paradata)
+
+---
+
+### Número de pontos em escalas de avaliação
+	
+- Escalas
+- Podem impactar no preocesso de cognição das atitudes das pessoas nas alternativas de respostas
+	- comprimento
+	- clareza
+	- uniformidade
+	- acomodação
+
+
+
+	
+
+
+
+
+
+</textarea>
+    <script src="assets/js/remark-latest.min.js"></script>
+    <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+    <script src="remark.language.js"></script>
+    <script>
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'remark',
+          highlightLines: true
+        }) ;
+    </script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-46174575-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.scripts[0];
+        s.parentNode.insertBefore(ga, s);
+      }());
+    </script>
+  </body>
+</html>
