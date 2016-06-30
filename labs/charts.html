@@ -7,7 +7,7 @@
       var queryString = encodeURIComponent('SELECT A, B, C, D, E, F, G, H, I LIMIT 11');
 
       var query = new google.visualization.Query(
-          'https://docs.google.com/spreadsheets/d/1oH4jf9IxypL2I7oi_horVMVRA4KzEqsjs36gY1IzOXk/edit?zx=vxx3x6wpu5ah#gid=1055796936&tq=' + queryString);
+          'https://docs.google.com/spreadsheets/d/1oH4jf9IxypL2I7oi_horVMVRA4KzEqsjs36gY1IzOXk/gviz/tq?gid=1055796936&headers=1&tq=' + queryString);
       query.send(handleQueryResponse);
     }
 
