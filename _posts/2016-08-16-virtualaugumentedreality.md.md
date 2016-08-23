@@ -1,9 +1,11 @@
 ---
 layout: post
-title: PokemonGo na Educação (pt-br)
+title: Virtual and Augmented Reality (report)
 tags: learning
 ---
 
-[download](http://www.goldmansachs.com/our-thinking/pages/technology-driving-innovation-folder/virtual-and-augmented-reality/report.pdf)
+Goldmansachs forecasts the virtual and augmentend reality on education
+
+Download full [report](http://www.goldmansachs.com/our-thinking/pages/technology-driving-innovation-folder/virtual-and-augmented-reality/report.pdf)
 
 ![](https://c1.staticflickr.com/9/8101/28548359993_e8fb312330_z.jpg) 
