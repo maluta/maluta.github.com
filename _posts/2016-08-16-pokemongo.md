@@ -4,7 +4,7 @@ title: PokemonGo na Educação (pt-br)
 tags: learning
 ---
 
-- Aprendam trigonometria no PokemonGo [[link]](https://www.youtube.com/watch?v=0akoxmwyJog) [06/08/2016] 
+- Aprendam trigonometria no PokemonGo [link](https://www.youtube.com/watch?v=0akoxmwyJog) [06/08/2016] 
 
 - Professores aproveitam febre do Pokémon Go; veja mais de 20 dicas [link](http://g1.globo.com/educacao/noticia/professores-aproveitam-febre-do-pokemon-go-veja-mais-de-20-dicas.ghtml) [11/08/2016]
 
