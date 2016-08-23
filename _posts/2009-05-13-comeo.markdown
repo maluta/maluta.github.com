@@ -1,6 +1,6 @@
 ---
 layout: post
-title: comeo..
+title: começo..
 tags: [oldblog]
 ---
 
@@ -8,4 +8,4 @@ tags: [oldblog]
 
 
 
-A faculdade como sempre atrapalhando, mas agora com novas idias e novos conceitos, e a esperana de dar certo..
+A faculdade como sempre atrapalhando, mas agora com novas idéias e novos conceitos, e a esperança de dar certo..
