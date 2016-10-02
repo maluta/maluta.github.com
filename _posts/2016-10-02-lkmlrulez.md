@@ -10,4 +10,6 @@ Via [LWN.net](https://lwn.net/SubscriberLink/702177/e2712c9c41c0c683/)
 
 Kernel.org is one of the most beautiful, long term and non-conventional project that I admire. 
 
-Nowadays we got a plethora of "tools" from Slack-like startups to do teamwork in software development. It's not a matter of technology anymore. We need to understand what's behind our business, what matter most.  
+Nowadays we got a plethora of "tools" from Slack-like startups to do teamwork in software development. It's not a matter of technology anymore. 
+
+Need to understand what's behind your business, what prioritize and what matter most.  
