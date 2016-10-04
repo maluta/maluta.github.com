@@ -6,7 +6,8 @@ tags:
 
 <font color="red">This is working in progress</font>
 
-http://achievethecore.org/coherence-map/
-http://achievethecore.org/
-https://github.com/achievethecore
+Links 
+- http://achievethecore.org/coherence-map/
+- http://achievethecore.org/
+- https://github.com/achievethecore
 
