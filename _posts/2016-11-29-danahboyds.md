@@ -8,8 +8,8 @@ Via [Danah Boyd](https://points.datasociety.net/transparency-accountability-3c04
 
 > I believe that algorithmic transparency creates false hope. Not only is it technically untenable, but it obfuscates the real politics that are at stake.
 
-Tottay agree. 
+Tottaly agree. 
 
-ps.: you can check the [video statement]  
+ps.: you can check the [video statement](https://www.youtube.com/watch?v=VD6SfFw2PGg)
 
 
