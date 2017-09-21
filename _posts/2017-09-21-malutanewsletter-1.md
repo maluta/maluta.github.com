@@ -10,4 +10,9 @@ x Slack [raises](https://techcrunch.com/2017/09/17/slack-raises-a-huge-financing
 
 x There are now 1.3B of you actively using Messenger every month. [Link](https://twitter.com/davidmarcus/status/908376938976129024)
 
+x BeagleBoard released another ultra-tiny USB-key-fob computer. [Link](http://beagleboard.org/pocket)
+
+x Google continues his big bet on Hardware. Proving that UX+integration is always better than spec. [Link](https://www.blog.google/topics/hardware/google-signs-agreement-htc-continuing-our-big-bet-hardware/) 
+
+x Audrey Watters on the The History of the Future of Learning Objects and Intelligent Machines. [Link](http://hackeducation.com/2017/09/14/learning-objects) 
 
