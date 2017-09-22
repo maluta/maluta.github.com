@@ -16,8 +16,8 @@ x Google continues his big bet on Hardware. Proving that UX+integration is alway
 
 x Audrey Watters on the The History of the Future of Learning Objects and Intelligent Machines. [Link](http://hackeducation.com/2017/09/14/learning-objects) 
 
-x Go turns 10. Great language and one of the last collabration with Ken Thompson [Link](https://commandcenter.blogspot.com.br/2017/09/go-ten-years-and-climbing.html) 
+x Go turns 10. Great language and one newsest collaboration with Ken Thompson [Link](https://commandcenter.blogspot.com.br/2017/09/go-ten-years-and-climbing.html) 
 
 **Cool thing**
 
-x The future of computing demands a lot of exploration. [Link](http://glench.com/LaserSocks/)
+x LaserSocks: The future of computing demands a lot of exploration. [Link](http://glench.com/LaserSocks/)
