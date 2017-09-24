@@ -18,6 +18,10 @@ x Audrey Watters on the The History of the Future of Learning Objects and Intell
 
 x Go turns 10. Great language and one newsest collaboration with Ken Thompson [Link](https://commandcenter.blogspot.com.br/2017/09/go-ten-years-and-climbing.html) 
 
+x We're starting to see real practical applications of augmented reality for education. [Link](https://itunes.apple.com/app/geogebra-augmented-reality/id1276964610)
+
+x Educational Technology: an evidence-based research. [Link](http://www.nber.org/papers/w23744)
+
 **Cool thing**
 
 x LaserSocks: The future of computing demands a lot of exploration. [Link](http://glench.com/LaserSocks/)
