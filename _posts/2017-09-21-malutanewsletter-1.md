@@ -14,9 +14,9 @@ x BeagleBoard released another ultra-tiny USB-key-fob computer. [Link](http://be
 
 x Google continues his big bet on Hardware. Proving that UX+integration is always better than spec. [Link](https://www.blog.google/topics/hardware/google-signs-agreement-htc-continuing-our-big-bet-hardware/) 
 
-x Audrey Watters on the The History of the Future of Learning Objects and Intelligent Machines. [Link](http://hackeducation.com/2017/09/14/learning-objects) 
+x Audrey Watters writes about the History of the Future of Learning Objects and Intelligent Machines. [Link](http://hackeducation.com/2017/09/14/learning-objects) 
 
-x Go turns 10. Great language and one newsest collaboration with Ken Thompson [Link](https://commandcenter.blogspot.com.br/2017/09/go-ten-years-and-climbing.html) 
+x Go turns 10. Note that Go is also influenced by Ken Thompson [Link](https://commandcenter.blogspot.com.br/2017/09/go-ten-years-and-climbing.html) 
 
 x We're starting to see real practical applications of augmented reality for education. [Link](https://itunes.apple.com/app/geogebra-augmented-reality/id1276964610)
 
