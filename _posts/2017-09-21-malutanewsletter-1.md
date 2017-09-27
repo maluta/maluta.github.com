@@ -22,6 +22,10 @@ x We're starting to see real practical applications of augmented reality for edu
 
 x Educational Technology: an evidence-based research. [Link](http://www.nber.org/papers/w23744)
 
+x In a world of uncertainty how starting thinking public policies as design processes: express, test and cycle. [Link](http://www.npr.org/sections/money/2017/09/22/552850245/episode-796-the-basic-income-experiment)
+
 **Cool thing**
 
 x LaserSocks: The future of computing demands a lot of exploration. [Link](http://glench.com/LaserSocks/)
+
+x Playful worlds of creative math: a design exploration [Link](https://www.khanacademy.org/research/reports/early-math)
