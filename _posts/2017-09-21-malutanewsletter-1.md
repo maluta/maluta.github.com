@@ -26,6 +26,8 @@ x In a world of uncertainty how starting thinking public policies as design proc
 
 x Apple Guide on FaceID Security. [Link](https://images.apple.com/business/docs/FaceID_Security_Guide.pdf) 
 
+x For those who lived 199x: Microsoft becomes Sponsor of Open Source Initiative. [Link](https://opensource.org/node/901)
+
 **Cool thing**
 
 x LaserSocks: The future of computing demands a lot of exploration. [Link](http://glench.com/LaserSocks/)
