@@ -24,6 +24,8 @@ x Educational Technology: an evidence-based research. [Link](http://www.nber.org
 
 x In a world of uncertainty how starting thinking public policies as design processes: express, test and cycle. [Link](http://www.npr.org/sections/money/2017/09/22/552850245/episode-796-the-basic-income-experiment)
 
+x Apple Guide on FaceID Security. [Link](https://images.apple.com/business/docs/FaceID_Security_Guide.pdf) 
+
 **Cool thing**
 
 x LaserSocks: The future of computing demands a lot of exploration. [Link](http://glench.com/LaserSocks/)
