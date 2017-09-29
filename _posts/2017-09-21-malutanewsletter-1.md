@@ -4,9 +4,7 @@ title:  September Links - wip
 tags:
 ---
 
-This is a monthly newsletter of what I've seen and thought was interesting.
-
-x Slack [raises](https://techcrunch.com/2017/09/17/slack-raises-a-huge-financing-round-from-softbank-valuing-the-company-at-5-1b/) a huge financing round ($250 million) from SoftBank valuing the company at $5.1B. Also, Slack released some features like [multi-language support](https://slackhq.com/bienvenue-willkommen-bienvenidos-to-a-more-globally-accessible-slack-546a458b21ae) (French, Germany, and Spanish) and allow [bring important emails](https://get.slack.help/hc/en-us/articles/206819278-Send-emails-to-Slack) into the chat tool. Maybe this is an experiment to attack e-mail workflow. Still [no plans](https://twitter.com/SlackHQ/status/910911995528060929) for pt-br :(
+This is a monthly curation of what I've seen and thought was interesting hightlight. 
 
 x There are now 1.3B of you actively using Messenger every month. [Link](https://twitter.com/davidmarcus/status/908376938976129024)
 
@@ -27,6 +25,8 @@ x In a world of uncertainty how starting thinking public policies as design proc
 x Apple Guide on FaceID Security. [Link](https://images.apple.com/business/docs/FaceID_Security_Guide.pdf) 
 
 x For those who lived 199x: Microsoft becomes Sponsor of Open Source Initiative. [Link](https://opensource.org/node/901)
+
+x Slack [raises](https://techcrunch.com/2017/09/17/slack-raises-a-huge-financing-round-from-softbank-valuing-the-company-at-5-1b/) a huge financing round ($250 million) from SoftBank valuing the company at $5.1B. Also, Slack released some features like [multi-language support](https://slackhq.com/bienvenue-willkommen-bienvenidos-to-a-more-globally-accessible-slack-546a458b21ae) (French, Germany, and Spanish) and allow [bring important emails](https://get.slack.help/hc/en-us/articles/206819278-Send-emails-to-Slack) into the chat tool. Maybe this is an experiment to attack e-mail workflow. Still [no plans](https://twitter.com/SlackHQ/status/910911995528060929) for pt-br :(
 
 **Cool thing**
 
