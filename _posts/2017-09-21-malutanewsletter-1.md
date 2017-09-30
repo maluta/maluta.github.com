@@ -6,9 +6,13 @@ tags:
 
 This is a monthly curation of what I've seen and thought was interesting hightlight. 
 
-x There are now 1.3B of you actively using Messenger every month. [Link](https://twitter.com/davidmarcus/status/908376938976129024)
+➥ [Dynamicland](twitter.com/dynamicland1) debuts for the world. It will become if fully realized, a wonder of the world. A way of living in a possible future. [Link]()
 
-x BeagleBoard released another ultra-tiny USB-key-fob computer. [Link](http://beagleboard.org/pocket)
+➥ Whatsapp is huge in some countries but there are now 1.3B of users actively using FB Messenger every month. [Link](https://twitter.com/davidmarcus/status/908376938976129024)
+
+➥ Pocket computers are food for new ideas. BeagleBoard released another ultra-tiny USB-key-fob computer. [Link](http://beagleboard.org/pocket)
+
+➥ [CNN](lite.cnn.io) and [NPR](thin.npr.org) now have text-only websites. Know why? Maybe because the web is bloated and users are content oriented.
 
 x Google continues his big bet on Hardware. Proving that UX+integration is always better than spec. [Link](https://www.blog.google/topics/hardware/google-signs-agreement-htc-continuing-our-big-bet-hardware/) 
 
