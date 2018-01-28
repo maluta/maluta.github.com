@@ -5,8 +5,8 @@ tags:
 ---
 
 
-MICROSOFT Inclusive Handbook
-https://www.microsoft.com/en-us/design/inclusive
+- MICROSOFT Inclusive Handbook
+[microsoft.com/en-us/design/inclusive](https://www.microsoft.com/en-us/design/inclusive)
 
-IBM Inclusive Handbook
-https://accessibility-handbook.mybluemix.net/design/a11y-handbook/
+- IBM Inclusive Handbook
+[accessibility-handbook.mybluemix.net/design/a11y-handbook](https://accessibility-handbook.mybluemix.net/design/a11y-handbook/)
