@@ -34,11 +34,9 @@ A título de exemplo, na trilha de Python o exercício [Um Dia no Supermercado (
 
 *Como no exemplo acima, exiba a chave juntamente com suas informações de preço e ações. Exiba a resposta no seguinte formato:*
 
-{% highlight python %}
   apple
   price: 2
   stock: 0
-{% endhighlight %}
 
 *Como no exemplo acima, já que sabemos que os dicionários prices e stock têm as mesmas chaves, você pode acessar o dicionário stock enquanto está percorrendo prices.*
 

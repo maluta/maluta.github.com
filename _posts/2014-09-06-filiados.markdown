@@ -64,7 +64,6 @@ inúmeras maneiras de fazer um programa e obter o mesmo resultado esperado, se v
 e deseja compartilhar deixe uma mensagem nos comentários no final.
 
 
-{% highlight python %}
 # a partir do arquivo leiame.pdf (ctrl+c/ctrl+v na descrição)
 seções = ["Data da extração das informações do banco de dados",
             "Hora da extraçãoo das informações do banco de dados",
@@ -85,17 +84,14 @@ seções = ["Data da extração das informações do banco de dados",
             "Data do cancelamento do registro de filiação",
             "Data da regularização do registro de filiação",
             "Motivo do cancelamento do registro de filiação"]
-{% endhighlight %}
 
 Também não podemos nos esquecer dos parâmetros passados como argumentos para o
 programa, afinal de contas queremos que nosso programa funcione com diversas entradas do usuário.
 Para isso vamos utilizar o módulo *sys* do Python e armazenar em uma variável os parâmetros correspondentes.
 
-{% highlight python %}
 import sys
 arquivo = sys.argv[1]
 nome = sys.argv[2]
-{% endhighlight %}
 
 A imagem abaixo irá ajudar a entender os índices:
 
@@ -105,7 +101,6 @@ Agora que preparamos a estrutura de funcionamento do programa e sabemos como arm
 percorrer cada linha do nosso arquivo csv, para isso utilizaremos dois recursos da
 linguagem: estruturas de repetição e funções de manipulação de arquivos.
 
-{% highlight python %}
 import sys
 
 arquivo = sys.argv[1]
@@ -114,7 +109,6 @@ with open(arquivo, encoding='ISO-8859-1') as f:
     for linha in reader:
         print(linha)
 
-{% endhighlight %}
 
 Em linha gerais, podemos ler o trecho acima como:
 
@@ -143,7 +137,6 @@ para manipular os dados:
 
 Traduzinho para a sintaxe do Python:
 
-{% highlight python %}
 with open(sys.argv[1], encoding='ISO-8859-1') as f:
     reader = csv.reader(f)
     for linha in reader:
@@ -153,7 +146,6 @@ with open(sys.argv[1], encoding='ISO-8859-1') as f:
           print("----")
           for info in zip(seções,valores_csv):
             print('* ' + info[0] + ': ' + info[1])
-{% endhighlight %}
 
 Leia devagar, experimente fazer pequenas modificações e veja o que acontece.
 
@@ -163,12 +155,10 @@ Referências para aprofundar seu entendimento.
 - Faça os [exercícios](http://www.codecademy.com/pt-BR/courses/python-intermediate-pt-BR-g3bps/1/3) com ``with`` e ``as`` do [Codecademy](http://www.codecademy.com/pt-BR/courses/python-intermediate-pt-BR-g3bps/1/3).
 - A função ``find()`` retorna o índice (posição) da primeira ocorrência, caso nao ache nada retorna ``-1``. Teste no console.
 
-{% highlight python %}
 >>> "http://www.programae.org.br".find('.') # acha a primeira ocorrência do ponto (.)
 10
 >>> "http://www.programae.org.br".find('x') # busca por 'x' ... mas não acha nada
 -1
-{% endhighlight %}
 
 
 - A função ``zip()`` faz uma transposição dos elementos de duas, ou mais, listas, mesclando os seus valores. Se as listas
@@ -180,7 +170,6 @@ Vamos falar das cores, no terminal do Linux podemos fazer isso de forma simples,
 apenas compondo as *strings* com um código de definição de cor. Se você estiver
 usando o Windows ou outro sistema, por favor, faça uma pesquisa e ensine nos comentários.
 
-{% highlight python %}
 YELLOW = '\033[93m'
 RED = '\033[91m'
 BLUE = '\033[94m'
@@ -189,7 +178,6 @@ END = '\033[0m'
 print(YELLOW + "texto amarelho" + END)
 print(RED + "texto vermelho" + END)
 print(BLUE + "texto azul" + END)
-{% endhighlight %}
 
 A variável ``END`` é necessária para voltar com a cor inicial.
 
@@ -197,7 +185,6 @@ A variável ``END`` é necessária para voltar com a cor inicial.
 
 Com tudo acertado, podemos reescrever o trecho anterior com as cores agora:
 
-{% highlight python %}
 with open(sys.argv[1], encoding='ISO-8859-1') as f:
     reader = csv.reader(f)
     for linha in reader:
@@ -207,7 +194,6 @@ with open(sys.argv[1], encoding='ISO-8859-1') as f:
           print(RED + "----" + END)
           for info in zip(seções,valores_csv):
             print('* ' + BLUE + info[0] + END + ': ' + YELLOW + info[1] + END)
-{% endhighlight %}
 
 **Faça
 [DOWNLOAD do código-fonte](https://gist.githubusercontent.com/maluta/f7713fcaf26b6efe7dd5/raw/c12896cf556f8922fa5cc5a8f212998aa03a3788/filiados.py)
