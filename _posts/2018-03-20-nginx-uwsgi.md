@@ -11,7 +11,7 @@ proj-img-alt: image description
 I followed the [Setting up Django and your web server with uWSGI and nginx](http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html) tutorial
 
 
-`uwsgi --ini <INIT FILE> --uid www-data --gid www-data --daemonize /var/log/uwsgi-emperor.log`
+`uwsgi --ini <INIT FILE> --uid www-data --gid www-data --daemonize /var/log/uwsgi.log`
 
 
 What worked differently for me:
