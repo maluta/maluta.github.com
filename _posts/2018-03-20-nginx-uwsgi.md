@@ -1,7 +1,7 @@
 ---
 layout: post
 title: nginx uwsgi
-desc: xxxxxxxxxxxxxxxxxxxxxxx
+desc: 
 proj-url:
 proj-num: 01
 proj-img: ../images/cc.png
