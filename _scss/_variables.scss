@@ -19,8 +19,10 @@ $red: #d42;
 $darkRed: #c30;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+//$helvetica: Helvetica, Arial, sans-serif;
+$helvetica: 'et-book', Helvetica, Arial, sans-serif;
+//$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$helveticaNeue: 'et-book',"Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints
