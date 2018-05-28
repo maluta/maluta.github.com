@@ -1,6 +1,6 @@
 body{
 	/* font-family: Georgia, serif; */
-	font-family: 'et-book, 27px, serif';
+	font-family: 'et-book 27px', serif;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 }
@@ -64,7 +64,8 @@ hr{
 h1, h2, h3, h4{
 	color: #555;
 	/*font-family: Futura, Helvetica, sans-serif;*/
-	font-family: 'Slabo 27px', serif;
+	font-family: 'et-book 27px', serif;
+	/* font-family: 'Slabo 27px', serif; */
 	font-weight: normal;
 }
 
@@ -84,7 +85,8 @@ h1{
 	left: 15px;
 	top: 15px;
 	width: 110px;
-	font-family: Helvetica, sans-serif; 
+	/* font-family: Helvetica, sans-serif; */ 
+	font-family: 'et-book', sans-serif;
 
 }
 
