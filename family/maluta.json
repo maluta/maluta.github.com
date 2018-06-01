@@ -1,0 +1,106 @@
+[{"name":"(..)", "class":"man"},{
+  "name": "Pedro Maluta",
+  "class": "man",
+  "textClass": "",
+  "marriages": [
+  {
+     "spouse": {
+      "name": "Dozolina Trevisan",
+      "class": "woman",
+      "extra": { "nickname": "" }
+    },
+    "children": [{
+      "name": "Regina Maluta Cinto",
+      "class": "man",
+      "marriages": [{
+        "spouse": {
+          "name": "Luiz Cinto",
+          "class": "woman"
+        },  "children": [{"name": "Dirceu","class": "man"},
+                         {"name": "Odair","class": "man"},
+                         {"name": "Dirce","class": "man"},
+                         {"name": "Wilson","class": "man"}
+        ]}]
+    },
+      {
+        "name": "Julia Maluta",
+        "class": "man"
+      },
+      {
+        "name": "Rinaldo Maluta",
+        "class": "man",
+        "marriages": [{
+          "spouse": {
+            "name": "Teresa Catai",
+            "class": "woman"
+          },  "children": [{"name": "Nivaldo","class": "man"},
+                           {"name": "Lucila","class": "man"},
+                           {"name": "Edson","class": "man"}
+          ]
+        }]
+
+      },
+      {
+        "name": "Hermínio Maluta",
+        "class": "man",
+        "marriages": [{
+          "spouse": {
+            "name": "Beatriz Calegari",
+            "class": "woman"
+          },
+          "children": [{"name": "Maria Clara","class": "man"},
+                       {"name": "Benedito Carlos","class": "man"},
+                       {"name": "Erasmo","class": "man"},
+                       {"name": "Ivan Pedro","class": "man"},
+                       {"name": "Moacir","class": "man"},
+                       {"name": "Luiz Fernando","class": "man"},
+                       {"name": "Regina Helena","class": "man"}]
+          }]
+      },
+      {
+        "name": "Carlos Maluta",
+        "class": "man",
+        "marriages": [
+          {
+            "spouse": { "name": "Nair Bettini Maluta", "class": "woman"},
+            "children": [{"name": "Arnaldo Maluta","class": "man"},
+                         {"name": "Ariovaldo Maluta","class": "man"},
+                         {"name": "Maria Lucia","class": "man"},
+                         {"name": "Almir Maluta","class": "man"},
+                         {"name": "Luiz Anselmo","class": "man"}]
+          }
+        ]
+      },
+      {
+      "name": "Otavio Maluta",
+      "class": "man",
+      "marriages": [
+        {"spouse": {"name": "Elza Oliveira","class": "woman"},
+                   "children": [
+                     {"name": "Norma Lídia","class": "man",
+                      "marriages": [{"spouse": {"name": "Douglas Almeida Alves","class": "woman"}}]
+        }, {"name": "Rosana","class": "man"},
+           {"name": "Marcelo","class": "man"}]
+      }]
+    },
+    {
+      "name": "Matilde Maluta",
+      "class": "man",
+      "marriages": [{
+        "spouse": {
+          "name": "José Grigolon","class": "woman"},
+          "children": [{"name": "Paulo Roberto","class": "man"},
+                       {"name": "Maria Inês","class": "man"},
+                       {"name": "Maria de Lourdes","class": "man"},
+                       {"name": "José Geraldo","class": "man"},
+                       {"name": "João Batista","class": "man"},
+                       {"name": "Vicente","class": "man"},
+                       {"name": "Maria Bernadete","class": "man"},
+                       {"name": "Maria Célia","class": "man"},
+                       {"name": "Evandro","class": "man"},
+                       {"name": "Maria Eliana","class": "man"},
+                       {"name": "Fabio","class": "man"}]
+          }]
+    }]
+  }]
+}]

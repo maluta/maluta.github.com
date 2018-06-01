@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style type="text/css">
+
+	body {
+	    font: 16px sans-serif;
+      font-family: monospace;
+	}
+	.linage {
+	    fill: none;
+	    stroke: #000;
+	}
+	.marriage {
+	    fill: none;
+	    stroke: black;
+	}
+	.man {
+	    background-color: lightblue;
+			border-style: solid;
+			border-width: 1px;
+	}
+	.woman {
+			background-color: yellow;
+			border-style: solid;
+			border-width: 1px;
+	}
+	.emphasis{
+			font-style: italic;
+	}
+	p {
+		padding:0;
+		margin:0;
+	}
+
+</style>
+<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="dTree.min.js"></script>
+<body>
+		<h1>Maluta family</h1>
+    <div id="graph"></div>
+
+		<script>
+      treeJson = d3.json("maluta.json", function(error, treeData) {
+      	dTree.init(treeData,
+					{
+						target: "#graph",
+						debug: true,
+						height: 800,
+						width: 1850,
+						callbacks: {
+							nodeClick: function(name, extra) {
+								console.log(name);
+							},
+							textRenderer: function(name, extra, textClass) {
+								if (extra && extra.nickname)
+									name = name + " (" + extra.nickname + ")";
+								  return "<p align='center' class='" + textClass + "'>" + name + "</p>";
+							}
+						}
+					});
+    	});
+    </script>
+</body>
+</html>
