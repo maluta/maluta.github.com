@@ -1,106 +1,779 @@
-[{"name":"(..)", "class":"man"},{
-  "name": "Pedro Maluta",
-  "class": "man",
-  "textClass": "",
-  "marriages": [
-  {
-     "spouse": {
-      "name": "Dozolina Trevisan",
-      "class": "woman",
-      "extra": { "nickname": "" }
-    },
-    "children": [{
-      "name": "Regina Maluta Cinto",
-      "class": "man",
-      "marriages": [{
-        "spouse": {
-          "name": "Luiz Cinto",
-          "class": "woman"
-        },  "children": [{"name": "Dirceu","class": "man"},
-                         {"name": "Odair","class": "man"},
-                         {"name": "Dirce","class": "man"},
-                         {"name": "Wilson","class": "man"}
-        ]}]
-    },
-      {
-        "name": "Julia Maluta",
-        "class": "man"
-      },
-      {
-        "name": "Rinaldo Maluta",
-        "class": "man",
-        "marriages": [{
-          "spouse": {
-            "name": "Teresa Catai",
-            "class": "woman"
-          },  "children": [{"name": "Nivaldo","class": "man"},
-                           {"name": "Lucila","class": "man"},
-                           {"name": "Edson","class": "man"}
-          ]
-        }]
-
-      },
-      {
-        "name": "Hermínio Maluta",
-        "class": "man",
-        "marriages": [{
-          "spouse": {
-            "name": "Beatriz Calegari",
-            "class": "woman"
-          },
-          "children": [{"name": "Maria Clara","class": "man"},
-                       {"name": "Benedito Carlos","class": "man"},
-                       {"name": "Erasmo","class": "man"},
-                       {"name": "Ivan Pedro","class": "man"},
-                       {"name": "Moacir","class": "man"},
-                       {"name": "Luiz Fernando","class": "man"},
-                       {"name": "Regina Helena","class": "man"}]
-          }]
-      },
-      {
-        "name": "Carlos Maluta",
-        "class": "man",
-        "marriages": [
-          {
-            "spouse": { "name": "Nair Bettini Maluta", "class": "woman"},
-            "children": [{"name": "Arnaldo Maluta","class": "man"},
-                         {"name": "Ariovaldo Maluta","class": "man"},
-                         {"name": "Maria Lucia","class": "man"},
-                         {"name": "Almir Maluta","class": "man"},
-                         {"name": "Luiz Anselmo","class": "man"}]
-          }
-        ]
-      },
-      {
-      "name": "Otavio Maluta",
-      "class": "man",
-      "marriages": [
-        {"spouse": {"name": "Elza Oliveira","class": "woman"},
-                   "children": [
-                     {"name": "Norma Lídia","class": "man",
-                      "marriages": [{"spouse": {"name": "Douglas Almeida Alves","class": "woman"}}]
-        }, {"name": "Rosana","class": "man"},
-           {"name": "Marcelo","class": "man"}]
-      }]
-    },
-    {
-      "name": "Matilde Maluta",
-      "class": "man",
-      "marriages": [{
-        "spouse": {
-          "name": "José Grigolon","class": "woman"},
-          "children": [{"name": "Paulo Roberto","class": "man"},
-                       {"name": "Maria Inês","class": "man"},
-                       {"name": "Maria de Lourdes","class": "man"},
-                       {"name": "José Geraldo","class": "man"},
-                       {"name": "João Batista","class": "man"},
-                       {"name": "Vicente","class": "man"},
-                       {"name": "Maria Bernadete","class": "man"},
-                       {"name": "Maria Célia","class": "man"},
-                       {"name": "Evandro","class": "man"},
-                       {"name": "Maria Eliana","class": "man"},
-                       {"name": "Fabio","class": "man"}]
-          }]
-    }]
-  }]
-}]
+[
+	{
+		"name": "Giacomo Maluta",
+		"class": "man",
+		"textClass": "",
+		"extra": {
+			"nickname": ""
+		},
+		"marriages": [
+			{
+				"spouse": {
+					"name": "Caterina Rosada ",
+					"class": "woman",
+					"extra": {
+						"nickname": ""
+					}
+				},
+				"children": [
+					{
+						"name": "Matteo",
+						"class": "man",
+						"textClass": "",
+						"extra": {
+							"nickname": ""
+						},
+						"marriages": [
+							{
+								"spouse": {
+									"name": "Catterina Vanzella",
+									"class": "woman",
+									"extra": {
+										"nickname": ""
+									}
+								},
+								"children": [
+									{
+										"name": "Domenico",
+										"class": "man",
+										"textClass": "",
+										"extra": {
+											"nickname": "1804-?"
+										}
+									},
+									{
+										"name": "Rosa",
+										"class": "man",
+										"textClass": "",
+										"extra": {
+											"nickname": "1806-?"
+										}
+									},
+									{
+										"name": "Angelo",
+										"class": "man",
+										"textClass": "",
+										"extra": {
+											"nickname": "1843-?"
+										},
+										"marriages": [
+											{
+												"spouse": {
+													"name": "Pasqua Benedetta",
+													"class": "woman",
+													"extra": {
+														"nickname": ""
+													}
+												},
+												"children": [
+													{
+														"name": "Franscesco",
+														"class": "man",
+														"textClass": "",
+														"extra": {
+															"nickname": "1843-?"
+														},
+														"marriages": [
+															{
+																"spouse": {
+																	"name": "Luigia Cattai",
+																	"class": "woman",
+																	"extra": {
+																		"nickname": ""
+																	}
+																},
+																"children": [
+																	{
+																		"name": "(...)",
+																		"class": "man",
+																		"textClass": "",
+																		"extra": {
+																			"nickname": ""
+																		}
+																	}
+																]
+															},
+															{
+																"spouse": {
+																	"name": "Filomena Presotto",
+																	"class": "woman",
+																	"extra": {
+																		"nickname": ""
+																	}
+																},
+																"children": [
+																	{
+																		"name": "Giuseppe",
+																		"class": "man",
+																		"textClass": "",
+																		"extra": {
+																			"nickname": "1867-1956"
+																		},
+																		"marriages": [
+																			{
+																				"spouse": {
+																					"name": "Maria Teresa Vivan",
+																					"textClass": "",
+																					"class": "woman",
+																					"extra": {
+																						"nickname": "?-1933"
+																					}
+																				},
+																				"children": [
+																					{
+																						"name": "Franscesco",
+																						"class": "man",
+																						"textClass": "",
+																						"extra": {
+																							"nickname": "1893-1926"
+																						},
+																						"marriages": [
+																							{
+																								"spouse": {
+																									"name": "Antonia Raganin",
+																									"textClass": "",
+																									"class": "woman",
+																									"extra": {
+																										"nickname": "1896-1985"
+																									}
+																								},
+																								"children": [
+																									{
+																										"name": "Celsino",
+																										"class": "man",
+																										"textClass": "",
+																										"extra": {
+																											"nickname": "1922-1937"
+																										}
+																									},
+																									{
+																										"name": "Francesca",
+																										"class": "man",
+																										"textClass": "",
+																										"extra": {
+																											"nickname": "1926-"
+																										},
+																										"marriages": [
+																											{
+																												"spouse": {
+																													"name": "Guerrino Ros",
+																													"textClass": "",
+																													"class": "woman",
+																													"extra": {
+																														"nickname": "1915-1985"
+																													}
+																												},
+																												"children": [
+																													{
+																														"name": "Edda",
+																														"class": "man",
+																														"textClass": "",
+																														"extra": {
+																															"nickname": "1950-"
+																														},
+																														"marriages": [
+																															{
+																																"spouse": {
+																																	"name": "Aldo",
+																																	"textClass": "",
+																																	"class": "woman",
+																																	"extra": {
+																																		"nickname": "1946-"
+																																	}
+																																},
+																																"children": [
+																																	{
+																																		"name": "Matteo",
+																																		"class": "man",
+																																		"textClass": "",
+																																		"extra": {
+																																			"nickname": "1975-"
+																																		}
+																																	},
+																																	{
+																																		"name": "Andrea",
+																																		"class": "man",
+																																		"textClass": "",
+																																		"extra": {
+																																			"nickname": "1979-"
+																																		}
+																																	},
+																																	{
+																																		"name": "Luca",
+																																		"class": "man",
+																																		"textClass": "",
+																																		"extra": {
+																																			"nickname": "1982-"
+																																		}
+																																	},
+																																	{
+																																		"name": "Giacomo",
+																																		"class": "man",
+																																		"textClass": "",
+																																		"extra": {
+																																			"nickname": "1990-"
+																																		}
+																																	}
+																																]
+																															}
+																														]
+																													},
+																													{
+																														"name": "Vilma",
+																														"class": "man",
+																														"textClass": "",
+																														"extra": {
+																															"nickname": "1954-"
+																														}
+																													},
+																													{
+																														"name": "Mario",
+																														"class": "man",
+																														"textClass": "",
+																														"extra": {
+																															"nickname": "1957-"
+																														}
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					},
+																					{
+																						"name": "Giovanni",
+																						"class": "man",
+																						"textClass": "",
+																						"extra": {
+																							"nickname": ""
+																						}
+																					},
+																					{
+																						"name": "Giovanna",
+																						"class": "man",
+																						"textClass": "",
+																						"extra": {
+																							"nickname": ""
+																						}
+																					},
+																					{
+																						"name": "Caterina",
+																						"class": "man",
+																						"textClass": "",
+																						"extra": {
+																							"nickname": ""
+																						}
+																					},
+																					{
+																						"name": "Maria",
+																						"class": "man",
+																						"textClass": "",
+																						"extra": {
+																							"nickname": ""
+																						}
+																					},
+																					{
+																						"name": "Antonio",
+																						"class": "man",
+																						"textClass": "",
+																						"extra": {
+																							"nickname": ""
+																						}
+																					},
+																					{
+																						"name": "Angelo",
+																						"class": "man",
+																						"textClass": "",
+																						"extra": {
+																							"nickname": ""
+																						}
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"name": "Domenico Maluta",
+																		"class": "man",
+																		"textClass": "",
+																		"marriages": [
+																			{
+																				"spouse": {
+																					"name": "Regina Santarosa",
+																					"class": "woman",
+																					"extra": {
+																						"nickname": ""
+																					}
+																				},
+																				"children": [
+																					{
+																						"name": "Giuseppe",
+																						"class": "man"
+																					},
+																					{
+																						"name": "Angela",
+																						"class": "man"
+																					},
+																					{
+																						"name": "Pedro Maluta",
+																						"class": "man",
+																						"textClass": "",
+																						"marriages": [
+																							{
+																								"spouse": {
+																									"name": "Dozolina Trevisan",
+																									"class": "woman",
+																									"extra": {
+																										"nickname": ""
+																									}
+																								},
+																								"children": [
+																									{
+																										"name": "Regina Maluta Cinto",
+																										"class": "man",
+																										"marriages": [
+																											{
+																												"spouse": {
+																													"name": "Luiz Cinto",
+																													"class": "woman"
+																												},
+																												"children": [
+																													{
+																														"name": "Dirceu",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Odair",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Dirce",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Wilson",
+																														"class": "man"
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"name": "Julia Maluta",
+																										"class": "man"
+																									},
+																									{
+																										"name": "Rinaldo Maluta",
+																										"class": "man",
+																										"marriages": [
+																											{
+																												"spouse": {
+																													"name": "Teresa Catai",
+																													"class": "woman"
+																												},
+																												"children": [
+																													{
+																														"name": "Nivaldo",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Lucila",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Edson",
+																														"class": "man"
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"name": "Hermínio Maluta",
+																										"class": "man",
+																										"marriages": [
+																											{
+																												"spouse": {
+																													"name": "Beatriz Calegari",
+																													"class": "woman"
+																												},
+																												"children": [
+																													{
+																														"name": "Maria Clara",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Benedito Carlos",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Erasmo",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Ivan Pedro",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Moacir",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Luiz Fernando",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Regina Helena",
+																														"class": "man"
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"name": "Carlos Maluta",
+																										"class": "man",
+																										"marriages": [
+																											{
+																												"spouse": {
+																													"name": "Nair Bettini Maluta",
+																													"class": "woman"
+																												},
+																												"children": [
+																													{
+																														"name": "Arnaldo Maluta",
+																														"class": "man",
+																														"textClass": "",
+																														"extra": {
+																															"nickname": "1958-"
+																														},
+																														"marriages": [
+																															{
+																																"spouse": {
+																																	"name": "Valentina Maria Caxambu Volpato Maluta",
+																																	"class": "woman",
+																																	"textClass": "",
+																																	"extra": {
+																																		"nickname": "1957-"
+																																	}
+																																},
+																																"children": [
+																																	{
+																																		"name": "Tiago César Volpato Maluta",
+																																		"class": "man",
+																																		"textClass": "",
+																																		"extra": {
+																																			"nickname": "1986-"
+																																		},
+																																		"marriages": [
+																																			{
+																																				"spouse": {
+																																					"name": "Marina Alves Queiroz Maluta",
+																																					"class": "woman",
+																																					"textClass": "",
+																																					"extra": {
+																																						"nickname": "1986-"
+																																					}
+																																				}
+																																			}
+																																		]
+																																	},
+																																	{
+																																		"name": "Henrique Volpato Maluta",
+																																		"class": "man",
+																																		"textClass": "",
+																																		"extra": {
+																																			"nickname": "1989-"
+																																		}
+																																	}
+																																]
+																															}
+																														]
+																													},
+																													{
+																														"name": "Ariovaldo Maluta",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Maria Lucia",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Almir Maluta",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Luiz Anselmo",
+																														"class": "man"
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"name": "Otavio Maluta",
+																										"class": "man",
+																										"marriages": [
+																											{
+																												"spouse": {
+																													"name": "Elza Oliveira",
+																													"class": "woman"
+																												},
+																												"children": [
+																													{
+																														"name": "Norma Lídia",
+																														"class": "man",
+																														"marriages": [
+																															{
+																																"spouse": {
+																																	"name": "Douglas Almeida Alves",
+																																	"class": "woman"
+																																}
+																															}
+																														]
+																													},
+																													{
+																														"name": "Rosana",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Marcelo",
+																														"class": "man"
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"name": "Matilde Maluta",
+																										"class": "man",
+																										"marriages": [
+																											{
+																												"spouse": {
+																													"name": "José Grigolon",
+																													"class": "woman"
+																												},
+																												"children": [
+																													{
+																														"name": "Paulo Roberto",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Maria Inês",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Maria de Lourdes",
+																														"class": "man"
+																													},
+																													{
+																														"name": "José Geraldo",
+																														"class": "man"
+																													},
+																													{
+																														"name": "João Batista",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Vicente",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Maria Bernadete",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Maria Célia",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Evandro",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Maria Eliana",
+																														"class": "man"
+																													},
+																													{
+																														"name": "Fabio",
+																														"class": "man"
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					},
+																					{
+																						"name": "Antonio",
+																						"class": "man"
+																					},
+																					{
+																						"name": "João",
+																						"class": "man"
+																					},
+																					{
+																						"name": "Maria",
+																						"class": "man"
+																					},
+																					{
+																						"name": "Angelo",
+																						"class": "man"
+																					},
+																					{
+																						"name": "Amalia",
+																						"class": "man"
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"name": "Pasqua Giuseppa",
+																		"class": "man",
+																		"textClass": "",
+																		"extra": {
+																			"nickname": "1867-1956"
+																		},
+																		"marriages": [
+																			{
+																				"spouse": {
+																					"name": "Giordano Valentini",
+																					"class": "woman",
+																					"extra": {
+																						"nickname": ""
+																					}
+																				}
+																			}
+																		]
+																	},
+																	{
+																		"name": "Luigia",
+																		"class": "man",
+																		"textClass": "",
+																		"extra": {
+																			"nickname": "1867-1956"
+																		},
+																		"marriages": []
+																	},
+																	{
+																		"name": "Maria",
+																		"class": "man",
+																		"textClass": "",
+																		"extra": {
+																			"nickname": "1867-1956"
+																		},
+																		"marriages": [
+																			{
+																				"spouse": {
+																					"name": "Luigi Viotto Porcia",
+																					"class": "woman",
+																					"extra": {
+																						"nickname": ""
+																					}
+																				}
+																			}
+																		]
+																	},
+																	{
+																		"name": "Antonio",
+																		"class": "man",
+																		"textClass": "",
+																		"extra": {
+																			"nickname": "1878-1964"
+																		},
+																		"marriages": [
+																			{
+																				"spouse": {
+																					"name": "Anna Casetta",
+																					"class": "woman",
+																					"extra": {
+																						"nickname": "1879-1947"
+																					}
+																				}
+																			}
+																		]
+																	},
+																	{
+																		"name": "Caterina",
+																		"class": "man",
+																		"textClass": "",
+																		"extra": {
+																			"nickname": "1881-1970"
+																		},
+																		"marriages": [
+																			{
+																				"spouse": {
+																					"name": "Enrico Vettoreto",
+																					"class": "woman",
+																					"extra": {
+																						"nickname": "1876-1964"
+																					}
+																				}
+																			}
+																		]
+																	},
+																	{
+																		"name": "Santa",
+																		"class": "man",
+																		"textClass": "",
+																		"extra": {
+																			"nickname": "1884-1973"
+																		},
+																		"marriages": [
+																			{
+																				"spouse": {
+																					"name": "Domenico Dal Santo",
+																					"class": "woman",
+																					"extra": {
+																						"nickname": ""
+																					}
+																				}
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"name": "Anna",
+														"class": "man",
+														"textClass": "",
+														"extra": {
+															"nickname": "1854-"
+														}
+													},
+													{
+														"name": "Marco",
+														"class": "man",
+														"textClass": "",
+														"extra": {
+															"nickname": "18?"
+														}
+													},
+													{
+														"name": "Matteo",
+														"class": "man",
+														"textClass": "",
+														"extra": {
+															"nickname": "?-1915"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

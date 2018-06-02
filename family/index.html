@@ -15,12 +15,12 @@
 	    stroke: black;
 	}
 	.man {
-	    background-color: lightblue;
+	    background-color: #73D6D1;
 			border-style: solid;
 			border-width: 1px;
 	}
 	.woman {
-			background-color: yellow;
+			background-color: #9ef7f7;
 			border-style: solid;
 			border-width: 1px;
 	}
@@ -33,8 +33,8 @@
 	}
 
 </style>
-<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
-<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="lodash.min.js"></script>
+<script src="d3.v4.min.js"></script>
 <script src="dTree.min.js"></script>
 <body>
 		<h1>Maluta family</h1>
@@ -54,7 +54,7 @@
 							},
 							textRenderer: function(name, extra, textClass) {
 								if (extra && extra.nickname)
-									name = name + " (" + extra.nickname + ")";
+									name = name + " <span style='font-size:10px;'>(" + extra.nickname + ")</span>";
 								  return "<p align='center' class='" + textClass + "'>" + name + "</p>";
 							}
 						}
