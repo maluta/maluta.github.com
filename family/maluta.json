@@ -298,6 +298,9 @@
 																		"name": "Domenico Maluta",
 																		"class": "man",
 																		"textClass": "",
+																		"extra": {
+																			"nickname": "-1934"
+																		},
 																		"marriages": [
 																			{
 																				"spouse": {
@@ -637,7 +640,7 @@
 																		"class": "man",
 																		"textClass": "",
 																		"extra": {
-																			"nickname": "1867-1956"
+																			"nickname": "1872-"
 																		},
 																		"marriages": [
 																			{
@@ -665,7 +668,7 @@
 																		"class": "man",
 																		"textClass": "",
 																		"extra": {
-																			"nickname": "1867-1956"
+																			"nickname": "1876-"
 																		},
 																		"marriages": [
 																			{
