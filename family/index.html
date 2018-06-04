@@ -8,6 +8,7 @@
 	}
 	.linage {
 	    fill: none;
+      border: 2px;
 	    stroke: #000;
 	}
 	.marriage {
@@ -17,12 +18,16 @@
 	.man {
 	    background-color: #73D6D1;
 			border-style: solid;
-			border-width: 1px;
+			border-width: 2px;
 	}
+  .man:hover {
+    background-color: yellow;
+    cursor: default;
+  }
 	.woman {
-			background-color: #9ef7f7;
+			background-color: #C8DDDD;
 			border-style: solid;
-			border-width: 1px;
+			border-width: 2px;
 	}
 	.emphasis{
 			font-style: italic;
@@ -31,6 +36,29 @@
 		padding:0;
 		margin:0;
 	}
+  .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+      visibility: visible;
+  }
 
 </style>
 <script src="lodash.min.js"></script>
@@ -52,10 +80,12 @@
 							nodeClick: function(name, extra) {
 								console.log(name);
 							},
-							textRenderer: function(name, extra, textClass) {
-								if (extra && extra.nickname)
+							textRenderer: function(name, extra, textClass, tooltip) {
+               text_tooltip = '<div class="tooltip">details<span class="tooltiptext">' + tooltip + '</span></div>';
+
+                if (extra && extra.nickname)
 									name = name + " <span style='font-size:10px;'>(" + extra.nickname + ")</span>";
-								  return "<p align='center' class='" + textClass + "'>" + name + "</p>";
+								  return "<p align='center' class='" + textClass + "'>" + name + "</p>" + text_tooltip;
 							}
 						}
 					});

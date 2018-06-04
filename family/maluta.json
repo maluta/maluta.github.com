@@ -174,7 +174,7 @@
 																														"marriages": [
 																															{
 																																"spouse": {
-																																	"name": "Aldo",
+																																	"name": "Aldo Bassani",
 																																	"textClass": "",
 																																	"class": "woman",
 																																	"extra": {
@@ -466,6 +466,7 @@
 																																	{
 																																		"name": "Tiago César Volpato Maluta",
 																																		"class": "man",
+																																		"tooltip": "asdfasdf",
 																																		"textClass": "",
 																																		"extra": {
 																																			"nickname": "1986-"
