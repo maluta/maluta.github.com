@@ -1,6 +1,6 @@
 ---
 layout: post
-title: nginx uwsgi
+title: Computers and Schools
 desc:
 proj-url:
 proj-num: 01
