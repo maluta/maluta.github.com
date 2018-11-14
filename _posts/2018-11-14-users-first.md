@@ -10,8 +10,11 @@ proj-img-alt: steve jobts
 
 # You gotta start with user experience and then go backwards and come with the technology
 
-<video width="320" height="240" controls>
+<center><video width="320" height="240" controls>
   <source src="https://dms.licdn.com/playback/C4D05AQEBUplCxA_egA/bc8576d826804f5186e01e6bb25f01fd/feedshare-mp4_3300-captions-thumbnails/1507940147251-drlcss?e=1542276000&v=beta&t=4CMCNzELhAZ8S_igY-u5eUr-sVxoh0XNOcBU10gGtBo" >
   Your browser does not support the video tag.
-</video>
+</video></center>
 
+Steve Jobs taking questions from stakeholders upon his return to Apple in 1997 as CEO
+
+Ps.: Over the last 7 years he was doing... Pixar 🎬
