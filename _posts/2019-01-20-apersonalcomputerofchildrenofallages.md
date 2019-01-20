@@ -11,7 +11,7 @@ _"Should the computer program the kid, or should the kid program the computer?" 
 
 In this essay, from *1972*, Alan Kay highlights some powerful ideas on how technology address social problems, like educating our children. Note that most of the ideas are today materialized in 2019 through products like [Scratch 3.0](http://scratch.mit.edu) being access on touchscreen devices. 
 
-Interesting reflections on the problem, on theory, on product development and limitations and scaling up.  
+Interesting reflections on the problem, theory of education, on product development & limitations and scaling up.
 
 ![](http://maluta.github.io/images/apersonalcomputerofchildrenofallages-1.png)
 
@@ -24,4 +24,6 @@ Interesting reflections on the problem, on theory, on product development and li
 ![](http://maluta.github.io/images/apersonalcomputerofchildrenofallages-3.png)
 
 Here the [full text](http://worrydream.com/refs/Kay%20-%20A%20Personal%20Computer%20for%20Children%20of%20All%20Ages.pdf) 
+
+
 
