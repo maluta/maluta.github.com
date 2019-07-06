@@ -2,3 +2,4 @@ _site
 serve/
 *~
 .sass-cache
+.Rproj.user
