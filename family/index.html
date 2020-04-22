@@ -3,12 +3,12 @@
 <style type="text/css">
 
 	body {
-	    font: 16px sans-serif;
+	    font: 22px sans-serif;
       font-family: monospace;
 	}
 	.linage {
 	    fill: none;
-      border: 2px;
+      border: 20px;
 	    stroke: #000;
 	}
 	.marriage {
@@ -17,12 +17,12 @@
 	}
 	.man {
 	    background-color: #73D6D1;
-			border-style: solid;
+			border-style: dotted;
 			border-width: 2px;
 	}
   .man:hover {
     background-color: yellow;
-    cursor: default;
+    cursor: pointer;
   }
 	.woman {
 			background-color: #C8DDDD;
@@ -52,7 +52,7 @@
       padding: 5px 0;
 
       /* Position the tooltip */
-      position: absolute;
+      position: relative;
       z-index: 1;
   }
 
@@ -66,28 +66,42 @@
 <script src="dTree.min.js"></script>
 <body>
 		<h1>Maluta family</h1>
-    <div id="graph"></div>
-
+		<p style='background-color:yellow;'>
+    <center><div id="graph" style="width: 100%; height: auto; background-color:#fafafa;"></div></center>
+	  </p>
 		<script>
       treeJson = d3.json("maluta.json", function(error, treeData) {
       	dTree.init(treeData,
 					{
 						target: "#graph",
-						debug: true,
-						height: 800,
-						width: 1850,
+						debug: false,
+						height: 2500,
+						width: 1000,
 						callbacks: {
 							nodeClick: function(name, extra) {
 								console.log(name);
 							},
 							textRenderer: function(name, extra, textClass, tooltip) {
-               text_tooltip = '<div class="tooltip">details<span class="tooltiptext">' + tooltip + '</span></div>';
+               text_tooltip = '<div class="tooltip"><span class="tooltiptext">' + tooltip + '</span></div>';
 
                 if (extra && extra.nickname)
 									name = name + " <span style='font-size:10px;'>(" + extra.nickname + ")</span>";
 								  return "<p align='center' class='" + textClass + "'>" + name + "</p>" + text_tooltip;
 							}
-						}
+						},
+						margin: {
+    					top: 0,
+    				  right: 0,
+    				  bottom: 0,
+    					left: 0
+  				},
+  				nodeWidth: 100,
+  				styles: {
+    				node: 'node',
+    			  linage: 'linage',
+    				marriage: 'marriage',
+    				text: 'nodeText'
+  				}
 					});
     	});
     </script>
