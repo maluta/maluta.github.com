@@ -4,6 +4,7 @@ title: On B2B Products (WIP)
 desc:
 proj-url:
 proj-num: 01
+draft: true
 ---
 
 As a product owner building products for social impact and targeting B2B markets aiming to reach (and scale the impact) on the end-user I'm constantly trying to understand how can I improve my approach to correctly see if I'm making progress towards the balance between purpose and profit.

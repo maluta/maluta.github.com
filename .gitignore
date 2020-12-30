@@ -3,3 +3,4 @@ serve/
 *~
 .sass-cache
 .Rproj.user
+.jekyll-cache

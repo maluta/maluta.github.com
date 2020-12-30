@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="preload" href="../fonts/etbookot-roman-webfont.woff2" crossorigin type="font/woff2" as="font" />
+    <link href="../fonts/etbookot-roman-webfont.woff2" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Monoton&display=swap" rel="stylesheet">
@@ -26,23 +27,24 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <body id="home">
+  <body>
+
+
+
     <div class="content-wrapper">
 
-    {% include masthead.html %}
+      {% include masthead.html %}
 
+      <div id="main" role="main" class="container">
+        <center><p class="" style="font-family: 'EB Garamond', serif; font-size: 29px; color: red; background-color: yellow;">
+            <br>Here a list of some unfinished/incomplete work<br>
+            Warning: read at your own risk!<br>&nbsp;
+        </p></center>
 
-    <div class="container">
-      <!-- <h1 class="site-name site-name-alt" style="font-family: 'Monoton';"><a href="/">{{ site.name }}</a></h1> -->
-      <p class="" style="font-family: 'EB Garamond', serif;">Quick bio:<br><b>{{ site.description }} <br> {{ site.more_description }}<br> {{ site.more_description2 }}</b></p>
+        {{ content }}
       </div>
-      <div id="main" role="main" class="container" style="font-family: 'EB Garamond', serif;">
-      {{ content }}}</i>
-    </div>
 
     </div><!-- /content-wrapper -->
-
-    {% include footer.html %}
 
     {% include analytics.html %}
   </body>

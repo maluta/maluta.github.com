@@ -3,6 +3,7 @@ body{
 	font-family: 'et-book 27px', serif;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
+	background-color: red;
 }
 
 a{
@@ -135,6 +136,13 @@ h1{
 	color: #999;
 	padding-left: 2px;
 	letter-spacing: 1px;
+}
+
+
+.site-name-alt {
+	font-family: 'Yellowtail', cursive;
+	font-size: 99px;
+	font-color: red;
 }
 
 #header #sections{

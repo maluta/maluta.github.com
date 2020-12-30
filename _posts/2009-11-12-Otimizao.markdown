@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Otimizao
+title: Otimização
 tags: [oldblog]
 ---
 
