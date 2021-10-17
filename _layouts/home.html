@@ -32,18 +32,55 @@
     {% include masthead.html %}
 
 
-    <div class="container">
+    <div class="container" style="background-color: #fafafa;">
       <!-- <h1 class="site-name site-name-alt" style="font-family: 'Monoton';"><a href="/">{{ site.name }}</a></h1> -->
-      <p class="" style="font-family: 'EB Garamond', serif;">Quick bio:<br><b>{{ site.description }} <br> {{ site.more_description }}<br> {{ site.more_description2 }}</b></p>
-      </div>
-      <div id="main" role="main" class="container" style="font-family: 'EB Garamond', serif;">
-      {{ content }}}</i>
+      <span style="font-family: 'Inconsolata', monospace; font-size: 10px; background-color: #d42; color:white;">&nbsp;Quick bio&nbsp;</span><br>
+      <span style="font-family: 'Inconsolata', monospace; font-size: 16px;"><b>{{ site.description }} <br> {{ site.more_description }}<br> {{ site.more_description2 }}</b></span>
     </div>
+      <br>
 
+      <!-- new new new -->
+      <div class="posts clearfix container">
+
+      {% for post in site.posts %}
+      {% if post.draft == true %}
+      {% else %}
+    
+      {% capture date %}{{post.date | date: '%Y' | plus: 0 }}{% endcapture %}
+    
+      {% if date contains "2021" %}
+
+
+        <article class="post">
+          <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
+          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif;">{{ post.title }}</a></h1>
+          <a href="{{ site.baseurl }}{{ post.url }}"><img src="images/{{ post.url | remove: "/" }}.png" alt="post img" /></a>
+          <div class="entry"></div>
+        </article> 
+
+
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
+
+
+      </div>
+      <br>
+      <!-- new new new -->
+      <div id="main" role="main" class="container">
+        <center><p class="" style="font-family: 'Inconsolata', monospace; font-size: 14px; background-color: #d42; color:white;">
+        ★ <br>Below you'll find my old posts ranging from 2009 and 2019<br> Here just for historical purposes <br>★<br>
+        </p></center></div>
+
+      <div id="main" role="main" class="container" style="font-family: 'Inconsolata', monospace;">
+
+        {{ content }} 
+
+      </div>    
     </div><!-- /content-wrapper -->
 
     {% include footer.html %}
-
     {% include analytics.html %}
   </body>
 </html>
