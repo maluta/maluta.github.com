@@ -8,7 +8,7 @@ new: true
 draft: false
 ---
 
-I learned two more open-source technologies maintained and developed by Apache Software Foundation this year: Apache Superset and Apache NiFi. More recently I watched the "Trillions and Trillions Served" documentary. More recently, I watched the "Trillions and Trillions Served" documentary. In a world where software changed our society, they are an excellent example of those trying to make it for good. 
+I learned two more open-source technologies maintained and developed by Apache Software Foundation this year: Apache Superset and Apache NiFi. More recently, I watched the "Trillions and Trillions Served" documentary. In a world where software changed our society, they are an excellent example of those trying to make it for good. 
 
 Here are some personal notes about Apache. 
 
