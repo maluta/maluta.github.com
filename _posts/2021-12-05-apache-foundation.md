@@ -27,7 +27,7 @@ In 1999 Apache Group was structured as a non-profit organization. A critical mov
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/apache-2.png)
 
 
-» Apache [Airflow](http://airflow.apache.org/) | » Apache [SuperSet](http://superset.apache.org/) | » Apache [Nifi](http://nifi.apache.org/) |  Apache [HTTPD](https://httpd.apache.org/) 
+Check the [full project list here](https://apache.org/index.html#projects-list) or go directly on some projects like » Apache [Airflow](http://airflow.apache.org/) | » Apache [SuperSet](http://superset.apache.org/) | » Apache [Nifi](http://nifi.apache.org/) |  Apache [HTTPD](https://httpd.apache.org/) 
 
 
 > "Apache’s breakthrough technology touches every aspect of modern computing, powering most of the Internet, managing exabytes of data, executing teraflops of operations, and storing trillions of objects in virtually every industry. Apache projects are all freely-available, at 100% no cost, and with no licensing fees". 
@@ -36,7 +36,7 @@ In 1999 Apache Group was structured as a non-profit organization. A critical mov
 At the apache.org website, you can watch a documentary that I also embedded below. Highly recommend! 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JUt2nb0mgwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/JUt2nb0mgwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
  
 
 Here are valuable elements that I see at ASF: 
@@ -49,17 +49,15 @@ Here are valuable elements that I see at ASF:
 
 People to follow
 
-■ Bertrand Delacretaz ‣ [LinkedIn]() | [Twitter]()
-■ Roy T. Fielding ‣ [LinkedIn]() | [Twitter]()
-■ Sharan Foga ‣ [LinkedIn]() | [Twitter]()
-■ Justin Mclean ‣ [LinkedIn]() | [Twitter](https://twitter.com/justinmclean)
-■ Sam Ruby ‣ [LinkedIn]() | [Twitter]() 
-■ Craig L Russell ‣ [LinkedIn]() | [Twitter]() | [Github](https://github.com/clr-apache)
+■ Bertrand Delacretaz ‣ [Twitter](https://twitter.com/bdelacretaz)
+■ Roy T. Fielding ‣ [Twitter](https://twitter.com/fielding)
+■ Sharan Foga ‣ [LinkedIn](https://www.linkedin.com/in/sfoga/?originalSubdomain=se) | 
+■ Justin Mclean ‣ [[Twitter](https://twitter.com/justinmclean)
+■ Sam Ruby ‣ [Twitter](https://twitter.com/samruby) 
+■ Craig L Russell ‣ [Github](https://github.com/clr-apache)
 ■ Roman Shaposhnik ‣ [LinkedIn](https://www.linkedin.com/in/shaposhnik/) | [Twitter](https://twitter.com/rhatr)
 ■ Sander Striker ‣ [LinkedIn](https://www.linkedin.com/in/sstriker/?originalSubdomain=nl) | [Twitter](https://twitter.com/sstriker)
-■ Sheng Wu
-
-
+■ Sheng Wu ‣ [Twitter](https://twitter.com/wusheng1108)
 
 ▀▀▀▀▀▀▀▀▀▀▀▀
 <br>
