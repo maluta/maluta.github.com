@@ -8,7 +8,7 @@ new: true
 draft: false
 ---
 
-I learned two more open-source technologies maintained and developed by Apache Software Foundation this year: Apache Superset and Apache NiFi. 
+I learned two more open-source technologies maintained and developed by Apache Software Foundation this year: Apache Superset and Apache NiFi. More recently I watched the "Trillions and Trillions Served" documentary. More recently, I watched the "Trillions and Trillions Served" documentary. In a world where software changed our society, they are an excellent example of those trying to make it for good. 
 
 Here are some personal notes about Apache. 
 
@@ -40,7 +40,7 @@ Check the [full project list here](https://apache.org/index.html#projects-list)
 > "Apache’s breakthrough technology touches every aspect of modern computing, powering most of the Internet, managing exabytes of data, executing teraflops of operations, and storing trillions of objects in virtually every industry. Apache projects are all freely-available, at 100% no cost, and with no licensing fees". 
 
 
-At the apache.org website, you can watch a documentary that I also embedded below. Highly recommend! 
+At the apache.org [website](apache.org), you can watch the full documentary that I also embedded below. Highly recommend! 
 
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/JUt2nb0mgwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
