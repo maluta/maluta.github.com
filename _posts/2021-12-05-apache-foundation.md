@@ -18,16 +18,16 @@ Writing this in 2021 means I'm examining 22 years of history.
 
 In 1999 Apache Group was structured as a non-profit organization. A critical movement to deal with the fast growth of the Apache HTTP Server.
 
-[]!(https://github.com/maluta/maluta.github.com/raw/master/images/apache-1.png)
+![](https://github.com/maluta/maluta.github.com/raw/master/images/apache-1.png)
 [Apache.org @ 1999](https://web.archive.org/web/19990921062925/http://www.apache.org/)
 
 
 > "The mission of the Apache Software Foundation (ASF) is to provide software for the public good. We do this by providing services and support for many like-minded software project communities consisting of individuals who choose to participate in ASF activities." 
 
-[]!(https://github.com/maluta/maluta.github.com/raw/master/images/apache-2.png)
+![](https://github.com/maluta/maluta.github.com/raw/master/images/apache-2.png)
 
 
-[Airflow](http://airflow.apache.org/) | 
+» Apache [Airflow](http://airflow.apache.org/) | » Apache [SuperSet](http://superset.apache.org/) | » Apache [Nifi](http://nifi.apache.org/) |  Apache [HTTPD](https://httpd.apache.org/) 
 
 
 > "Apache’s breakthrough technology touches every aspect of modern computing, powering most of the Internet, managing exabytes of data, executing teraflops of operations, and storing trillions of objects in virtually every industry. Apache projects are all freely-available, at 100% no cost, and with no licensing fees". 
