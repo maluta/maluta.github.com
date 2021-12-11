@@ -12,7 +12,7 @@ I learned two more open-source technologies maintained and developed by Apache S
 
 Here are some personal notes about Apache. 
 
-I have used open-source software since the early 2000s. So I know about the famous Apache HTTP Server and other software, such as Apache Airflow, OpenOffice, or even the license with the same name: Apache Licence. So I'm not necessarily a newbie in the ASF world, but only when you look at the big picture do you note that there are so many exciting projects under the umbrella of Apache Software Foundation, or just, ASF. 
+I have used open-source software since the early 2000s. So I know about the famous Apache HTTP Server and other software, such as Apache Airflow, OpenOffice, or even the license with the same name: Apache Licence. I'm not necessarily a newbie in the ASF world, but only when you look at the big picture do you note that there are so many exciting projects under the umbrella of Apache Software Foundation, or just, ASF. 
 
 Writing this in 2021 means I'm examining 22 years of history. 
 
@@ -27,7 +27,9 @@ In 1999 Apache Group was structured as a non-profit organization. A critical mov
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/apache-2.png)
 
 
-Check the [full project list here](https://apache.org/index.html#projects-list) or go directly on some projects like » Apache [Airflow](http://airflow.apache.org/) || » Apache [SuperSet](http://superset.apache.org/) || » Apache [Nifi](http://nifi.apache.org/) || » Apache [HTTPD](https://httpd.apache.org/) 
+Check the [full project list here](https://apache.org/index.html#projects-list) 
+
+...or go directly on some projects like • Apache [Airflow](http://airflow.apache.org/) • Apache [SuperSet](http://superset.apache.org/) • Apache [Nifi](http://nifi.apache.org/) || • Apache [HTTPD](https://httpd.apache.org/) 
 
 
 > "Apache’s breakthrough technology touches every aspect of modern computing, powering most of the Internet, managing exabytes of data, executing teraflops of operations, and storing trillions of objects in virtually every industry. Apache projects are all freely-available, at 100% no cost, and with no licensing fees". 
