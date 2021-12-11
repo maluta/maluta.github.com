@@ -27,7 +27,7 @@ In 1999 Apache Group was structured as a non-profit organization. A critical mov
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/apache-2.png)
 
 
-Check the [full project list here](https://apache.org/index.html#projects-list) or go directly on some projects like » Apache [Airflow](http://airflow.apache.org/) | » Apache [SuperSet](http://superset.apache.org/) | » Apache [Nifi](http://nifi.apache.org/) |  Apache [HTTPD](https://httpd.apache.org/) 
+Check the [full project list here](https://apache.org/index.html#projects-list) or go directly on some projects like » Apache [Airflow](http://airflow.apache.org/) || » Apache [SuperSet](http://superset.apache.org/) || » Apache [Nifi](http://nifi.apache.org/) || » Apache [HTTPD](https://httpd.apache.org/) 
 
 
 > "Apache’s breakthrough technology touches every aspect of modern computing, powering most of the Internet, managing exabytes of data, executing teraflops of operations, and storing trillions of objects in virtually every industry. Apache projects are all freely-available, at 100% no cost, and with no licensing fees". 
@@ -41,7 +41,7 @@ At the apache.org website, you can watch a documentary that I also embedded belo
 
 Here are valuable elements that I see at ASF: 
 
-- The concept of 'community over code' (or simply The Apache Way) is a grand vision to build the culture and a resilient organization inside the open-source ecosystem. 
+- The concept of 'community over code' (or simply [The Apache Way](https://www.apache.org/theapacheway/)) is a grand vision to build the culture and a resilient organization inside the open-source ecosystem. 
 - The way they look for the next generation in the Apache Incubation process.
 - The openness in the communication process
 - Member's passion for giving back to society (create more value than you monetize)
