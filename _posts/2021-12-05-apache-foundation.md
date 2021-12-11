@@ -59,7 +59,7 @@ People to follow
 ■ Bertrand Delacretaz ‣ [Twitter](https://twitter.com/bdelacretaz)
 ■ Roy T. Fielding ‣ [Twitter](https://twitter.com/fielding)
 ■ Sharan Foga ‣ [LinkedIn](https://www.linkedin.com/in/sfoga/?originalSubdomain=se) | 
-■ Justin Mclean ‣ [[Twitter](https://twitter.com/justinmclean)
+■ Justin Mclean ‣ [Twitter](https://twitter.com/justinmclean)
 ■ Sam Ruby ‣ [Twitter](https://twitter.com/samruby) 
 ■ Craig L Russell ‣ [Github](https://github.com/clr-apache)
 ■ Roman Shaposhnik ‣ [LinkedIn](https://www.linkedin.com/in/shaposhnik/) | [Twitter](https://twitter.com/rhatr)
