@@ -29,7 +29,12 @@ In 1999 Apache Group was structured as a non-profit organization. A critical mov
 
 Check the [full project list here](https://apache.org/index.html#projects-list) 
 
-...or go directly on some projects like • Apache [Airflow](http://airflow.apache.org/) • Apache [SuperSet](http://superset.apache.org/) • Apache [Nifi](http://nifi.apache.org/) || • Apache [HTTPD](https://httpd.apache.org/) 
+...or go directly on some projects like:
+
+• Apache [Airflow](http://airflow.apache.org/)
+• Apache [SuperSet](http://superset.apache.org/)
+• Apache [Nifi](http://nifi.apache.org/)
+• Apache [HTTPD](https://httpd.apache.org/)
 
 
 > "Apache’s breakthrough technology touches every aspect of modern computing, powering most of the Internet, managing exabytes of data, executing teraflops of operations, and storing trillions of objects in virtually every industry. Apache projects are all freely-available, at 100% no cost, and with no licensing fees". 
