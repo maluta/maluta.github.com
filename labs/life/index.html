@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en"><head>
   <meta charset="UTF-8">
@@ -7,10 +6,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../assets/site.css">
-  <title>fserb · life</title>
+  <title>maluta · life</title>
   <style>:root { --acc: var(--green); }</style>
   <script src="../assets/fserb.js"></script>
-  <script defer="" data-domain="fserb.com" src="https://metaphora.co/plausible.js"></script>
 
   
 </head>
@@ -19,7 +17,7 @@
 
 <div id="header">
 <div class="minibox"></div>
-<h1><a href="..">fserb</a></h1>
+<h1><a href="..">maluta</a></h1>
 </div>
 
 <style>
@@ -37,6 +35,7 @@
   --c10: #72C0C3;
   --c11: #9FA1C1;
   --c12: #A298B8;
+  --c13: #660c75;
 }
 
 #life {
@@ -48,7 +47,7 @@
   display: block;
   width: calc(52 * 10px + 270px);
   line-height: 10px;
-  height: 10px;
+  height: 12px;
   margin: 0;
   padding: 0;
   cursor: pointer;
@@ -127,8 +126,7 @@
   width: 135px;
   box-sizing: border-box;
   float: right;
-  display: inline-block;
-
+  /* display: inline-block; */
   vertical-align: middle;
   line-height: 0;
   padding: 2px 0 0 0;
@@ -181,6 +179,7 @@
 #bar .bg10 { background-color: var(--c10); box-shadow: -10px 0 var(--c10);}
 #bar .bg11 { background-color: var(--c11); box-shadow: -10px 0 var(--c11);}
 #bar .bg12 { background-color: var(--c12); box-shadow: -10px 0 var(--c12);}
+#bar .bg13 { background-color: var(--c13); box-shadow: -10px 0 var(--c13); color: white; }
 
 #life .note {
   position: relative;
@@ -256,29 +255,24 @@
 <div id="life">
 
 <div id="bar">
-  <div id="b1981" class="rtop">São Paulo, Brazil</div>
-  <div id="b1982" class="r"></div>
-  <div id="b1983" class="r"></div>
-  <div id="b1984" class="r"></div>
-  <div id="b1985" class="r"></div>
-  <div id="b1986" class="r"></div>
-  <div id="b1987" class="r"></div>
-  <div id="b1988" class="r"></div>
-  <div id="b1989" class="r"></div>
-  <div id="b1990" class="r"></div>
-  <div id="b1991" class="r"></div>
-  <div id="b1992" class="r"></div>
-  <div id="b1993" class="r"></div>
-  <div id="b1994" class="r"></div>
-  <div id="b1995" class="r"></div>
-  <div id="b1996" class="r"></div>
-  <div id="b1997" class="r"></div>
-  <div id="b1998" class="r"></div>
-  <div id="b1999" class="r"></div>
-  <div id="b2000" class="r bg1">Electrical Engineering</div>
+  <div id="b1986" class="rtop">São José dos Campos, Brazil</div>
+  <div id="b1987" class="r">1987</div>
+  <div id="b1988" class="r">1988</div>
+  <div id="b1989" class="r">1989</div>
+  <div id="b1990" class="r">1990</div>
+  <div id="b1991" class="r">1991</div>
+  <div id="b1992" class="r">1992</div>
+  <div id="b1993" class="r">1993</div>
+  <div id="b1994" class="r">1994</div>
+  <div id="b1995" class="r">1995</div>
+  <div id="b1996" class="r">1996</div>
+  <div id="b1997" class="r">1997</div>
+  <div id="b1998" class="r">1998</div>
+  <div id="b1999" class="r">1999</div>
+  <div id="b2000" class="r">Curso Técnico</div>
   <div id="b2001" class="r"></div>
   <div id="b2002" class="r"></div>
-  <div id="b2003" class="r"></div>
+  <div id="b2003" class="rbottom bg13"></div>
   <div id="b2004" class="r"></div>
   <div id="b2005" class="rbottom bg2">Masters in System Engineering</div>
   <div id="b2006" class="rtop">Belo Horizonte, Brazil</div>
@@ -309,7 +303,7 @@
   <div id="b2031" class=""></div>
   <div id="b2032" class=""></div>
   <div id="b2033" class=""></div>
-  <div id="b2034" class=""></div>
+  <div id="b2034" class="">x</div>
   <div id="b2035" class=""></div>
   <div id="b2036" class=""></div>
   <div id="b2037" class=""></div>
@@ -352,6 +346,12 @@
   <div id="b2074" class=""></div>
   <div id="b2075" class=""></div>
   <div id="b2076" class=""></div>
+  <div id="b2077" class=""></div>
+  <div id="b2078" class=""></div>
+  <div id="b2079" class=""></div>
+  <div id="b2080" class=""></div>
+  <div id="b2081" class=""></div>
+  <hr>
   <div>Each <div class="week" style="display: inline-block"></div> represents one week.</div>
 </div>
 </div>
@@ -399,7 +399,7 @@ function real(y, m = 1, d = 1) {
 }
 
 function add(y = 0, m = 0, d = 0) {
-  return real(1981 + y, 10 + m, 7 + d);
+  return real(1986 + y, 10 + m, 7 + d);
 }
 
 function delta(y0, m0, d0, y1, m1, d1) {
@@ -409,21 +409,23 @@ function delta(y0, m0, d0, y1, m1, d1) {
 }
 
 const today = new Date();
-const birthday = getDateOfWeek(1981, 40); // new Date(1981, 9, 7);
-const lastday = getDateOfWeek(1981 + 95, 41); // new Date(1981 + 90, 9, 7);
+const birthday = getDateOfWeek(1986, 17); // new Date(1986, 9, 7);
+const lastday = getDateOfWeek(1986 + 95, 17); // new Date(1986 + 90, 9, 7);
 
 const monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"];
+  "July", "August", "September", "Outubro", "November", "December"];
 
 
 const colorRanges = {
-  "c1981w40": {until: "c1999w52", c: 0},
-  "c2000w1": { until: "c2004w52", c: 1},
+  "c1986w17": {until: "c1999w52", c: 0},
+  "c2000w1": { until: "c2003w52", c: 1},
   "c2005w1": { until: "c2006w40", c: 2},
   "c2006w41": { until: "c2009w10", c: 4},
   "c2009w11": { until: "c2011w25", c: 5},
   "c2011w26": { until: "c2014w20", c: 6},
-  "c2014w21": { until: "c2025w52", c: 7},
+  "c2014w21": { until: "c2014w52", c: 7},
+  "c2014w21": { until: "c2081w17", c: 13}
+  
 }
 
 const notes = {}
@@ -433,33 +435,35 @@ function n(k, type, note, img) {
   notes[k] = {type, note:txt}
 }
 
-n(real(1981, 10, 7), "life", "I was born October 7th, 1981");
-n(real(1990, 5, 1), "life", "I got my first computer and started learning how to code.", "tk2000.jpg");
-n(real(2015, 5, 1), "life", "Huni was born.", "huni.jpg");
-n(real(1991, 4, 1), "life", "Vicky was born. She lived with us for 14 years.", "vicky.jpg");
-n(real(1994,12,1), "life", "Met my stepmom.", "zil.jpg");
-n(real(1983, 3, 2), "life", "My brother was born.", "mama.jpg");
-n(real(2012, 5, 14), "life", "My sister was born.", "luluca.jpg");
-n(real(2017, 2, 3), "life", "Met Kat.", "kat.jpg");
-n(real(1996,11,7), "life", "First time I accessed the Internet.", "winsock.png");
-
-n(add(59, 7, 6), "cmp", "Life expectancy of men born in 1981 in Brazil. 59.6 years.");
-n(add(74, 1, 1), "cmp", "HALE life expectancy of men born in 1981 in Canada. 74 years.");
-n(delta(1954,8,9,1981,10,7), "cmp", "The age my father was when I was born.", "papai.jpg");
-n(delta(1957,5,29,1981,10,7), "cmp", "The age my mom was when I was born.", "mamae.jpg");
-n(delta(1927,4,22,2021,9,13), "cmp", "The age my maternal grandfather died.");
-n(delta(1924,6,24,2010,3,27), "cmp", "The age my paternal grandfather died.", "vovojo.jpg");
+n(real(1986, 4, 25), "life", "Eu nasci no dia 25 de Abril de 1986");
+n(real(2016, 3, 6), "life", "Casamento", "tk2000.jpg");
 
 
-n(delta(1756,1,27,1791,12,5), "fam", "Mozart died at 35.", "mozart.jpg")
+//n(real(2015, 5, 1), "life", "Huni was born.", "huni.jpg");
+//n(real(1991, 4, 1), "life", "Vicky was born. She lived with us for 14 years.", "vicky.jpg");
+//n(real(1994,12,1), "life", "Met my stepmom.", "zil.jpg");
+//n(real(1983, 3, 2), "life", "My brother was born.", "mama.jpg");
+//n(real(2012, 5, 14), "life", "My sister was born.", "luluca.jpg");
+//n(real(2017, 2, 3), "life", "Met Kat.", "kat.jpg");
+//n(real(1996,11,7), "life", "First time I accessed the Internet.", "winsock.png");
+
+//n(add(59, 7, 6), "cmp", "Life expectancy of men born in 1981 in Brazil. 59.6 years.");
+//n(add(74, 1, 1), "cmp", "HALE life expectancy of men born in 1981 in Canada. 74 years.");
+//n(delta(1954,8,9,1981,10,7), "cmp", "The age my father was when I was born.", "papai.jpg");
+//n(delta(1957,5,29,1981,10,7), "cmp", "The age my mom was when I was born.", "mamae.jpg");
+//n(delta(1927,4,22,2021,9,13), "cmp", "The age my maternal grandfather died.");
+//n(delta(1924,6,24,2010,3,27), "cmp", "The age my paternal grandfather died.", "vovojo.jpg");
+
+
+/*n(delta(1756,1,27,1791,12,5), "fam", "Mozart died at 35.", "mozart.jpg")
 n(delta(1945,2,6,1981,5,11), "fam", "Bob Marley died at 36.", "bobmarley.jpg")
 n(delta(1928,6,14,1967,10,9), "fam", "Che Guevara was executed at 39.", "che.jpg")
 n(delta(1962,2,21,2008,9,12), "fam", "David Foster Wallace died at 46.", "dfw.jpg")
 n(delta(1571,9,29,1610,7,18), "fam", "Caravaggio died of an infected sword wound at 38.", "caravaggio.jpg")
 n(delta(1967,2,20,1994,4,5), "fam", "Kurt Cobain died at 27.", "cobain.jpg")
-n(delta(1960,3,27,1996,10,11), "fam", "The brazilian musician Renato Russo died at 36.", "renato.jpg")
+n(delta(1960,3,27,1996,10,11), "fam", "The brazilian musician Renato Russo died at 36.", "renato.jpg")*/
 
-
+/*
 n(delta(1760,10,31,1830,7,1), "art", "Hokusai carved The Great Wave off Kanagawa when he was 70.", "kanagawa.jpg")
 n(delta(1908,6,27,1956,7,1), "art", "Guimarães Rosa published Grande Sertão: Veredas when he was 48.", "grandesertao.jpg")
 n(delta(1920,12,10,1977,7,1), "art", "Clarice Lispector published A Hora da Estrela when she was 56.", "horadaestrela.jpg")
@@ -468,7 +472,7 @@ n(delta(1888,6,13,1934,7,1), "art", "Fernando Pessoa published Mensagem when he 
 n(delta(1643,1,4,1666,1,1), "art", "Isaac Newton had some ideas.", "newton.jpg")
 n(delta(1547,9,29,1605,7,15), "art", "Miguel de Cervantes wrote the first volume of Don Quixote when he was 58.", "cervantes.jpg");
 n(delta(1943,11,7,1971,6,22), "art", "Joni Mitchell released Blue. She was 27.", "blue.jpg");
-
+*/
 
 function getOrdinalNum(n) {
   return n + (n > 0 ? ['th', 'st', 'nd', 'rd'][(n > 3 && n < 21) || n % 10 > 3 ? 0 : n % 10] : '');
@@ -477,10 +481,9 @@ function getOrdinalNum(n) {
 function setUp() {
   const table = document.getElementById("life");
 
-
   let curColorRange = null;
 
-  for (let year = 1981; year <= 1981 + 95; ++year) {
+  for (let year = 1986; year <= 1986 + 95; ++year) {
     const row = document.createElement("div");
     row.classList.add("year");
 
@@ -488,16 +491,16 @@ function setUp() {
     y.classList.add("yearname");
     row.appendChild(y);
 
-    const age = year - 1981;
-    if (year == 1981) {
-      y.innerText = "October 7th, 1981";
+    const age = year - 1986;
+    if (year == 1986) {
+      y.innerText = "25 de Abril 1986";
       y.classList.add("boldyear");
     } else if (year == today.getUTCFullYear()) {
       y.innerText = `${monthNames[today.getMonth()]} ${getOrdinalNum(today.getDate())}, ${today.getUTCFullYear()}`;
       y.classList.add("boldyear");
     } else if (age % 10 == 0) {
       y.innerText = `${age} years old`;
-    } else if (year % 5 == 0) {
+    } else if (year % 2 == 0) {
       y.innerText = year;
     }
 
