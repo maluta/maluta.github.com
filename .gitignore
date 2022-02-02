@@ -4,3 +4,6 @@ serve/
 .sass-cache
 .Rproj.user
 .jekyll-cache
+.DS_store
+.jekyll-metadata
+.tool-versions
