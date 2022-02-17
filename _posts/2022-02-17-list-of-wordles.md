@@ -24,7 +24,7 @@ draft: false
 ■ Mathler - a daily math puzlle [mathler.com](https://www.mathler.com/) <br>
 
 
-# Brazilian Portuguese 🇧🇷 
+### Brazilian Portuguese 🇧🇷 
 ■ Termo [termo.ooo](https://term.ooo/) <br>
 ■ Letreco [gabtoschi.com/letreco/](https://www.gabtoschi.com/letreco/) <br>
 
@@ -41,8 +41,10 @@ draft: false
 
 
 ## Others
-
 • Gordle - [gordle.herokuapp.com](https://gordle.herokuapp.com) <br />
 • Brdl - [brdl.alex.gd](https://brdl.alex.gd/) <br /> 
 • Greener Wordle - [agreenerworldle.org](https://agreenerworldle.org/) <br />
-• Make Custom Wordle - [mywordle.strivemath.com](https://mywordle.strivemath.com/) <br />
+• Quordle - [quordle.com](https://www.quordle.com/)<br />
+
+<br />
+And ultimately, you can Make Custom Wordle, check [mywordle.strivemath.com](https://mywordle.strivemath.com/)! <br />
