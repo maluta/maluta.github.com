@@ -42,7 +42,7 @@ draft: false
 
 ## Others
 
-Gordle - [gordle.herokuapp.com](https://gordle.herokuapp.com)
-Brdl - [brdl.alex.gd](https://brdl.alex.gd/)
-Greener Wordle - [agreenerworldle.org](https://agreenerworldle.org/)
-Make Custom Wordle - [mywordle.strivemath.com](https://mywordle.strivemath.com/)
+• Gordle - [gordle.herokuapp.com](https://gordle.herokuapp.com) <br />
+• Brdl - [brdl.alex.gd](https://brdl.alex.gd/) <br /> 
+• Greener Wordle - [agreenerworldle.org](https://agreenerworldle.org/) <br />
+• Make Custom Wordle - [mywordle.strivemath.com](https://mywordle.strivemath.com/) <br />
