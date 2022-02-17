@@ -24,9 +24,25 @@ draft: false
 ■ Mathler - a daily math puzlle [mathler.com](https://www.mathler.com/) <br>
 
 
+# Brazilian Portuguese 🇧🇷 
+■ Termo [termo.ooo](https://term.ooo/) <br>
+■ Letreco [gabtoschi.com/letreco/](https://www.gabtoschi.com/letreco/) <br>
+
 ### Geography
 ■ WORLDLE - [worldle.teuteuf.fr](https://worldle.teuteuf.fr/) <br>
 ■ Globe - [globle-game.com](https://globle-game.com/) <br>
 
+## French 🇹🇫
+■ [Le Mot](https://wordle.louan.me/)
+
+
 ### Adult
 ■ Wordle But Just With Dirty Words - [lewdlegame.com](https://www.lewdlegame.com/) <br>
+
+
+## Others
+
+Gordle - [gordle.herokuapp.com](https://gordle.herokuapp.com)
+Brdl - [brdl.alex.gd](https://brdl.alex.gd/)
+Greener Wordle - [agreenerworldle.org](https://agreenerworldle.org/)
+Make Custom Wordle - [mywordle.strivemath.com](https://mywordle.strivemath.com/)
