@@ -25,7 +25,7 @@ draft: false
 
 
 ### Brazilian Portuguese 🇧🇷 
-■ Termo [termo.ooo](https://term.ooo/) <br>
+■ Termo [term.ooo](https://term.ooo/) <br>
 ■ Letreco [gabtoschi.com/letreco/](https://www.gabtoschi.com/letreco/) <br>
 
 ### Geography
