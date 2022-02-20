@@ -9,7 +9,7 @@ draft: false
 ---
 
 
-## THE ORIGINAL ONE [nytimes.com/games/wordle/](https://www.nytimes.com/games/wordle/index.html)
+## THE ORIGINAL ONE [nytimes.com/games/wordle/](https://www.nytimes.com/games/wordle/index.html) ★
 
 ### Pop culture
 ■ Lord of The Rings Wordle - [digitaltolkien.github.io/vue-wordle/](https://digitaltolkien.github.io/vue-wordle/) <br>
@@ -20,16 +20,17 @@ draft: false
 ■ PassWordle [rsk0315.github.io/playground/passwordle.html](https://rsk0315.github.io/playground/passwordle.html) <br>
 
 ###  Math
-■ Nerdle - the daily numbers game [nerdlegame.com](https://nerdlegame.com/) <br>
+■ Nerdle - the daily numbers game [nerdlegame.com](https://nerdlegame.com/) ★<br> 
 ■ Mathler - a daily math puzlle [mathler.com](https://www.mathler.com/) <br>
 
 
 ### Brazilian Portuguese 🇧🇷 
-■ Termo [term.ooo](https://term.ooo/) <br>
-■ Letreco [gabtoschi.com/letreco/](https://www.gabtoschi.com/letreco/) <br>
+■ Termo [term.ooo](https://term.ooo/) ★<br>
+■ Letreco [gabtoschi.com/letreco](https://www.gabtoschi.com/letreco/) <br>
+■ Estadi.oo [estadi.ooo](https://estadi.ooo) <br>
 
 ### Geography
-■ WORLDLE - [worldle.teuteuf.fr](https://worldle.teuteuf.fr/) <br>
+■ WORLDLE - [worldle.teuteuf.fr](https://worldle.teuteuf.fr/) ★<br> 
 ■ Globe - [globle-game.com](https://globle-game.com/) <br>
 
 ## French 🇹🇫
@@ -44,7 +45,12 @@ draft: false
 • Gordle - [gordle.herokuapp.com](https://gordle.herokuapp.com) <br />
 • Brdl - [brdl.alex.gd](https://brdl.alex.gd/) <br /> 
 • Greener Wordle - [agreenerworldle.org](https://agreenerworldle.org/) <br />
-• Quordle - [quordle.com](https://www.quordle.com/)<br />
+• Quordle - [quordle.com](https://www.quordle.com/)<br /> ★
 
 <br />
 And ultimately, you can Make Custom Wordle, check [mywordle.strivemath.com](https://mywordle.strivemath.com/)! <br />
+
+<br />
+★ = my favs 
+
+▀▀▀▀▀▀▀▀▀▀▀▀ <br />
