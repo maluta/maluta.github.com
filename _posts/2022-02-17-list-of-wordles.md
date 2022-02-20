@@ -34,7 +34,7 @@ draft: false
 ■ Globe - [globle-game.com](https://globle-game.com/) <br>
 
 ## French 🇹🇫
-■ [Le Mot](https://wordle.louan.me/)
+■ Let Mot [wordle.louan.me](https://wordle.louan.me/)
 
 
 ### Adult
