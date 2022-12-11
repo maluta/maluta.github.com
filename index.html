@@ -6,7 +6,7 @@ layout: home
   {% for post in site.posts %}
   {% if post.draft == true %}
   {% else %}
-
+  <b> checkpoint </b>
   {% capture date %}{{post.date | date: '%Y' | plus: 0 }}{% endcapture %}
 
   {% if date contains "2019" or date contains "2018" or date contains "2017" or date contains "2016" or date contains "2015" or date contains "2014" or date contains "2013" or date contains "2012" or date contains "2011" or date contains "2010" or date contains "2009" %}
