@@ -2,3 +2,155 @@
 layout: default
 permalink: /blog/
 ---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ site.description }}">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <!-- <link rel="preload" href="../fonts/etbookot-roman-webfont.woff2" crossorigin type="font/woff2" as="font" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Monoton&display=swap" rel="stylesheet">
+
+    <style>
+      .collapsible {
+          background-color: #d42;
+          color: white;
+          cursor: pointer;
+          padding: 8px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-family: 'EB Garamond', monospace;
+          font-size: 15px;
+        }
+
+        .active, .collapsible:hover {
+          background-color: #d42;
+        }
+
+        .content {
+          padding: 0 18px;
+          display: none;
+          overflow: hidden;
+          background-color: #f1f1f1;
+        }
+    </style>
+
+
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body id="home">
+    <div class="content-wrapper">
+
+    {% include masthead.html %}
+    <div class="container">
+    <button type="button" class="collapsible">Contact me</button>
+      <div class="content">
+        <span>&nbsp;</span><br>
+        <a href="mailto:maluta@hey.com">maluta@hey.com</a></span> 
+        <span>&nbsp;</span><br><span style="color: #fafafa;">-</span>
+      </div>
+    </div>
+    <br>
+      <!-- new new new -->
+      <div class="posts clearfix container">
+
+      {% for post in site.posts %}
+      {% if post.draft == true %}
+      {% else %}
+    
+      {% capture date %}{{post.date | date: '%Y' | plus: 0 }}{% endcapture %}
+    
+      {% if date contains "2021" or date contains "2022" %}
+
+
+        <article class="post">
+          <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
+          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif;">{{ post.title }}</a></h1>
+          <a href="{{ site.baseurl }}{{ post.url }}"><img src="images/{{ post.url | remove: "/" }}.png" alt="post img" /></a>
+          <div class="entry"></div>
+        </article> 
+
+
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
+
+
+      </div>
+      <br>
+      <!-- new new new -->
+      <div id="main" role="main" class="container">
+        <center><p class="" style="font-family: 'Inconsolata', monospace; font-size: 14px; background-color: #d42; color:white;">
+        ★ <br>Below you'll find my old posts ranging from 2009 and 2019<br> Here just for historical purposes <br>★<br>
+        </p></center></div>
+
+      <div id="main" role="main" class="container" style="font-family: 'Inconsolata', monospace;">
+
+        {{ content }} 
+
+    <div class="posts clearfix">
+      {% for post in site.posts %}
+      {% if post.draft == true %}
+      {% else %}
+      {% capture date %}{{post.date | date: '%Y' | plus: 0 }}{% endcapture %}
+    
+      {% if date contains "2019" or date contains "2018" or date contains "2017" or date contains "2016" or date contains "2015" or date contains "2014" or date contains "2013" or date contains "2012" or date contains "2011" or date contains "2010" or date contains "2009" %}
+    
+      <article class="post">
+          <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
+          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a></h1>
+          <a href="{{ site.baseurl }}{{ post.url }}"><img src="images/{{ post.url | remove: "/" }}.png" style="width: 75%; height: auto;" alt="post img" /></a>
+          <div class="entry">
+          </div>
+        </article>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+
+      </div>    
+    </div><!-- /content-wrapper -->
+
+
+    {% include footer.html %}
+    {% include analytics.html %}
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+  
+      for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+      }
+      });
+      }
+      </script>
+  </body>
+  
+</html>
