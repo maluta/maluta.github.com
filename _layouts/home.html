@@ -104,9 +104,6 @@
 
         {{ content }} 
 
-      </div>    
-    </div><!-- /content-wrapper -->
-
     <div class="posts clearfix">
       {% for post in site.posts %}
       {% if post.draft == true %}
@@ -126,6 +123,10 @@
       {% endif %}
       {% endfor %}
     </div>
+
+      </div>    
+    </div><!-- /content-wrapper -->
+
 
     {% include footer.html %}
     {% include analytics.html %}
