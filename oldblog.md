@@ -3,45 +3,17 @@ layout: default
 permalink: /blog/
 ---
 
-      <!-- new new new -->
-      <div class="posts clearfix container">
-
-      {% for post in site.posts %}
-      {% if post.draft == true %}
-      {% else %}
-    
-      {% capture date %}{{post.date | date: '%Y' | plus: 0 }}{% endcapture %}
-    
-      {% if date contains "2021" or date contains "2022" %}
-
-
-        <article class="post">
-          <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
-          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif;">{{ post.title }}</a></h1>
-          <a href="{{ site.baseurl }}{{ post.url }}"><img src="images/{{ post.url | remove: "/" }}.png" alt="post img" /></a>
-          <div class="entry"></div>
-        </article> 
-
-
-        {% endif %}
-        {% endif %}
-        {% endfor %}
-
-
-
-      </div>
-      <br>
-      <!-- new new new -->
-      <div id="main" role="main" class="container">
+<!-- new new new -->
+<div id="main" role="main" class="container">
         <center><p class="" style="font-family: 'Inconsolata', monospace; font-size: 14px; background-color: #d42; color:white;">
         ★ <br>Below you'll find my old posts ranging from 2009 and 2019<br> Here just for historical purposes <br>★<br>
         </p></center></div>
 
-      <div id="main" role="main" class="container" style="font-family: 'Inconsolata', monospace;">
+<div id="main" role="main" class="container" style="font-family: 'Inconsolata', monospace;">
 
         {{ content }} 
 
-    <div class="posts clearfix">
+<div class="posts clearfix">
       {% for post in site.posts %}
       {% if post.draft == true %}
       {% else %}
@@ -59,10 +31,10 @@ permalink: /blog/
       {% endif %}
       {% endif %}
       {% endfor %}
-    </div>
+</div>
 
-      </div>    
-    </div><!-- /content-wrapper -->
+</div>    
+</div><!-- /content-wrapper -->
 
 
     {% include footer.html %}
