@@ -55,6 +55,4 @@ permalink: /blog/
       });
       }
       </script>
-  </body>
   
-</html>
