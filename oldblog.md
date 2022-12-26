@@ -33,9 +33,6 @@ permalink: /blog/
       {% endfor %}
 </div>
 
-</div>    
-</div><!-- /content-wrapper -->
-
 
     {% include footer.html %}
     {% include analytics.html %}
