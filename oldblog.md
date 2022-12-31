@@ -33,9 +33,12 @@ permalink: /blog/
 
 <!-- new new new -->
 <div id="main" role="main" class="container">
-        <center><p class="" style="font-family: 'Inconsolata', monospace; font-size: 14px; background-color: #d42; color:white;">
-        ★ <br>Below you'll find my old posts ranging from 2009 and 2019<br> Here just for historical purposes <br>★<br>
-        </p></center></div>
+        <center>
+          <p class="" style="font-family: 'Inconsolata', monospace; font-size: 14px; background-color: #d42; color:white;">
+              ★ Here are my old posts from 2009 to 2019, just for historical purposes ★
+          </p>
+        </center>
+</div>
 
 <div id="main" role="main" class="container" style="font-family: 'Inconsolata', monospace;">
 
