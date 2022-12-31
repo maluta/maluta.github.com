@@ -13,6 +13,7 @@ permalink: /blog/
 
         {{ content }} 
 
+<hr>
 <div class="posts clearfix">
       {% for post in site.posts %}
       {% if post.draft == true %}
@@ -51,5 +52,5 @@ permalink: /blog/
       }
       });
       }
-      </script>
+     </script>
   
