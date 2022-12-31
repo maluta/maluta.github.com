@@ -8,7 +8,8 @@ new: true
 draft: false
 ---
 
-1. 
-2. 
-3. 
+
+- ChatGPT is a bullshit generator. But it can still be amazingly useful • [aisnakeoil.substack.com](https://aisnakeoil.substack.com/p/chatgpt-is-a-bullshit-generator-but) <small>[06-dec-2022]</small>
+
+- ChatGPT: Optimizing Language Models for Dialogue • [openai.com](https://openai.com/blog/chatgpt/) <small>[30-nov-2022]</small>
 
