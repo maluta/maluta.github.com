@@ -3,6 +3,28 @@ layout: default
 permalink: /blog/
 ---
 
+<div class="posts clearfix">
+      {% for post in site.posts %}
+      {% if post.draft == true %}
+      {% else %}
+      {% capture date %}{{post.date | date: '%Y' | plus: 0 }}{% endcapture %}
+    
+      {% if date contains "2022" or date contains "2021" or date contains "2020" %}
+    
+      <article class="post">
+          <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
+          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a></h1>
+          <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="width: 75%; height: auto;" alt="post img" /></a>
+          <div class="entry">
+          </div>
+        </article>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+</div>
+
+
+
 <!-- new new new -->
 <div id="main" role="main" class="container">
         <center><p class="" style="font-family: 'Inconsolata', monospace; font-size: 14px; background-color: #d42; color:white;">
@@ -11,9 +33,6 @@ permalink: /blog/
 
 <div id="main" role="main" class="container" style="font-family: 'Inconsolata', monospace;">
 
-        {{ content }} 
-
-<hr>
 <div class="posts clearfix">
       {% for post in site.posts %}
       {% if post.draft == true %}
