@@ -18,7 +18,7 @@ permalink: /blog/
                 <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="vertical-align: middle; width: 75%; height: auto;" alt="post img" /></a><br><br>
             </div>
             <div class="column right">
-                <h3><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a></h3>
+                <a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a>
             </div>
           </div>
           <div class="entry">
@@ -54,7 +54,7 @@ permalink: /blog/
                 <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="vertical-align: middle; width: 75%; height: auto;" alt="post img" /></a><br><br>
             </div>
             <div class="column right">
-                <h3><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a></h3>
+                <a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a>
             </div>
           </div>
           <div class="entry">
