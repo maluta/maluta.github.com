@@ -15,10 +15,10 @@ permalink: /blog/
           <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
 
 
-          <p>
-                <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="vertical-align: middle; width: 75%; height: auto;" alt="post img" /></a>
+          <div>
+                <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="vertical-align: middle; width: 15%; height: auto;" alt="post img" /></a>
                 <h3><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a></h3>
-          </p>     
+          </div>     
 
           <div class="entry">
           </div>
