@@ -13,8 +13,15 @@ permalink: /blog/
     
       <article class="post">
           <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
-          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a></h1>
-          <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="width: 75%; height: auto;" alt="post img" /></a>
+          <div class="row">
+            <div class="column left" style="background-color:#FFB695;">
+                <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="width: 75%; height: auto;" alt="post img" /></a>
+            </div>
+            <div class="column right" style="background-color:#74C3E1;">
+                <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a></h1>
+            </div>
+          </div>
+
           <div class="entry">
           </div>
         </article>
