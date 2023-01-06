@@ -10,7 +10,7 @@ draft: false
 
 
 <center><iframe width="800" height="540" src="https://docs.google.com/presentation/d/1Vo9w4ftPx-rizdWyaYoB-pQ3DzK1n325OgDgXsnt0X0/edit#" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-<center><small>Click on Slideshow button to see fullscreen</small><center>
+<center><small>Click on Slideshow button to see fullscreen</small></center>
 
 
 
