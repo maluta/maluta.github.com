@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Links on ChatGPT 
+title: Links on ChatGPT and Education
 desc:
 proj-url:
 proj-num: 01
@@ -9,8 +9,11 @@ draft: false
 ---
 
 
-- **Stanford faculty weigh in on ChatGPT's shake-up in education** ([ed.stanford.com](https://ed.stanford.edu/news/stanford-faculty-weigh-new-ai-chatbot-s-shake-learning-and-teaching?sf173917744=1)) [20-dec-2022]
+- **As NYC public schools block ChatGPT, OpenAI says it’s working on ‘mitigations’ to help spot ChatGPT-generated text** ([techcrunch.com](https://techcrunch.com/2023/01/05/as-nyc-public-schools-block-chatgpt-openai-says-its-working-on-mitigations-to-help-spot-chatgpt-generated-text/)) [05-jan-2023]
 
+- **A College Kid Built an App That Sniffs Out Text Penned by AI** ([thedailybeast.com](https://www.thedailybeast.com/princeton-student-edward-tian-built-gptzero-to-detect-ai-written-essays)) [04-jan-2023]
+
+- **Stanford faculty weigh in on ChatGPT's shake-up in education** ([ed.stanford.com](https://ed.stanford.edu/news/stanford-faculty-weigh-new-ai-chatbot-s-shake-learning-and-teaching?sf173917744=1)) [20-dec-2022]
 
 - **ChatGPT is a bullshit generator. But it can still be amazingly useful** ([aisnakeoil.substack.com](https://aisnakeoil.substack.com/p/chatgpt-is-a-bullshit-generator-but)) 
 [06-dec-2022]
@@ -18,6 +21,7 @@ draft: false
 - **AI Homework** ([stratechery.com](https://stratechery.com/2022/ai-homework/)) 
 [05-dec-2022]
 
+What is ChatGPT? 
 - **ChatGPT: Optimizing Language Models for Dialogue** • ([openai.com](https://openai.com/blog/chatgpt/)) 
 [06-nov-2022]
 
