@@ -13,8 +13,6 @@ draft: false
 <center><small>Click on Slideshow button to see fullscreen</small></center>
 
 
-
-
 - **ChatGPT & Education** ([Google Slides](https://docs.google.com/presentation/d/1Vo9w4ftPx-rizdWyaYoB-pQ3DzK1n325OgDgXsnt0X0/edit#slide=id.g1cc76543f64_0_246) by [Torrey Trust, Ph.D.](https://www.torreytrust.com/))
 
 - **As NYC public schools block ChatGPT, OpenAI says it’s working on ‘mitigations’ to help spot ChatGPT-generated text** ([techcrunch.com](https://techcrunch.com/2023/01/05/as-nyc-public-schools-block-chatgpt-openai-says-its-working-on-mitigations-to-help-spot-chatgpt-generated-text/)) [05-jan-2023]
@@ -22,6 +20,8 @@ draft: false
 - **A College Kid Built an App That Sniffs Out Text Penned by AI** ([thedailybeast.com](https://www.thedailybeast.com/princeton-student-edward-tian-built-gptzero-to-detect-ai-written-essays)) [04-jan-2023]
 
 - **What are We Doing About AI Essays?** ([facultyfocus.com](https://www.facultyfocus.com/articles/teaching-with-technology-articles/what-are-we-doing-about-ai-essays/)) [04-jan-2023]
+
+- **AI-assisted plagiarism? ChatGPT bot says it has an answer for that** ([theguardian.com](https://www.theguardian.com/technology/2022/dec/31/ai-assisted-plagiarism-chatgpt-bot-says-it-has-an-answer-for-that)) [31-dez-2022]
 
 - **Stanford faculty weigh in on ChatGPT's shake-up in education** ([ed.stanford.com](https://ed.stanford.edu/news/stanford-faculty-weigh-new-ai-chatbot-s-shake-learning-and-teaching?sf173917744=1)) [20-dec-2022]
 
@@ -31,7 +31,6 @@ draft: false
 
 What is ChatGPT? 
 - **ChatGPT: Optimizing Language Models for Dialogue** • ([openai.com](https://openai.com/blog/chatgpt/)) [06-nov-2022]
-
 - **Sam Altman annoucing OpenAI** ([twitter.com](https://twitter.com/sama/status/1598038815599661056))
 
 <br>
