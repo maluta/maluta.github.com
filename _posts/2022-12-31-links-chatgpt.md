@@ -8,11 +8,6 @@ new: true
 draft: false
 ---
 
-
-<center><iframe width="800" height="540" src="https://docs.google.com/presentation/d/1Vo9w4ftPx-rizdWyaYoB-pQ3DzK1n325OgDgXsnt0X0/edit#" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-<center><small>Click on Slideshow button to see fullscreen</small></center>
-
-
 - **ChatGPT & Education** ([Google Slides](https://docs.google.com/presentation/d/1Vo9w4ftPx-rizdWyaYoB-pQ3DzK1n325OgDgXsnt0X0/edit#slide=id.g1cc76543f64_0_246) by [Torrey Trust, Ph.D.](https://www.torreytrust.com/))
 
 - **As NYC public schools block ChatGPT, OpenAI says it’s working on ‘mitigations’ to help spot ChatGPT-generated text** ([techcrunch.com](https://techcrunch.com/2023/01/05/as-nyc-public-schools-block-chatgpt-openai-says-its-working-on-mitigations-to-help-spot-chatgpt-generated-text/)) [05-jan-2023]
