@@ -32,8 +32,7 @@ draft: false
 What is ChatGPT? 
 - **ChatGPT: Optimizing Language Models for Dialogue** • ([openai.com](https://openai.com/blog/chatgpt/)) [06-nov-2022]
 
-
-
+- **Sam Altman annoucing OpenAI** ([twitter.com](https://twitter.com/sama/status/1598038815599661056))
 
 <br>
 <hr>
