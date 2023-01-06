@@ -21,7 +21,7 @@ draft: false
 
 - **What are We Doing About AI Essays?** ([facultyfocus.com](https://www.facultyfocus.com/articles/teaching-with-technology-articles/what-are-we-doing-about-ai-essays/)) [04-jan-2023]
 
-- **AI-assisted plagiarism? ChatGPT bot says it has an answer for that** ([theguardian.com](https://www.theguardian.com/technology/2022/dec/31/ai-assisted-plagiarism-chatgpt-bot-says-it-has-an-answer-for-that)) [31-dez-2022]
+- **AI-assisted plagiarism? ChatGPT bot says it has an answer for that** ([theguardian.com](https://www.theguardian.com/technology/2022/dec/31/ai-assisted-plagiarism-chatgpt-bot-says-it-has-an-answer-for-that)) [31-dec-2022]
 
 - **Stanford faculty weigh in on ChatGPT's shake-up in education** ([ed.stanford.com](https://ed.stanford.edu/news/stanford-faculty-weigh-new-ai-chatbot-s-shake-learning-and-teaching?sf173917744=1)) [20-dec-2022]
 
