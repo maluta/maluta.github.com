@@ -9,6 +9,12 @@ draft: false
 ---
 
 
+<center><iframe width="560" height="315" src="https://docs.google.com/presentation/d/1Vo9w4ftPx-rizdWyaYoB-pQ3DzK1n325OgDgXsnt0X0/edit#slide=id.g1cc76543f64_0_246" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+[Google Slides](https://docs.google.com/presentation/d/1Vo9w4ftPx-rizdWyaYoB-pQ3DzK1n325OgDgXsnt0X0/edit#slide=id.g1cc76543f64_0_246)
+
+
+
 - **As NYC public schools block ChatGPT, OpenAI says it’s working on ‘mitigations’ to help spot ChatGPT-generated text** ([techcrunch.com](https://techcrunch.com/2023/01/05/as-nyc-public-schools-block-chatgpt-openai-says-its-working-on-mitigations-to-help-spot-chatgpt-generated-text/)) [05-jan-2023]
 
 - **A College Kid Built an App That Sniffs Out Text Penned by AI** ([thedailybeast.com](https://www.thedailybeast.com/princeton-student-edward-tian-built-gptzero-to-detect-ai-written-essays)) [04-jan-2023]
