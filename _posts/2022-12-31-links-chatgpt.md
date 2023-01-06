@@ -21,7 +21,7 @@ draft: false
 
 - **A College Kid Built an App That Sniffs Out Text Penned by AI** ([thedailybeast.com](https://www.thedailybeast.com/princeton-student-edward-tian-built-gptzero-to-detect-ai-written-essays)) [04-jan-2023]
 
-- **What are We Doing About AI Essays?** [facultyfocus.com](https://www.facultyfocus.com/articles/teaching-with-technology-articles/what-are-we-doing-about-ai-essays/) [04-jan-2023]
+- **What are We Doing About AI Essays?** ([facultyfocus.com](https://www.facultyfocus.com/articles/teaching-with-technology-articles/what-are-we-doing-about-ai-essays/)) [04-jan-2023]
 
 - **Stanford faculty weigh in on ChatGPT's shake-up in education** ([ed.stanford.com](https://ed.stanford.edu/news/stanford-faculty-weigh-new-ai-chatbot-s-shake-learning-and-teaching?sf173917744=1)) [20-dec-2022]
 
