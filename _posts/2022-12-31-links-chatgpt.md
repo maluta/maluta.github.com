@@ -49,8 +49,10 @@ draft: false
 - **AI Homework** ([stratechery.com](https://stratechery.com/2022/ai-homework/)) 
 
 # What is ChatGPT? 
-- **ChatGPT: Optimizing Language Models for Dialogue** • ([openai.com](https://openai.com/blog/chatgpt/)) [06-nov-2022]
-- **Sam Altman annoucing OpenAI** ([twitter.com](https://twitter.com/sama/status/1598038815599661056))
+- **ChatGPT: Optimizing Language Models for Dialogue** • ([openai.com](https://openai.com/blog/chatgpt/)) [30-nov-2022]
+- **Sam Altman annoucing OpenAI** ([twitter.com](https://twitter.com/sama/status/1598038815599661056)) [30-nov-2022]
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">today we launched ChatGPT. try talking with it here: <a href="https://t.co/uWra8LKFMN">https://t.co/uWra8LKFMN</a></p>&mdash; Sam Altman (@sama) <a href="https://twitter.com/sama/status/1598038815599661056?ref_src=twsrc%5Etfw">November 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br>
 <hr>
