@@ -48,6 +48,12 @@ draft: false
 ## Dec 5th, 2022
 - **AI Homework** ([stratechery.com](https://stratechery.com/2022/ai-homework/)) 
 
+**Before ChatGPT announce (and hype) but connected to GPT-3**
+
+## May 17th, 2022
+- **New AI tools that can write student essays require educators to rethink teaching and assessment** ([blogs.lse.ac.uk](https://blogs.lse.ac.uk/impactofsocialsciences/2022/05/17/new-ai-tools-that-can-write-student-essays-require-educators-to-rethink-teaching-and-assessment/))
+
+
 # What is ChatGPT? 
 - **ChatGPT: Optimizing Language Models for Dialogue** • ([openai.com](https://openai.com/blog/chatgpt/)) [30-nov-2022]
 - **Sam Altman annoucing OpenAI** ([twitter.com](https://twitter.com/sama/status/1598038815599661056)) [30-nov-2022]
