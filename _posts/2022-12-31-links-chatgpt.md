@@ -13,7 +13,7 @@ draft: false
 ### Chronological Order   
 
 ## Jan 7th, 2023
-- **Cristóbal Cobo on Linkedin: Schools in NY are banning the use of #chatGPT (this is just the beginning) 🤖😳** ([linkedin.com](https://www.linkedin.com/posts/cristobalcobo_nyc-schools-block-access-to-chatgpt-over-activity-7017503021156712448--BQA/]))
+- **Cristóbal Cobo on Linkedin: Schools in NY are banning the use of #chatGPT (this is just the beginning) 🤖😳** ([linkedin.com](https://www.linkedin.com/feed/update/urn:li:activity:7017503021156712448))
 
 ## Jan 5th, 2023
 - **ChatGPT & Education** ([Google Slides](https://docs.google.com/presentation/d/1Vo9w4ftPx-rizdWyaYoB-pQ3DzK1n325OgDgXsnt0X0/edit#slide=id.g1cc76543f64_0_246) by [Torrey Trust, Ph.D.](https://www.torreytrust.com/))
