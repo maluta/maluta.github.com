@@ -13,6 +13,13 @@ draft: false
 ### Chronological Order   
 
 ## Jan 7th, 2023
+
+- **Estilo repetido, falta de citações, 'enrolation'.... professores descobrem falhas em textos do robô ChatGPT, mas elogiam novidade** ([globo.com](https://g1.globo.com/tecnologia/noticia/2023/01/07/estilo-repetido-falta-de-citacoes-enrolation-professores-descobrem-falhas-em-textos-do-robo-chatgpt-mas-elogiam-novidade.ghtml)) 🇧🇷
+
+
+- **Robô 'ChatGPT' escreve redação do Enem em 50 segundos; saiba quanto ele tiraria na prova** ([globo.com](https://g1.globo.com/educacao/noticia/2023/01/07/robo-chatgpt-escreve-redacao-do-enem-em-50-segundos-saiba-quanto-ele-tiraria-na-prova.ghtml)) 🇧🇷
+
+
 - **Cristóbal Cobo on Linkedin: Schools in NY are banning the use of #chatGPT (this is just the beginning) 🤖😳** ([linkedin.com](https://www.linkedin.com/feed/update/urn:li:activity:7017503021156712448))
 
 ## Jan 5th, 2023
