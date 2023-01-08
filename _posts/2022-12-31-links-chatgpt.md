@@ -57,6 +57,9 @@ draft: false
 ## Dec 6th, 2022
 - **ChatGPT is a bullshit generator. But it can still be amazingly useful** ([aisnakeoil.substack.com](https://aisnakeoil.substack.com/p/chatgpt-is-a-bullshit-generator-but)) 
 
+## Dec 9th, 2022
+- **Is ChatGPT and Authorship Verification the new King Kong vs GodZilla battle in academic cheating?** ([eduoliveira.com](https://www.eduoliveira.com/projects/chatgpt))
+
 ## Dec 5th, 2022
 - **AI Homework** ([stratechery.com](https://stratechery.com/2022/ai-homework/)) 
 
