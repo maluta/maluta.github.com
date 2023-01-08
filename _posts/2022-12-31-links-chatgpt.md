@@ -10,7 +10,10 @@ draft: false
 
 # Education 
 
-### Chronological Order   
+### Chronological Order  
+
+## Jan 8th, 2023
+- **New York City school officials block access to controversial artificial intelligence ChatGPT to stop students generating essays** ([abc.net.au](https://www.abc.net.au/news/2023-01-08/artificial-intelligence-chatgpt-chatbot-explained/101835670))
 
 ## Jan 7th, 2023
 
@@ -31,6 +34,8 @@ draft: false
 - **As NYC public schools block ChatGPT, OpenAI says it’s working on ‘mitigations’ to help spot ChatGPT-generated text** ([techcrunch.com](https://techcrunch.com/2023/01/05/as-nyc-public-schools-block-chatgpt-openai-says-its-working-on-mitigations-to-help-spot-chatgpt-generated-text/))  
 
 - **NYC schools block access to ChatGPT over cheating concerns** ([nypost.com](https://nypost-com.cdn.ampproject.org/c/s/nypost.com/2023/01/05/nyc-schools-block-access-to-chatgpt-over-cheating-concerns/amp/))
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It’s a new world. Goodbye homework!</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1610849544945950722?ref_src=twsrc%5Etfw">January 5, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Jan 4th, 2023
 - **A College Kid Built an App That Sniffs Out Text Penned by AI** ([thedailybeast.com](https://www.thedailybeast.com/princeton-student-edward-tian-built-gptzero-to-detect-ai-written-essays))  
