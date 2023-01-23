@@ -12,6 +12,10 @@ draft: false
 
 ### Chronological Order  
 
+## Jan 12th, 2023
+- **Every sixth high school student uses a chatbot to cheat** 
+([gymnasieskolen.dk](https://gymnasieskolen.dk/articles/hver-sjette-gymnasieelev-benytter-chatbot-til-snyd/)) 🇩🇰
+
 ## Jan 8th, 2023
 - **New York City school officials block access to controversial artificial intelligence ChatGPT to stop students generating essays** ([abc.net.au](https://www.abc.net.au/news/2023-01-08/artificial-intelligence-chatgpt-chatbot-explained/101835670))
 
