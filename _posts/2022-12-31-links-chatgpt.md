@@ -12,7 +12,27 @@ draft: false
 
 ### Chronological Order  
 
+## Feb 17th, 2023
+- **‘Tremendous potential’: Why some disability advocates laud ChatGPT** ([csmonitor.com](https://www.csmonitor.com/Technology/2023/0217/Tremendous-potential-Why-some-disability-advocates-laud-ChatGPT))
+
+## Feb 14th, 2023
+- **Some educators embrace ChatGPT as a new teaching tool** ([pbs.org](https://www.pbs.org/newshour/education/some-educators-embrace-chatgpt-as-a-new-teaching-tool))
+
+## Feb 10th, 2023
+- **How ChatGPT Can Improve Education, Not Threaten it** ([scientificamerican.com](https://www.scientificamerican.com/article/how-chatgpt-can-improve-education-not-threaten-it/))
+
+
+## Jan 26th, 2023
+- **ChatGPT Is Coming for Classrooms. Don't Panic** ([wired.com](https://www.wired.com/story/chatgpt-is-coming-for-classrooms-dont-panic/))
+
+
+- **ChatGPT is changing education, AI experts say — but how?** ([dw.com](https://www.dw.com/en/chatgpt-is-changing-education-ai-experts-say-but-how/a-64454752))
+
+
 ## Jan 12th, 2023
+- **Don’t Ban ChatGPT in Schools. Teach With It.** ([nytimes.com](https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html))
+
+
 - **Every sixth high school student uses a chatbot to cheat** 
 ([gymnasieskolen.dk](https://gymnasieskolen.dk/articles/hver-sjette-gymnasieelev-benytter-chatbot-til-snyd/)) 🇩🇰
 
