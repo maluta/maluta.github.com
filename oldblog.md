@@ -9,7 +9,7 @@ permalink: /blog/
       {% else %}
       {% capture date %}{{post.date | date: '%Y' | plus: 0 }}{% endcapture %}
     
-      {% if date contains "2022" or date contains "2021" or date contains "2020" %}
+      {% if date contains "2023" or contains "2022" or date contains "2021" or date contains "2020" %}
     
       <article class="post">
           <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
