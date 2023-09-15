@@ -8,16 +8,17 @@ new: true
 draft: false
 ---
 
-Hoje eu estava passeando por algumas newsletters que se acumulam na minha caixa de entrada no e-mail... quando em uma leitura despretenciosa ['Diaries of Note'](https://diariesofnote.com/) eu comecei a relembrar, não sei exatamente o porquê, da minha experiência em acessar a internet pela primeira vez no final dos anos 90. 
+Hoje eu estava passeando por algumas newsletters que se acumulam na minha caixa de entrada no e-mail... quando em uma leitura despretenciosa no ['Diaries of Note'](https://diariesofnote.com/) eu comecei a relembrar, não sei exatamente o porquê, da minha experiência em acessar a internet pela primeira vez no final dos anos 90. 
 
-Diferente da newsletter que me inspirou o pensamento, não tenho um diário que registra esses momentos, mas lembro muito de como foi bom ser um aficionado por tecnologia, um nerd, nesse período.Publicar algo significava combinar um conjuntho de habilidades, desde o básico de programação ao bê-á-bá do inglês para conseguir hospedar um conteúdo online, seja no Geocities ou equivalente. Lembrei que criei um site junto com colegas no Ensino Médio em um serviço chamado HPG (Home Page Grátis), [serviço que fez algum sucesso no Brasil](https://www1.folha.uol.com.br/folha/informatica/ult124u5574.shtml).
+Diferente da newsletter que me inspirou o pensamento, não tenho um diário que registra esses momentos, mas lembro muito de como foi bom ser um aficionado por tecnologia, um nerd, nesse período.Publicar algo significava combinar um conjuntho de habilidades, desde o básico de programação ao bê-á-bá do inglês para conseguir hospedar um conteúdo online, seja no Geocities ou equivalente. Lembrei que criei um site junto com colegas no Ensino Médio em um serviço chamado hpG (Home Page Grátis), [serviço que fez algum sucesso no Brasil](https://www1.folha.uol.com.br/folha/informatica/ult124u5574.shtml).
 
-Nessa época ainda dividiamos nossa atenção com buscadores pré-Google, como o "[Cadê?!](https://web.archive.org/web/20010331232117/http://www.cade.com.br/)" e o Yahoo! era ainda  "bigtech" que todos admiravam. Logo depois, entraram em cena as brigas de titãs das redes sociais: ~~[MySpace]~~, Facebook, Twitter/X, Instagram... E a internet, ela se transformou. E não só ela, nós e toda a sociedade mudou. 
+Nessa época ainda dividiamos nossa atenção com buscadores pré-Google, como o "[Cadê?!](https://web.archive.org/web/20010331232117/http://www.cade.com.br/)" e o Yahoo! era ainda considerada uma "bigtech" que todos admiravam. Logo depois, entraram em cena as brigas de titãs das redes sociais: ~~MySpace~~, Facebook, Twitter/X, Instagram... E a internet, ela se transformou. E não só ela, nós e toda a sociedade mudou. 
 
 Enquanto pensava nesse nomes, tentei lembrar do conteúdo digital que produzi desde então.
 
-> Será que você se lembra do seu primeiro post no Twitter ou no Facebook? 
-> E aquela foto, quase que esquecida, de 2008 no Fotolog, onde ela se esconde?
+> Será que você se lembra do seu primeiro 'tweet'' no Twitter ou 'post' no Facebook?
+
+> E aquela foto, quase que esquecida, de 2008 no Fotolog?
 
 A efemeridade não é exclusiva da nossa memória; ela também ocorre no espaço virtual. Enquanto antigamente podíamos encontrar um caderno antigo numa caixa e rememorar conteúdos de 20 anos atrás, na era digital, as coisas são diferentes. O conteúdo que produzimos online está mais propenso a desaparecer, principalmente porque não temos controle sobre a infraestrutura que guarda essas informações.
 
@@ -27,11 +28,11 @@ A empresa Automattic, desenvolvedora do Wordpress, por exemplo, recentemente lan
 
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/ueoi.gif)
 
-__você estaria disposto a pagar 39.000 dólares (equivalente a R$ 1.9000,00/ano) para ter esse serviço?__
+_Você estaria disposto a desembolsar 39.000 dólares de uma vez só (equivalente a R$ 1.9000,00/ano) para ter esse serviço?_
 
-Preservar informações e dados na era digital não é algo simples, mesmo.
+**Preservar informações e dados na era digital não é algo simples, mesmo.**
 
-Dada a volatilidade e mudanças rápidas, é muito dificil ter um sistema que seja a prova do tempo. Sabe aquele "backup" em CD-ROM? Então... 
+Dada a falta de padrão e mudanças de mídias e formatos, é muito dificil ter um sistema que seja a "prova do tempo". Sabe aquele "backup" em CD-ROM? Então... 
 
 Com isso em mente, para garantir que alguma parte do nosso legado digital esteja acessível para as gerações futuras, eu tenho considerado três princípios-chave para a preservação digital:
 
