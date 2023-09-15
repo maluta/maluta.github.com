@@ -24,7 +24,7 @@ A efemeridade não é exclusiva da nossa memória; ela também ocorre no espaço
 
 Não existe uma solução pronta para preservar nosso legado digital, mas o tópico tem aparecido pra mim com destaque de diversas maneiras.
 
-A empresa Automattic, desenvolvedora do Wordpress, por exemplo, recentemente lançou um [plano com suporte de até 100 anos](https://wordpress.com/blog/2023/08/25/introducing-the-100-year-plan/). David Hansson, das empresas Basecamp e Hey, tem feito [críticas contundentes às grandes empresas de tecnologia](https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce). Ele aponta que muitas delas não têm um compromisso com a preservação a longo prazo e, muitas vezes, descontinuam seus produtos sem consideração adequada pelos seus usuários.
+A empresa Automattic, desenvolvedora do Wordpress, por exemplo, recentemente lançou um [plano com suporte de até 100 anos](https://wordpress.com/blog/2023/08/25/introducing-the-100-year-plan/). David Hansson, responssável por produtos como o Basecamp e [Hey](http://www.hey.com), tem feito [críticas contundentes às grandes empresas de tecnologia](https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce). Ele aponta que muitas delas não têm um compromisso com a preservação a longo prazo e, muitas vezes, descontinuam seus produtos sem consideração adequada pelos seus usuários.
 
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/ueoi.gif)
 
@@ -45,7 +45,7 @@ Com isso em mente, para garantir que alguma parte do nosso legado digital esteja
 Ao considerar esses princípios, eu tenho pensado na melhor arquitetura, por exemplo, escrever textos em um formato aberto, texto puro, como é o caso aqui dessa página. E armazenar cópias desse site em vários lugares. 
 
 
-Afinal, em vez de ter uma resposta, estou cheio de dúvidas. Gostaria de saber se alguém aqui já usou (ou usa) alguma estratégia. Conta aqui. 
+Afinal, em vez de ter uma resposta, estou cheio de dúvidas. Gostaria de saber se alguém aqui já usou (ou usa) alguma estratégia. Conta aqui ou me escreva em maluta@hey.com 
 
 
 ### Dica: como exportar o conteúdo das bigtechs 
