@@ -52,8 +52,8 @@ Afinal, em vez de ter uma resposta, estou cheio de dúvidas. Gostaria de saber s
 
 Ao estar logado nessas plataformas, visite as URLs e peça os arquivos. O processamento do seu pedido pode levar de algumas horas a dias. Assim que estiver pronto, você receberá um e-mail com o link para baixar os arquivos.
 
-- Twitter https://twitter.com/settings/download_your_data
-- Facebook https://www.facebook.com/dyi/?referrer=yfi_settings
-- Linkedin https://www.linkedin.com/mypreferences/d/download-my-data
-- Google https://takeout.google.com/
+- Twitter: [twitter.com/settings/download_your_data](https://twitter.com/settings/download_your_data)
+- Facebook: [facebook.com/dyi/?referrer=yfi_settings](https://www.facebook.com/dyi/?referrer=yfi_settings)
+- LinkedIn: [linkedin.com/mypreferences/d/download-my-data](https://www.linkedin.com/mypreferences/d/download-my-data)
+- Google: [takeout.google.com](https://takeout.google.com/)
 
