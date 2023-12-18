@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#wordleGrid {
+    max-width: 300px; /* Limit the width for larger screens */
+    margin: 0 auto; /* Center the grid */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+}
+
+.grid-cell {
+    width: 100%; /* Make the cells responsive */
+    padding-top: 100%; /* Maintain aspect ratio */
+    position: relative;
+    border: 1px solid black;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.grid-cell[contenteditable="true"]:focus {
+    outline: 2px solid blue; /* Improve focus visibility */
+}
+
+.grid-cell:before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+}
+
+.grid-cell > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for correct, present, and absent cells remain the same */
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .grid-cell {
+        font-size: 16px; /* Smaller font size for small screens */
+    }
+}
+
+.correct {
+    background-color: green;
+}
+
+.present {
+    background-color: yellow;
+}
+
+.absent {
+    background-color: grey;
+}
