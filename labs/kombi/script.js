@@ -1,3 +1,5 @@
+// você é um(a) hacker =)
+
 const wordToGuess = 'MOTRIZ'.toUpperCase();
 const gridRows = 6;
 let currentRow = 0;
@@ -75,9 +77,9 @@ function updateGrid(guess) {
     }
 
     if (guess === wordToGuess) {
-        alert('Congratulations! You guessed the word.');
+        alert('Parabéns! Você acertou!.');
     } else if (currentRow === gridRows - 1) {
-        alert('Game Over! The word was: ' + wordToGuess);
+        alert('Fim de jogo! Recarrege a página para tentar de novo' );
     }
 }
 
