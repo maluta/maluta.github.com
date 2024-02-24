@@ -51,7 +51,7 @@ permalink: /blog/
       {% if date contains "2019" or date contains "2018" or date contains "2017" or date contains "2016" or date contains "2015" or date contains "2014" or date contains "2013" or date contains "2012" or date contains "2011" or date contains "2010" or date contains "2009" %}
     
       <article class="post">
-          <div class="eyebrow"><span style="background-color: #62453f; color: white;">[ {{ post.date | date: "%d %b %Y" }} ]</span></div>
+          <div class="eyebrow"><span style="font-family: 'Spectral'; background-color: #62453f; color: white;">&nbsp;&nbsp; {{ post.date | date: "%d %b %Y" }} &nbsp;&nbsp;</span></div>
           <div class="row">
             <div class="column left">
                 <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="border-radius: 5px; vertical-align: middle; width: 75%; height: auto;" alt="post img" /></a><br><br>
