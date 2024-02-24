@@ -35,7 +35,7 @@ permalink: /blog/
 <div id="main" role="main" class="container">
         <center>
           <p class="" style="font-family: 'Spectral', monospace; font-size: 14px; background-color: #62453f; color:white;">
-              ★ Below are my old posts from 2009 to 2019, just for historical purposes ★
+              ★ Historical Archive: My Posts from 2009 to 2019 ★
           </p>
         </center>
 </div>
