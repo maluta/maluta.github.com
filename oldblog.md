@@ -40,7 +40,7 @@ permalink: /blog/
         </center>
 </div>
 
-<div id="main" role="main" class="container" style="font-family: 'Inconsolata', monospace; background-color:#d1d1d1d1; color:#484848;">
+<div id="main" role="main" class="container" style="font-family: 'Spectral'; background-color:#d1d1d1d1; color:#484848;">
 
 <div class="posts clearfix">
       {% for post in site.posts %}
