@@ -54,7 +54,7 @@ permalink: /blog/
           <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
           <div class="row">
             <div class="column left">
-                <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="border-radius: 150px; vertical-align: middle; width: 75%; height: auto;" alt="post img" /></a><br><br>
+                <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="border-radius: 5px; vertical-align: middle; width: 75%; height: auto;" alt="post img" /></a><br><br>
             </div>
             <div class="column right">
                 <a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a>
@@ -69,8 +69,7 @@ permalink: /blog/
 </div>
 
 
-    {% include footer.html %}
-    {% include analytics.html %}
+
     <script>
       var coll = document.getElementsByClassName("collapsible");
       var i;
