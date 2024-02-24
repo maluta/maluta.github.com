@@ -18,7 +18,7 @@ permalink: /blog/
                 <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="border-radius: 130px;vertical-align: middle; width: 75%; height: auto;" alt="post img" /></a><br><br>
             </div>
             <div class="column right">
-                <a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; font-size: 32px; color: #484848;">{{ post.title }}</a>
+                <a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'Spectral', serif; font-size: 26px; color: #484848;">{{ post.title }}</a>
             </div>
           </div>
           <div class="entry">
@@ -34,13 +34,13 @@ permalink: /blog/
 <!-- new new new -->
 <div id="main" role="main" class="container">
         <center>
-          <p class="" style="font-family: 'Inconsolata', monospace; font-size: 14px; background-color: #d42; color:white;">
+          <p class="" style="font-family: 'Spectral', monospace; font-size: 14px; background-color: #d42; color:white;">
               ★ Below are my old posts from 2009 to 2019, just for historical purposes ★
           </p>
         </center>
 </div>
 
-<div id="main" role="main" class="container" style="font-family: 'Spectral'; background-color:#d1d1d1d1; color:#484848;">
+<div id="main" role="main" class="container" style="font-family: 'Spectral'; background-color:#fafafa; color:#484848;">
 
 <div class="posts clearfix">
       {% for post in site.posts %}
@@ -57,7 +57,7 @@ permalink: /blog/
                 <a href="{{ site.baseurl }}{{ post.url }}"><img src="../images/{{ post.url | remove: "/" }}.png" style="border-radius: 5px; vertical-align: middle; width: 75%; height: auto;" alt="post img" /></a><br><br>
             </div>
             <div class="column right">
-                <a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a>
+                <a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'Spectral', serif; font-size: 18px;">{{ post.title }}</a>
             </div>
           </div>
           <div class="entry">
