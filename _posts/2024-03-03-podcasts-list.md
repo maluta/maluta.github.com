@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Podcast List
+title: Podcasts imported from the OPML file provided by my Pocket Casts
 desc:
 proj-url:
 proj-num: 01
