@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Legado Digital
+title: My Podcast List
 desc:
 proj-url:
 proj-num: 01
