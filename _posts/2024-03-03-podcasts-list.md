@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Podcasts imported from the OPML file provided by my Pocket Casts
+title: Podcasts imported from the OPML (Pocket Casts)
 desc:
 proj-url:
 proj-num: 01
@@ -8,7 +8,12 @@ new: true
 draft: false
 ---
      
-Podcasts extracted from the OPML file:
+I use the [Pocket Casts](https://pocketcasts.com) app for almost all my podcast listening needs, accounting for 99.9% of the time. The only exception is when I listen to exclusive content that are locked into ohter platform like Spotify or Amazon Music. 
+
+![](https://github.com/maluta/maluta.github.com/raw/master/images/pocketcasts.png)
+
+
+**Check a list of 403 podcasts from an OPML file that was exported from my Pocket Casts account in 03/03/2024**
 
 1	[Faxina Mental](https://anchor.fm/s/1046bd8c/podcast/rss)
 2	[Nova Escola](https://feeds.soundcloud.com/users/soundcloud:users:47705472/sounds.rss)
