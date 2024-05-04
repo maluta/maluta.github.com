@@ -89,7 +89,7 @@ Para alunos com deficiência visual, o óculos poderia oferecer descrições aud
 ### 6️⃣ **Apoio nos estudos** 
 Eu realizei alguns testes com o objetivo de resolver questões matemáticas. Embora haja dificuldades em reconhecer minha caligrafia, consegui, através de algumas tentativas e interações, chegar à resposta correta.
 
-![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-2.png)
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-8.png)
 
 _Pedindo para o Ray-Meta me ajudar a encontrar o valor de 'x'_
 
