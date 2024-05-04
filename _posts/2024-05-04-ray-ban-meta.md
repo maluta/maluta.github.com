@@ -8,6 +8,8 @@ new: true
 draft: false
 ---
 
+Você pode ler também esse texto no [LinkedIn](https://www.linkedin.com/pulse/e-algumas-reflex%2525C3%2525B5es-sobre-aplica%2525C3%2525A7%2525C3%2525B5es-em-educa%2525C3%2525A7%2525C3%2525A3o-sim-tem-tiago-maluta-o21gf/)
+
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta.png)
 # e algumas reflexões sobre aplicações em educação (e sim, tem muita IA envolvida)
 
