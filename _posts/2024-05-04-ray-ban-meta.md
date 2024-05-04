@@ -40,8 +40,8 @@ O óculos pode agora responder à perguntas contextualizadas como "O que você e
 Vou tentar ilustrar no diagrama abaixo como funciona a experiência com o Ray-Ban Meta integrado com a Meta AI.
 
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-2.png)
-_Fluxo de uso das funcionalidades de IA no Ray-Ban Meta_
 
+_Fluxo de uso das funcionalidades de IA no Ray-Ban Meta_
 
 No Meta View, aplicativo que integra o óculos com o smartphone, é possível acessar o histórico de interações.
 
@@ -52,19 +52,28 @@ _É possível acessar o histórico de interações no aplicativo Meta View_
 
 Mesmo sabendo que o Ray-Ban Meta não foi originalmente projetado como um "produto educacional", não é difícil começar a imaginar alguns casos de uso aplicado num contexto de ensino e aprendizagem, e é sobre isso que tenho refletido.
 Abaixo eu trago alguns exemplos de ideias do que eu acredito que sejam usos interessantes com o software atual.
-IMPORTANTE: As imagens foram inseridas apenas para mostrar o histórico de conversas (que fica salva no aplicativo). Em todos os exemplos abaixo, eu fiz solicitações por comandos de voz e recebi respostas em áudio.
+
+```IMPORTANTE: As imagens foram inseridas apenas para mostrar o histórico de conversas (que fica salva no aplicativo). Em todos os exemplos abaixo, eu fiz solicitações por comandos de voz e recebi respostas em áudio.```
 
 ### 1️⃣ **Fazer perguntas sem grandes trocas de contexto**
 Imagine que um aluno está lendo um livro físico ou artigo impresso e precisa pesquisar rapidamente uma informação sobre um tópico específico. Normalmente, você usaria um computador ou celular para fazer essa busca. No entanto, com o Ray-Ban Meta, você pode simplesmente ativar via comando de voz e fazer sua pergunta.
 
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-4.png)
+
+
 ### 2️⃣ **Perguntar sobre o mundo físico**
 Os estudantes podem parar diante de lugares, objetos ou itens diversos e solicitar informações mais detalhadas. Se tiver curiosidade, ouça como é uma resposta em áudio aqui.
+
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-5.png)
+
 
 ### 3️⃣ **Facilitar o registro de atividades**
 Durante aulas práticas ou atividades ao ar livre, estudantes podem gravar experimentos ou procedimentos sem usar as mãos. Esses vídeos podem posteriormente ser usados para reflexão ou para criar um portfólio digital de seu trabalho, facilitando o aprendizado e eventualmente avaliações.
 
 ### 4️⃣ **Tradução de idiomas**
 Embora a tradução para o português ainda não esteja disponível, nos testes iniciais que realizei, consegui traduzir o conteúdo do inglês para as línguas atualmente suportadas. Isso pode ser bastante útil para o ensino de idiomas.
+
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-6.png)
 
 
 # 🙌🏽 Lista de desejos
@@ -74,10 +83,16 @@ O software ainda não entrega muito bem o que vou escrever abaixo, mas são idei
 ### 5️⃣ **Melhorar a acessibilidade de alunos com deficiência visual**
 Para alunos com deficiência visual, o óculos poderia oferecer descrições auditivas do que está sendo visto, tornando a experiência das aulas mais inclusivas. Talvez uma parceria com a Be My Eyes possa ajudar a acelerar o produto nessa direção.
 
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-7.png)
+
+
 ### 6️⃣ **Apoio nos estudos** 
 Eu realizei alguns testes com o objetivo de resolver questões matemáticas. Embora haja dificuldades em reconhecer minha caligrafia, consegui, através de algumas tentativas e interações, chegar à resposta correta.
 
-Pedindo para o Ray-Meta me ajudar a encontrar o valor de 'x'
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-2.png)
+
+_Pedindo para o Ray-Meta me ajudar a encontrar o valor de 'x'_
+
 
 ### 7️⃣ **Tradução em Tempo Real**
 Um óculos como o Ray-Ban Meta poderia traduzir automaticamente o que o professor ou colegas estão dizendo em tempo real. Isso seria particularmente útil em ambientes onde alunos que falam diferentes línguas possam entender as aulas em seu próprio idioma instantaneamente, o que facilita uma melhor inclusão e compreensão.
@@ -95,9 +110,9 @@ Outra limitação para nós brasileiros é que no momento o Ray-Ban Meta ainda n
 
 Na prática, temos os seguintes pontos de atenção:
 
-- Meta AI não "fala" Português: no momento que escrevo esse artigo, a Meta AI não compreende comandos em Português. De acordo com a Meta, novos idiomas serão implementados em atualizações futuras.
-- Meta View não está disponível nas lojas de aplicativos brasileiras: não é possível fazer o download do aplicativo que faz a sincronização com do smartphone com o óculos (para usá-lo foi necessário cadastrar uma conta na loja de aplicativos configurada nos EUA)
-- Preço: o valor de venda atual (300 USD), continua sendo uma barreira para acessar o produto no Brasil, especialmente devido à desvalorização da nossa moeda. No entanto, no setor tecnológico, frequentemente a popularidade de um produto pode levar à redução de seu preço. Além disso, a entrada de novas marcas no mercado, introduzindo dispositivos similares, pode fomentar uma competição que resulte em preços mais baixos. Isso vai ser fundamental para que essas aplicações em educação possam escalar.
+- **Meta AI não "fala" Português**: no momento que escrevo esse artigo, a Meta AI não compreende comandos em Português. De acordo com a Meta, novos idiomas serão implementados em atualizações futuras.
+- **Meta View não está disponível nas lojas de aplicativos brasileiras**: não é possível fazer o download do aplicativo que faz a sincronização com do smartphone com o óculos (para usá-lo foi necessário cadastrar uma conta na loja de aplicativos configurada nos EUA)
+- **Preço**: o valor de venda atual (300 USD), continua sendo uma barreira para acessar o produto no Brasil, especialmente devido à desvalorização da nossa moeda. No entanto, no setor tecnológico, frequentemente a popularidade de um produto pode levar à redução de seu preço. Além disso, a entrada de novas marcas no mercado, introduzindo dispositivos similares, pode fomentar uma competição que resulte em preços mais baixos. Isso vai ser fundamental para que essas aplicações em educação possam escalar.
 
 # Conclusão
 
