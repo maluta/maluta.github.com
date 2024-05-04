@@ -8,9 +8,15 @@ new: true
 draft: false
 ---
 
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta.png)
+
+
 Faz algumas semanas que estou experimentando o novo óculos fruto da parceria da EssilorLuxottica (dona da Ray-Ban) e a Meta, que surgiu combinando o design icônico da Ray-Ban Wayfarer, criado em 1956, com as tecnologias atuais desenvolvidas na Meta.
 Nesse artigo eu vou trazer uma perspectiva mais pessoal do que eu imagino ser os primeiros usos interessantes na educação. Agora se você quiser ver uma análise completa do Ray-Ban Meta Wayfarer, existem ótimas análises e reviews por aí, mas para quem não conhece, vai uma rápida explicação: estamos falando de um óculos aparentemente como qualquer outro, a diferença é que ele é equipado com muita, mas muita, tecnologia! 
 Por exemplo, na armação existem duas câmeras que passam despercebidas pela maioria das pessoas e que permite capturar fotos e vídeos em alta definição.
+
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-1.png)
+
 
 O Wayfarer é uma aposta da Meta em uma abordagem mais discreta e integrada.
 Para garantir que as gravações não passem despercebidas, a Meta adicionou um LED próximo à câmera que pisca sempre que uma foto ou vídeo é capturado.
@@ -27,7 +33,11 @@ Hey Meta, what are you seeing now?
 O óculos pode agora responder à perguntas contextualizadas como "O que você está vendo agora?", capturando imagens do ambiente imediato. Isso não só amplia o potencial de uso em situações cotidianas, mas também abre possibilidades para inúmeras aplicações, incluindo áreas como acessibilidade.
 Vou tentar ilustrar no diagrama abaixo como funciona a experiência com o Ray-Ban Meta integrado com a Meta AI.
 
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-2.png)
 Fluxo de uso das funcionalidades de IA no Ray-Ban Meta
+
+![](https://github.com/maluta/maluta.github.com/raw/master/images/ray-ban-meta-3.png)
+
 No Meta View, aplicativo que integra o óculos com o smartphone, é possível acessar o histórico de interações.
 
 É possível acessar o histórico de interações no aplicativo Meta View
