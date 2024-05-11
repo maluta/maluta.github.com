@@ -2,8 +2,27 @@
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img style="max-width: 100%;" src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
-          <span style="font-family: 'Special Elite'; font-size: 18px; color: black;">💬 This page hosts a collection of content, some of which dates back to my university days. My posting frequency has been inconsistent—there were periods of high activity followed by long periods of inactivity. I didn't delete anything; I retained all the data even after making some platform transitions. This blog acts as a kind of public memoir of things I've shared before, so maybe it can inspire me to contribute more consistently. Anyway, if you are here, I hope you find something you enjoy. — <span style="color: #cc3300c4;">Tiago Maluta</span></span>
 
+          <a href="#" id="openPopup">💬 entenda</a>
+
+          <div id="overlay"></div>
+          <div id="popup">
+            <span style="font-family: 'Special Elite'; font-size: 18px; color: black;">💬 This page hosts a collection of content, some of which dates back to my university days. My posting frequency has been inconsistent—there were periods of high activity followed by long periods of inactivity. I didn't delete anything; I retained all the data even after making some platform transitions. This blog acts as a kind of public memoir of things I've shared before, so maybe it can inspire me to contribute more consistently. Anyway, if you are here, I hope you find something you enjoy. — <span style="color: #cc3300c4;">Tiago Maluta</span></span>
+            <button id="closePopup">Close / Fechar</button>
+          </div>
+
+        <script>
+              document.getElementById('openPopup').addEventListener('click', function(event) {
+              event.preventDefault();
+              document.getElementById('popup').style.display = 'block';
+              document.getElementById('overlay').style.display = 'block';
+              });
+
+              document.getElementById('closePopup').addEventListener('click', function() {
+              document.getElementById('popup').style.display = 'none';
+              document.getElementById('overlay').style.display = 'none';
+              });
+        </script>
 
           <!-- <span style="font-family: 'EB Garamond'; font-size: 16px;">Sharing a passion for product and data, grounded in technology / open source / social impact / education + reflections with a dash of curiosity.</b></span><br> -->
           <!-- <span style="font-family: 'EB Garamond'; font-size: 16px;"></a> -->
