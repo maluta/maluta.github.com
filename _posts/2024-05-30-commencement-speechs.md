@@ -4,7 +4,6 @@ title: My fav commencement speechs
 desc: 
 proj-url:
 proj-num: 01
-new: true
 draft: true
 ---
 
