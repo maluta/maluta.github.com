@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Microsoft 🫱🏻‍🫲🏽 [ place you AI company/project here]
+title: Microsoft 🫱🏻‍🫲🏽 [insert the name of your AI company/project here]
 desc: 
 proj-url:
 proj-num: 01
