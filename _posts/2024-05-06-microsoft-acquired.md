@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Acquired] The Complete History & Strategy of Microsoft
+title: Acquired - The Complete History & Strategy of Microsoft
 desc: 
 proj-url:
 proj-num: 01
@@ -13,8 +13,7 @@ draft: false
 
 Com tantas novidades, nem parece que a Microsoft está prestes a comemorar seu 50º aniversário no próximo ano, enquanto seu co-fundador, Bill Gates, celebrará 70 anos em 2025. Nas pouco mais de 4 horas de podcast sobre os primeiros 25 anos da Microsoft (1970 - 1995), no Acquired, aprendi bastante (algumas das quais eu pensava já conhecer) e que compartilho aqui para quem se interessar mas não vai ouvir tudo 
 
-
-Notas
+Notas após ouvir o podcast.
 
 # 1. "Disruptive Innovation" before the hype
 
