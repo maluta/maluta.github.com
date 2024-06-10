@@ -11,16 +11,16 @@ draft: false
 
 *Como eu faço para gerar um resumo de conversas no WhatsApp?*
 
-**1. Extração da Conversa**
+**1. Extração das Conversas**
 
 Inicialmente, é preciso exportar a conversa desejada diretamente do aplicativo do WhatsApp. 
 
-Para tal, acesse o menu através de `⋮ → Mais opções → Mais → Exportar conversa` para obter o arquivo com o histórico de mensagens. O histórico da sua conversa será enviado em formato .zip e pode ser encaminhado por diferentes meio, eu geralmente tenho anexado a um e-mail.
+Para tal, acesse o menu através de `⋮ → Mais opções → Mais → Exportar conversa` para obter o arquivo com o histórico de mensagens. O histórico da sua conversa será enviado em formato .zip e pode ser encaminhado por diferentes meios, eu geralmente tenho anexado a um e-mail.
 
 Veja aqui mais detalhes de [como fazer](https://faq.whatsapp.com/1180414079177245/) esse processo.
 
 
-**1.1 Segmentação** (Opcional)
+**1.1 Segmentação do histórico** (Opcional)
 
 Para concentrar em uma janela de tempo específica, você pode editar o arquivo texto com o histórico da conversa.
 
@@ -43,3 +43,5 @@ Algumas notas:
 **3. Compartilhamento dos Resultados**
 
 Após a análise, faço as edições necessárias nos resumos gerados, dependdo do lugar onde eu vou postar eu faço ajustes para formatar o texto em markdown, HTML ou outro formato.
+
+> Veja um [exemplo](https://sites.google.com/view/aprendizados-ia-educacao/home/semana-2705-0306) usando o Google Sites a partir do [prompt](https://docs.google.com/document/d/1epgEfimlHJHnlZtCizDTGm6NrDS-H3vgnnJjysuaOkY/edit) mencionado anteriormente.
