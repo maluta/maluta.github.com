@@ -15,7 +15,7 @@ draft: false
 
 Inicialmente, é preciso exportar a conversa desejada diretamente do aplicativo do WhatsApp. 
 
-Para tal, acesse o menu através de `⋮ → Mais opções → Mais → Exportar conversa` para obter o arquivo com o histórico de mensagens. O histórico da sua conversa será enviado em formato .zip e anexado a um e-mail.
+Para tal, acesse o menu através de `⋮ → Mais opções → Mais → Exportar conversa` para obter o arquivo com o histórico de mensagens. O histórico da sua conversa será enviado em formato .zip e pode ser encaminhado por diferentes meio, eu geralmente tenho anexado a um e-mail.
 
 Veja aqui mais detalhes de [como fazer](https://faq.whatsapp.com/1180414079177245/) esse processo.
 
