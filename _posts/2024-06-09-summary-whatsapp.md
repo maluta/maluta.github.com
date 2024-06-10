@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sumarizando conversar no Whatsapp com IA
+title: Sumarizando Conversas no WhatsApp com IA
 desc: 
 proj-url:
 proj-num: 01
