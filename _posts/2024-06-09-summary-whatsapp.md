@@ -37,7 +37,7 @@ Algumas notas:
 
 - Com base nos testes realizados, recomendo a utilização de modelos avançados como o GPT-4 ou Gemini 1.5. Estes modelos possuem maior capacidade para processar e compreender o contexto das conversas, o que facilita uma análise mais detalhada e a geração de insights significativos. 
 
-- Para lidar com históricos de dados extensos, recomendo o uso do AI Studio ([aistudio.google.com](https://aistudio.google.com)). Este serviço é um dos poucos que oferece uma interface simples e eficaz para trabalhar com grandes janelas de contexto, suportando até 1 milhão de tokens.
+- Para lidar com históricos com muitas mensagens, recomendo o uso do AI Studio ([aistudio.google.com](https://aistudio.google.com)). Este serviço (até então gratuito) é um dos poucos que oferece uma interface simples e eficaz para trabalhar com grandes janelas de contexto, suportando até 1 milhão de tokens. *Nota: Nos meus testes tenho gostado dos resutaldos usando o Gemini 1.5 Pro.*
 
 
 **3. Compartilhamento dos Resultados**
