@@ -1,109 +1,107 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style type="text/css">
-
-	body {
-	    font: 22px sans-serif;
-      font-family: monospace;
-	}
-	.linage {
-	    fill: none;
-      border: 20px;
-	    stroke: #000;
-	}
-	.marriage {
-	    fill: none;
-	    stroke: black;
-	}
-	.man {
-	    background-color: #73D6D1;
-			border-style: dotted;
-			border-width: 2px;
-	}
-  .man:hover {
-    background-color: yellow;
-    cursor: pointer;
-  }
-	.woman {
-			background-color: #C8DDDD;
-			border-style: solid;
-			border-width: 2px;
-	}
-	.emphasis{
-			font-style: italic;
-	}
-	p {
-		padding:0;
-		margin:0;
-	}
-  .tooltip {
-      position: relative;
-      display: inline-block;
-      border-bottom: 1px dotted black;
-  }
-
-  .tooltip .tooltiptext {
-      visibility: hidden;
-      width: 120px;
-      background-color: black;
-      color: #fff;
-      text-align: center;
-      border-radius: 6px;
-      padding: 5px 0;
-
-      /* Position the tooltip */
-      position: relative;
-      z-index: 1;
-  }
-
-  .tooltip:hover .tooltiptext {
-      visibility: visible;
-  }
-
+    body {
+        font: 22px sans-serif;
+        font-family: monospace;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .linage {
+        fill: none;
+        border: 20px;
+        stroke: #000;
+    }
+    .marriage {
+        fill: none;
+        stroke: black;
+    }
+    .man {
+        background-color: #73D6D1;
+        border-style: dotted;
+        border-width: 2px;
+    }
+    .man:hover {
+        background-color: yellow;
+        cursor: pointer;
+    }
+    .woman {
+        background-color: #C8DDDD;
+        border-style: solid;
+        border-width: 2px;
+    }
+    .emphasis {
+        font-style: italic;
+    }
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+    }
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: relative;
+        z-index: 1;
+    }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+    #graph {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fafafa;
+    }
 </style>
 <script src="lodash.min.js"></script>
 <script src="d3.v4.min.js"></script>
 <script src="dTree.min.js"></script>
 <body>
-		<h1>Maluta family</h1>
-		<p style='background-color:yellow;'>
-    <center><div id="graph" style="width: 100%; height: auto; background-color:#fafafa;"></div></center>
-	  </p>
-		<script>
-      treeJson = d3.json("maluta.json", function(error, treeData) {
-      	dTree.init(treeData,
-					{
-						target: "#graph",
-						debug: false,
-						height: 2500,
-						width: 1000,
-						callbacks: {
-							nodeClick: function(name, extra) {
-								console.log(name);
-							},
-							textRenderer: function(name, extra, textClass, tooltip) {
-               text_tooltip = '<div class="tooltip"><span class="tooltiptext">' + tooltip + '</span></div>';
-
-                if (extra && extra.nickname)
-									name = name + " <span style='font-size:10px;'>(" + extra.nickname + ")</span>";
-								  return "<p align='center' class='" + textClass + "'>" + name + "</p>" + text_tooltip;
-							}
-						},
-						margin: {
-    					top: 0,
-    				  right: 0,
-    				  bottom: 0,
-    					left: 0
-  				},
-  				nodeWidth: 100,
-  				styles: {
-    				node: 'node',
-    			  linage: 'linage',
-    				marriage: 'marriage',
-    				text: 'nodeText'
-  				}
-					});
-    	});
+    <h1>Maluta family</h1>
+    <div id="graph"></div>
+    <script>
+        treeJson = d3.json("maluta.json", function(error, treeData) {
+            dTree.init(treeData, {
+                target: "#graph",
+                debug: false,
+                height: window.innerHeight,
+                width: window.innerWidth,
+                callbacks: {
+                    nodeClick: function(name, extra) {
+                        console.log(name);
+                    },
+                    textRenderer: function(name, extra, textClass, tooltip) {
+                        text_tooltip = '<div class="tooltip"><span class="tooltiptext">' + tooltip + '</span></div>';
+                        if (extra && extra.nickname)
+                            name = name + " <span style="font-size:10px;">(" + extra.nickname + ")</span>";
+                        return "<p align='center' class='" + textClass + "'>" + name + "</p>" + text_tooltip;
+                    }
+                },
+                margin: {
+                    top: 0,
+                    right: 0,
+                    bottom: 0,
+                    left: 0
+                },
+                nodeWidth: 100,
+                styles: {
+                    node: 'node',
+                    linage: 'linage',
+                    marriage: 'marriage',
+                    text: 'nodeText'
+                }
+            });
+        });
     </script>
 </body>
 </html>
