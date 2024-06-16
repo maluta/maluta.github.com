@@ -83,7 +83,7 @@
                     textRenderer: function(name, extra, textClass, tooltip) {
                         text_tooltip = '<div class="tooltip"><span class="tooltiptext">' + tooltip + '</span></div>';
                         if (extra && extra.nickname)
-                            name = name + " <span style="font-size:10px;">(" + extra.nickname + ")</span>";
+                            name = name + " <span style='font-size:10px;'>(" + extra.nickname + ")</span>";
                         return "<p align='center' class='" + textClass + "'>" + name + "</p>" + text_tooltip;
                     }
                 },
