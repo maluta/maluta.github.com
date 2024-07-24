@@ -47,7 +47,7 @@ hr{
 	list-style: none;
 	padding: 5px 0px;
 	margin: 0;
-	color: #777;
+	color: #2c2b2b;
 	border-bottom: 1px solid #eee;
 }
 
@@ -63,7 +63,7 @@ hr{
 }
 
 h1, h2, h3, h4{
-	color: #555;
+	color: #0e0d0d;
 	/*font-family: Futura, Helvetica, sans-serif;*/
 	font-family: 'et-book 27px', serif;
 	/* font-family: 'Slabo 27px', serif; */
