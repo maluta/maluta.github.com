@@ -10,6 +10,8 @@ draft: false
 
 # Links que foram publicado sobre o AIED
 
+_Fonte: LinkedIn e outros_
+
 ## Porvir
 
 - [Como tomar decisões a partir dos novos problemas trazidos pela IA?](https://porvir.org/aied-2024-como-tomar-decisoes-ia-na-educacao/)
@@ -37,7 +39,7 @@ draft: false
 
 ### Rafael Mello
 
-- [Comentário em video sobre o encerrament do AIED](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-aied2024-educaaexaeto-activity-7217661954830557188-kPN-?utm_source=share&utm_medium=member_desktop)
+- [Comentário em video sobre o encerramento do AIED](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-aied2024-educaaexaeto-activity-7217661954830557188-kPN-?utm_source=share&utm_medium=member_desktop)
 - [Sobre o último dia](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-inovacao-educacao-ugcPost-7217587887922434048-WJA9?utm_source=share&utm_medium=member_desktop)
 - [Video do Ig e Rafael comentando sobre o AIED](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-inovacao-aied-activity-7217252662285594625-kEPz?utm_source=share&utm_medium=member_desktop)
 - [Sobre o Keynote de hoje: “Navigating the Evolution: The Rising Tide of Large Language Models for AI and Education”, com Peter Clark](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-ia-educaaexaeto-activity-7217162419658248193-Ciaj?utm_source=share&utm_medium=member_desktop)
@@ -51,6 +53,10 @@ draft: false
 ### Christian M. Stracke
 
 - [Systematic Literature Review on Ethical Artificial Intelligence and Education](https://www.linkedin.com/pulse/systematic-literature-review-ethical-artificial-christian-m-stracke-a8lae/?trackingId=wPz3h8PCR4S0NQxNjiOGYA%3D%3D)
+
+### Irene-Angelica Chounta
+
+- [Sobre o paper "Beyond the Grey Area: Exploring the Effectiveness of Scaffolding as a Learning Measure."](https://www.linkedin.com/posts/houren_aied2024-aied2024-zpd-activity-7218702537380560897-_o2N?utm_source=share&utm_medium=member_desktop)
 
 ---
 
@@ -80,12 +86,16 @@ draft: false
 
 - [AIED2024 Recife, Brasile. Padre Carrara al 25th International Conference on AI in Education](https://albertocarrara.com/2024/07/aied2024-recife-brasile-padre-carrara-al-25th-international-conference-on-ai-in-education/)
 
+---
+
 ## Mídia 
 
 ### G1
 
 - [Conferência no Recife debate Inteligência Artificial na educação](https://g1.globo.com/pe/pernambuco/ne2/video/conferencia-no-recife-debate-inteligencia-artificial-na-educacao-12747392.ghtml)
 
+
+---
 
 ## Minhas publicações 
 
