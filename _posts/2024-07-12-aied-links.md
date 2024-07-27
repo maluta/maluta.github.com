@@ -1,0 +1,64 @@
+---
+layout: post
+title: AIED 
+desc: 
+proj-url:
+proj-num: 01
+draft: false
+---
+
+
+# Links que foram publicado sobre o AIED
+
+## Porvir
+
+- [Como tomar decisões a partir dos novos problemas trazidos pela IA?](https://porvir.org/aied-2024-como-tomar-decisoes-ia-na-educacao/)
+- [O que significa IA desplugada e como ela colabora com a educação](https://porvir.org/ia-desplugada-educacao/)
+- [“Precisamos criar tecnologias que se adaptem às realidades das escolas brasileiras”](https://porvir.org/entrevista-seiji-isotani/)
+
+---
+
+## NEES
+
+-  [Ig Ibert Bittencourt e Rafael Ferreira Mello fazem um balanço do evento](https://www.linkedin.com/posts/neesufal_nees-ufal-iaied-activity-7217596299028664320-ilCT?utm_source=share&utm_medium=member_desktop)
+-  [Primeiro dia](https://www.linkedin.com/posts/neesufal_nees-ufal-iaied-activity-7216193598533361665-8Eww?utm_source=share&utm_medium=member_desktop)
+-  [Último dia](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-inovacao-educacao-ugcPost-7217587887922434048-WJA9?utm_source=share&utm_medium=member_desktop)
+-  [Pesquisadores do NEES mostraram diversos trabalhos na 25ª Conferência Internacional sobre Inteligência Artificial na Educação (AIED 2024), que acontece no Recife](https://www.linkedin.com/posts/neesufal_nees-aied2024-ugcPost-7217246345219194880-PhMZ?utm_source=share&utm_medium=member_desktop)
+-  [Sobre o Keynote "Navigating the Evolution: The Rising Tide of Large Language Models for Al and Education" do Peter Clark](https://www.linkedin.com/posts/neesufal_nees-aied2024-ia-activity-7217257111913656321-vfuI?utm_source=share&utm_medium=member_desktop)
+-  [Sobre a palestra de abertura da Blaženka Divjak ](https://www.linkedin.com/posts/neesufal_abertura-da-aied-2024-no-recife-activity-7216812514301345793-OiwF?utm_source=share&utm_medium=member_desktop)
+
+---
+
+## Pesquisadores
+
+### Rafael Mello
+
+- [Comentário em video sobre o encerrament do AIED](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-aied2024-educaaexaeto-activity-7217661954830557188-kPN-?utm_source=share&utm_medium=member_desktop)
+- [Sobre o último dia](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-inovacao-educacao-ugcPost-7217587887922434048-WJA9?utm_source=share&utm_medium=member_desktop)
+- [Video do Ig e Rafael comentando sobre o AIED](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-inovacao-aied-activity-7217252662285594625-kEPz?utm_source=share&utm_medium=member_desktop)
+- [Sobre o Keynote de hoje: “Navigating the Evolution: The Rising Tide of Large Language Models for AI and Education”, com Peter Clark](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-ia-educaaexaeto-activity-7217162419658248193-Ciaj?utm_source=share&utm_medium=member_desktop)
+- [Mais algumas fotos da conferência](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-activity-7217143634700226561-BCLp?utm_source=share&utm_medium=member_desktop)
+- [Conversando com o prof. Seiji Isotani](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-activity-7216817416633257985-fOHW?utm_source=share&utm_medium=member_desktop)
+- [Sobre o keynote da A profª. Dra. Blaženka Divjak, ex-ministra da Ciência e Educação da Croácia](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-ia-educaaexaeto-activity-7216479885265952770-9Yk_?utm_source=share&utm_medium=member_desktop)
+- [Video sobre o primeiro dia do evento](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-educaaexaeto-inteligaeanciaartificial-activity-7216403942887350272-LzNG?utm_source=share&utm_medium=member_desktop)
+- [Post com algumas fotos do AIED](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-aiineducation-educationalinnovation-activity-7216084314097123328-Wo7h?utm_source=share&utm_medium=member_desktop)
+- [Video de Boas-vindas ao AIED](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-ia-educacao-activity-7216057409822216194-SWZC?utm_source=share&utm_medium=member_desktop)
+
+
+---
+
+## Participantes 
+
+### Leonardo Longo
+
+-  Notas no LinkedIn sobre o [Primeiro Dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7216466232647045122-AUge?utm_source=share&utm_medium=member_desktop)
+-  Notas no LinkedIn sobre o [Segundo Dia](https://www.linkedin.com/posts/leolongo_iaed-ia-aied2024-activity-7216803710125957120-EgeF?utm_source=share&utm_medium=member_desktop)
+-  Notas no LinkedIn sobre o [Terceiro Dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7217112030141415425-iDK5?utm_source=share&utm_medium=member_desktop)
+-  Notas no LinkedIn sobre o [Quarto Dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7217508081738407936-7VP7?utm_source=share&utm_medium=member_desktop) 
+- [Brasil sedia maior conferência internacional de IA aplicada à educação](https://fastcompanybrasil.com/tech/inteligencia-artificial/brasil-sedia-maior-conferencia-internacional-de-ia-aplicada-a-educacao/) (artigo publicado na FastCompany Brazil)
+
+## Mídia 
+
+# G1
+
+- [Conferência no Recife debate Inteligência Artificial na educação](https://g1.globo.com/pe/pernambuco/ne2/video/conferencia-no-recife-debate-inteligencia-artificial-na-educacao-12747392.ghtml)
