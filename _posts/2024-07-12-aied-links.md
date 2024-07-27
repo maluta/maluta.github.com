@@ -27,6 +27,12 @@ draft: false
 -  [Sobre o Keynote "Navigating the Evolution: The Rising Tide of Large Language Models for Al and Education" do Peter Clark](https://www.linkedin.com/posts/neesufal_nees-aied2024-ia-activity-7217257111913656321-vfuI?utm_source=share&utm_medium=member_desktop)
 -  [Sobre a palestra de abertura da Blaženka Divjak ](https://www.linkedin.com/posts/neesufal_abertura-da-aied-2024-no-recife-activity-7216812514301345793-OiwF?utm_source=share&utm_medium=member_desktop)
 
+## CESAR School
+
+- [Sobre o último dia](https://www.linkedin.com/posts/cesarschool_aied-activity-7217652605802450944-1QRN?utm_source=share&utm_medium=member_desktop)
+
+
+
 ---
 
 ## Pesquisadores
@@ -44,6 +50,10 @@ draft: false
 - [Post com algumas fotos do AIED](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-aiineducation-educationalinnovation-activity-7216084314097123328-Wo7h?utm_source=share&utm_medium=member_desktop)
 - [Video de Boas-vindas ao AIED](https://www.linkedin.com/posts/rafael-ferreira-mello-989b3b37_aied2024-ia-educacao-activity-7216057409822216194-SWZC?utm_source=share&utm_medium=member_desktop)
 
+### Christian M. Stracke
+
+- [Systematic Literature Review on Ethical Artificial Intelligence and Education](https://www.linkedin.com/pulse/systematic-literature-review-ethical-artificial-christian-m-stracke-a8lae/?trackingId=wPz3h8PCR4S0NQxNjiOGYA%3D%3D)
+
 
 ---
 
@@ -57,8 +67,21 @@ draft: false
 -  Notas no LinkedIn sobre o [Quarto Dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7217508081738407936-7VP7?utm_source=share&utm_medium=member_desktop) 
 - [Brasil sedia maior conferência internacional de IA aplicada à educação](https://fastcompanybrasil.com/tech/inteligencia-artificial/brasil-sedia-maior-conferencia-internacional-de-ia-aplicada-a-educacao/) (artigo publicado na FastCompany Brazil)
 
+### T.H. Son Pham
+
+- [On the 3rd day of hashtag#AIED2024](https://www.linkedin.com/posts/being-there_aied2024-aied-generativeai-activity-7216907469996912642-s5x_?utm_source=share&utm_medium=member_desktop)
+
+### Henrique Lópes Nóbrega
+
+- [Sobre a participação no AIED](https://www.linkedin.com/posts/henriqueln7_aied2024-activity-7222740974857277440-PTcP?utm_source=share&utm_medium=member_desktop)
+
+
+### Alberto Carrara
+
+- [AIED2024 Recife, Brasile. Padre Carrara al 25th International Conference on AI in Education](https://albertocarrara.com/2024/07/aied2024-recife-brasile-padre-carrara-al-25th-international-conference-on-ai-in-education/)
+
 ## Mídia 
 
-# G1
+### G1
 
 - [Conferência no Recife debate Inteligência Artificial na educação](https://g1.globo.com/pe/pernambuco/ne2/video/conferencia-no-recife-debate-inteligencia-artificial-na-educacao-12747392.ghtml)
