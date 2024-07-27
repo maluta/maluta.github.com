@@ -31,8 +31,6 @@ draft: false
 
 - [Sobre o último dia](https://www.linkedin.com/posts/cesarschool_aied-activity-7217652605802450944-1QRN?utm_source=share&utm_medium=member_desktop)
 
-
-
 ---
 
 ## Pesquisadores
@@ -54,22 +52,24 @@ draft: false
 
 - [Systematic Literature Review on Ethical Artificial Intelligence and Education](https://www.linkedin.com/pulse/systematic-literature-review-ethical-artificial-christian-m-stracke-a8lae/?trackingId=wPz3h8PCR4S0NQxNjiOGYA%3D%3D)
 
-
 ---
 
 ## Participantes 
 
 ### Leonardo Longo
 
--  Notas no LinkedIn sobre o [Primeiro Dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7216466232647045122-AUge?utm_source=share&utm_medium=member_desktop)
--  Notas no LinkedIn sobre o [Segundo Dia](https://www.linkedin.com/posts/leolongo_iaed-ia-aied2024-activity-7216803710125957120-EgeF?utm_source=share&utm_medium=member_desktop)
--  Notas no LinkedIn sobre o [Terceiro Dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7217112030141415425-iDK5?utm_source=share&utm_medium=member_desktop)
--  Notas no LinkedIn sobre o [Quarto Dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7217508081738407936-7VP7?utm_source=share&utm_medium=member_desktop) 
+-  Notas no LinkedIn sobre o [primeiro dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7216466232647045122-AUge?utm_source=share&utm_medium=member_desktop)
+-  Notas no LinkedIn sobre o [segundo dia](https://www.linkedin.com/posts/leolongo_iaed-ia-aied2024-activity-7216803710125957120-EgeF?utm_source=share&utm_medium=member_desktop)
+-  Notas no LinkedIn sobre o [terceiro dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7217112030141415425-iDK5?utm_source=share&utm_medium=member_desktop)
+-  Notas no LinkedIn sobre o [quarto dia](https://www.linkedin.com/posts/leolongo_aied-ia-aied2024-activity-7217508081738407936-7VP7?utm_source=share&utm_medium=member_desktop) 
 - [Brasil sedia maior conferência internacional de IA aplicada à educação](https://fastcompanybrasil.com/tech/inteligencia-artificial/brasil-sedia-maior-conferencia-internacional-de-ia-aplicada-a-educacao/) (artigo publicado na FastCompany Brazil)
 
 ### T.H. Son Pham
 
-- [On the 3rd day of hashtag#AIED2024](https://www.linkedin.com/posts/being-there_aied2024-aied-generativeai-activity-7216907469996912642-s5x_?utm_source=share&utm_medium=member_desktop)
+- [Sobre o terceiro dia](https://www.linkedin.com/posts/being-there_aied2024-aied-generativeai-activity-7216907469996912642-s5x_?utm_source=share&utm_medium=member_desktop)
+- [Sobre o keynote do prof. Seiji](https://www.linkedin.com/posts/being-there_aied2024-ai-aied-activity-7216777478416003075-sSG_?utm_source=share&utm_medium=member_desktop)
+- [Sobre o segundo dia](https://www.linkedin.com/posts/being-there_aied2024-ai-aied-activity-7216610243194093568-FfnH?utm_source=share&utm_medium=member_desktop)
+- [Sobre o primeiro dia](https://www.linkedin.com/feed/update/urn:li:activity:7216164121560367104?utm_source=share&utm_medium=member_desktop)
 
 ### Henrique Lópes Nóbrega
 
