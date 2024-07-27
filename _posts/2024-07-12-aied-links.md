@@ -85,3 +85,8 @@ draft: false
 ### G1
 
 - [Conferência no Recife debate Inteligência Artificial na educação](https://g1.globo.com/pe/pernambuco/ne2/video/conferencia-no-recife-debate-inteligencia-artificial-na-educacao-12747392.ghtml)
+
+
+## Minhas publicações 
+
+- [Video comentando o encerramento da conferência](https://www.linkedin.com/posts/maluta_aied-activity-7217228752819240961-EbWm?utm_source=share&utm_medium=member_desktop)
