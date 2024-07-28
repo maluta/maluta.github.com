@@ -12,6 +12,8 @@ draft: false
 
 _Fonte: LinkedIn e outros_
 
+Essa não é uma lista exaustiva, se você sentiu falta de algo ou quer compartilhar algo que possa ser relevante aqui, deixe um comentário.
+
 ## Porvir
 
 - [Como tomar decisões a partir dos novos problemas trazidos pela IA?](https://porvir.org/aied-2024-como-tomar-decisoes-ia-na-educacao/)
