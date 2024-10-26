@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 366 Corrida no Ar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f1f1f1;
+            font-family: monospace;
+        }
+
+        header {
+            border: 4px solid #000;
+            padding: 20px;
+            margin-bottom: 40px;
+            background: #fff;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+        }
+
+        .description {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .video-container {
+            border: 4px solid #000;
+            background: #fff;
+            transition: transform 0.2s;
+        }
+
+        .video-container:hover {
+            transform: translateY(-5px);
+        }
+
+        .video-title {
+            padding: 15px;
+            margin: 0;
+            font-size: 1.2em;
+            border-bottom: 4px solid #000;
+        }
+
+        .video-frame {
+            aspect-ratio: 9/16;
+            width: 100%;
+            border: none;
+            display: block;
+        }
+
+        .video-meta {
+            padding: 15px;
+            border-top: 4px solid #000;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desafio 366 • Corrida no Ar</h1>
+        <div class="description">Correndo todos os dias em 2024 e registrando (algumas) dessas corridas.</div>
+        <div class="">Por <b>Tiago Maluta</b></div>
+    </header>
+    <div class="video-grid">
+        
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/ruMGwjfzRdU?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/judDj0kpXvI?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/cuTsN5Can5c?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/sq3e_ooY4LA?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/ZKIac6Xc6do?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/2aA_2ZoCDiw?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/oNOyyLeoGOc?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/g2hw71-FyEE?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/XeE4pmYIR8c?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/OmCAMesq4PE?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/b3pyC-E3et0?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/J187EbVRkwA?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São José dos Campos 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/gIWlIJAHgMs?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São José dos Campos 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/yjvRsOG70vE?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/z8PyKYmkOhw?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/lG8gW5OtiBw?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/MvxupwXJuFI?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷 | Troféu Cidade de São Paulo
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/vT9pAx7VtYE?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/m3t02lVXFZo?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/jN2wWAdRWaI?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/b-rjerzs_g8?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/AV_x0OAIkBY?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/B-uFYsp75-4?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/8QvPaZkTYTo?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/PPGHgpcP2_Y?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/B_02cbI6VHU?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/zuxaoMyGfN4?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/3bd00KM0vWw?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/cZi2-UiFxeM?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/PBnTmRezTe4?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/OB0neFzNjLI?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/sl0iHr3cKc8?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/jSx_YM0zFOk?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/tjB26Ab79So?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/IGKp9CTu95E?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/P02H6HvuRUs?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/sbbBWx8zzK8?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/cOCddx58E0o?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/h4uFMs8Thsk?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/Mmk6qJsTdA4?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/HWt9jbrchaY?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/wCRQhJG90w8?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/_nqqUT-Ejyg?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/Jr_hTkyIhJQ?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/9E-KE8Yvk_0?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/jCyi1BOkAjA?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/GGy__plPpTo?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/LN_l2lrezJg?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/Wvn3iUwjlrM?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/LXTdmykXcj8?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/gAtmMmMrcJo?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/Lb3frU5cCg4?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/SJodqtS7giY?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/xZNuWuSXGh8?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/h3fBzeALtG8?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/MCNRhEDQrjM?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/4pOKxrFxXQI?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/tiI-b7J2TF4?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/oMRBGZOauUk?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Tatuí - SP 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/UG5OWP0mYZg?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/oUTwOeSz9Ng?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/bScEWqBkVuk?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/S-DD91cYSL0?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/OQEWh02PnF8?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/cXoXbxF-XMg?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/BgpWyaf-gPM?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/I-LLMnKA5F8?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/CRGf3vuBFdc?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/5N_dQn_sa08?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/iR0g6w-YSYk?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/B0q4oCHvt-A?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São José dos Campos 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/vaJ46ZQ3CMo?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Sebastião - Maresias - SP 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/A-TFses-KJU?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Sebastião - Maresias - SP 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/uZj9E9KHKc4?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/9WzwOgoYy5U?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                New York 🇺🇸
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/OUretnXA_VY?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                New York 🇺🇸
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/DucvDbxs9rc?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo - SP 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/KqXDcH3i594?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Itupeva - SP 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/DmzWHtFiJoA?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/X9Gh8wJHykA?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo 🇧🇷 | Corrida Graac
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/o_9YqUg1Jl0?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Palo Alto 🇺🇸
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/UbrAifRMBWQ?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Brasília - DF 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/iXKRUjvXnaE?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Recife - PE 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/CiLYQPuNpMI?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                São Paulo - SP 🇧🇷
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/iSJ1gC8mHFo?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Valladolid 🇪🇸
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/EUg2EnBb23A?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Valladolid 🇪🇸
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/l-kLecD8baw?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Salamanca 🇪🇸
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/R1R7wqnDEUo?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Bilbao 🇪🇸 | ★ Bilbao Night Marathon 2024 ★
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/1d_F_2H49yk?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Bilbao 🇪🇸
+            </div>
+        </article>
+    
+
+        <article class="video-container">
+            <h2 class="video-title"></h2>
+            <iframe 
+                class="video-frame"
+                src="https://youtube.com/embed/NcyAzlhIxLI?autoplay=0&mute=1&loop=1&controls=1"
+                title="Running Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-meta">
+                Madrid 🇪🇸
+            </div>
+        </article>
+    
+    </div>
+</body>
+</html>
