@@ -7,6 +7,12 @@ proj-num: 01
 draft: false
 ---
 
+Recentemente eu [publiquei no meu LinkedIn um post](https://www.linkedin.com/posts/maluta_explorando-meus-dados-de-corrida-no-strava-activity-7256346546974171137-bTp6?utm_source=share&utm_medium=member_desktop) com uma animação sobre o uso dos meus tênis de corrida ao longo do tempo. 
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7256346498265714689?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+Abaixo eu sumarizar de forma simples como foi meu processo:
+
 ### Extraindo os dados 
 
 
