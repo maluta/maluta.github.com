@@ -11,32 +11,76 @@ Recentemente eu [publiquei no meu LinkedIn um post](https://www.linkedin.com/pos
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7256346498265714689?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-Abaixo eu sumarizar de forma simples como foi meu processo:
+Abaixo, vou resumir minhas etapa desse processo.
 
-### Extraindo os dados 
+# Extraindo os dados 
 
+A primeira coisa que fiz foi extrair os dados. Embora o Strava [acesso via API](https://developers.strava.com/docs/reference/), esse processo pode ser mais complexo. Para esta análise, optei por exportar meus dados diretamente do Strava, o que é um método mais simples e atendeu minhas necessidades.
 
-1. Acesse [strava.com/athlete/delete_your_account](https://www.strava.com/athlete/delete_your_account) e faça a solicitação dos seus dados. 
+Para exportar você precisa acessar o link [strava.com/athlete/delete_your_account](https://www.strava.com/athlete/delete_your_account) e fazer a solicitação dos seus dados. 
 
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/strava-export.png)
 
-Aguarde até receber um e-mail na sua 'Your Strava archive is ready for download' enviado por `no-reply@strava.com`
+Aguarde até receber um e-mail na sua `Your Strava archive is ready for download` (se não encontrar, tente filtrar pelo e-mail `no-reply@strava.com`)
 
 O arquivo final é um .zip com os seguintes arquivos:
 
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/strava-export-files.png)
 
 
-### Explorando os dados
+# Explorando os dados com código
 
-Eu usei o [Jupyter Notebok](https://jupyter.org/) para fazer as análises a partir do arquivo `activities.csv`
+Para facilitar eu usei a linguagem Python via [Jupyter Notebok](https://jupyter.org/) para fazer as análises a partir do arquivo `activities.csv`
 
 ```
 df = pd.read_csv('activities.csv')
+df.columns
 ```
 
 ![](https://github.com/maluta/maluta.github.com/raw/master/images/strava-columns.png)
 
+
+Outra dica importante: lembre-se de filtrar apenas as atividades específicas desejadas, principalmente se você também registra outros esportes.
+
+```
+run_df = df[df['Activity Type'] == 'Run']
+```
+
+Com esse dataset de atividades do Strava, podemos ver algumas colunas indicando o tênis usado em cada atividade. A minha ideia a partir disso foi tentar agrupar os dados por tênis e analisar métricas como a distância total percorrida, número de atividades, etc;
+
+Inicialmente, considerei utilizar as informações da coluna `Activity Gear`, onde é registrado o nome do tênis cadastrado no Strava. No entanto, percebi que essa lista estava incompleta (eu cheguei até abrir um chamado no suporte do Strava para investigar um possível bug).
+
+Minha solução foi combinar as informações das colunas `Gear` e `Activity Gear` para criar **manualmente** um dicionário que relaciona o ID de cada tênis com o respectivo nome.
+
+Primeiro eu exportei os IDs dos tênis listados.
+
+![](https://github.com/maluta/maluta.github.com/raw/master/images/strava-shoes-id.png)
+
+
+Em seguida, verifiquei quais atividades estavam presentes na lista e quais não estavam. Para as atividades não identificadas, utilizei a coluna `Activity ID` para reconstruir a URL correspondente no Strava. Com isso, acessei a interface da plataforma para conferir qual tênis foi utilizado em cada atividade.
+
+![](https://github.com/maluta/maluta.github.com/raw/master/images/strava-shoes-match.png)
+
+Com isso, consegui montar meu dicionário.
+
+![](https://github.com/maluta/maluta.github.com/raw/master/images/strava-shoes-dict.png)
+
+E finalmente, fazer a relação entre eles:
+
+```
+run_df['Gear Name'] = run_df['Gear'].map(shoes_dict)
+```
+
+# Construindo a animação
+
+Para criar a animação, utilizei o serviço online Flourish. 
+No caso, utilizei a versão gratuita da plataforma.
+
+[public.flourish.studio/visualisation/20001712/](https://public.flourish.studio/visualisation/20001712)
+
+
 ---
 
+
+Outra análise:
 ![](https://pbs.twimg.com/media/Ga59-onXsAAemX9?format=jpg&name=large)
