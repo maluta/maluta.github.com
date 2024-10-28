@@ -87,10 +87,10 @@ Além de ajustar os parâmetros, utilizei o código para reorganizar os dados, p
 [public.flourish.studio/visualisation/20001712](https://public.flourish.studio/visualisation/20001712)
 
 
+Espero que este artigo e o [notebook](https://github.com/maluta/maluta.github.com/blob/master/labs/strava/Strava%20Analysis.ipynb) sejam um bom ponto de partida para quem deseja entender melhor seus dados do Strava. 
+
+Existem inúmeras possibilidades, você pode usá-lo para identificar padrões de desempenho, explorar quais fatores influenciam suas atividades e até para definir metas mais realistas.
+
 ---
->>> acesse o [notebook aqui](https://github.com/maluta/maluta.github.com/blob/master/labs/strava/Strava%20Analysis.ipynb) <<<
-
-
-
 Outra análise:
 ![](https://pbs.twimg.com/media/Ga59-onXsAAemX9?format=jpg&name=large)
