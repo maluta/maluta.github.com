@@ -73,8 +73,14 @@ run_df['Gear Name'] = run_df['Gear'].map(shoes_dict)
 
 # Construindo a animação
 
-Para criar a animação, utilizei o serviço online Flourish. 
-No caso, utilizei a versão gratuita da plataforma.
+Para criar a animação, utilizei o serviço online Flourish (utilizei a versão gratuita da plataforma).
+
+Além de ajustar os parâmetros, utilizei o código para reorganizar os dados, pois, no Flourish, o "tempo" precisa ser apresentado em formato de colunas.
+
+![](https://github.com/maluta/maluta.github.com/raw/master/images/strava-flourish-data.png)
+
+
+### O resultado final:
 
 [public.flourish.studio/visualisation/20001712/](https://public.flourish.studio/visualisation/20001712)
 
