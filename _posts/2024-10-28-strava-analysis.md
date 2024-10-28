@@ -30,6 +30,8 @@ O arquivo final é um .zip com os seguintes arquivos:
 
 # Explorando os dados com código
 
+Todo código que utilizei pode ser [acessado aqui](https://github.com/maluta/maluta.github.com/blob/master/labs/strava/Strava%20Analysis.ipynb)
+
 Para facilitar eu usei a linguagem Python via [Jupyter Notebok](https://jupyter.org/) para fazer as análises a partir do arquivo `activities.csv`
 
 ```
@@ -82,10 +84,12 @@ Além de ajustar os parâmetros, utilizei o código para reorganizar os dados, p
 
 ### O resultado final:
 
-[public.flourish.studio/visualisation/20001712/](https://public.flourish.studio/visualisation/20001712)
+[public.flourish.studio/visualisation/20001712](https://public.flourish.studio/visualisation/20001712)
 
 
 ---
+>>> acesse o [notebook aqui](https://github.com/maluta/maluta.github.com/blob/master/labs/strava/Strava%20Analysis.ipynb) <<<
+
 
 
 Outra análise:
