@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Chatisco - Random AI</title>
+    <script defer data-domain="fundacaolemann.github.io" src="https://plausible.io/js/script.js"></script>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fafafa;
+            font-size: 32px;
+        }
+        .loader {
+            margin-bottom: 20px;
+        }
+        .message {
+            color: #252525;
+            font-size: 48px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">⏳</div>
+    <div class="message">Redirecionando...</div>
+    <div id="fallback"></div>
+
+    <script>
+        // List of URLs to redirect to
+        const urls = [
+            'https://chat.openai.com',
+            'https://gemini.google.com/app',
+            'https://copilot.microsoft.com',
+            'https://www.perplexity.ai',
+            'https://duckduckgo.com/chat'
+        ];
+
+        // Function to get a random URL from the array
+        function getRandomUrl() {
+            const randomIndex = Math.floor(Math.random() * urls.length);
+            return urls[randomIndex];
+        }
+
+        // Get random URL
+        const redirectUrl = getRandomUrl();
+
+        // Create fallback link
+        document.getElementById('fallback').innerHTML = 
+            `<br><b>Vamos de ${redirectUrl}!</b> <br>Se você não for redirecionado automaticamente, <a href="${redirectUrl}">clique aqui</a>.`;
+
+        // Perform the redirect
+        window.setTimeout(function() {
+            window.location.href = redirectUrl;
+        }, 1500); // Redirect after 1.5 seconds
+    </script>
+</body>
+</html>
