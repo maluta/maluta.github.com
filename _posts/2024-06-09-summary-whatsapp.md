@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sumarizando Conversas no WhatsApp com IA
+title: Resumindo histórico de conversas no WhatsApp com LLMs
 desc: 
 proj-url:
 proj-num: 01

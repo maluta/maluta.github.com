@@ -1,12 +1,13 @@
 ---
 layout: post
-title: AIED 
+title: Resumo de Publicações e Destaques da Conferência AIED 2024  
 desc: 
 proj-url:
 proj-num: 01
 draft: false
 ---
 
+25th International Conference on Artificial Intelligence in Education (AIED 2024)
 
 # Links que foram publicado sobre o AIED
 

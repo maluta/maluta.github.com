@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Acquired - The Complete History & Strategy of Microsoft
+title: 7 insights após ouvir o Podcast "The Complete History & Strategy of Microsoft" no Acquired
 desc: 
 proj-url:
 proj-num: 01

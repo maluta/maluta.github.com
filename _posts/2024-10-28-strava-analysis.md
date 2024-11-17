@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Strava Analysis 
+title: Visualizando o uso dos meus tênis de corrida ao longo do tempo com dados do Strava 
 desc: 
 proj-url:
 proj-num: 01
