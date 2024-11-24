@@ -11,25 +11,106 @@
             background-color: #f4f4f9;
             color: #333;
         }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .columns {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        @media (max-width: 1024px) {
+            .columns {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .columns {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .month-section {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .month-header {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #0056b3;
+            color: white;
+            border-radius: 4px;
+            margin: -15px -15px 15px -15px;
+        }
+
+        .month-header:hover {
+            background: #003d82;
+        }
+
+        .month-content {
+            display: none;
+        }
+
+        .month-content.active {
+            display: block;
+        }
+
+        .toggle-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .month-header.active .toggle-icon {
+            transform: rotate(180deg);
+        }
+
         h2, h3 {
             color: #0056b3;
+            margin-top: 0;
         }
+
+        .month-header h3 {
+            color: white;
+            margin: 0;
+        }
+
         p, li {
             line-height: 1.6;
         }
+
         ul {
             list-style-type: square;
             padding-left: 20px;
         }
+
         strong {
             color: #d9534f;
         }
     </style>
 </head>
 <body>
+    <div class="container">
+        <h2 id="resumo-das-intera-es-no-grupo-do-whatsapp">Resumo das Interações no Grupo do WhatsApp</h2>
+        <p>Este resumo apresenta os principais temas discutidos em um grupo do WhatsApp durante os meses de Janeiro a Novembro de 2024.</p>
+        
+        <div class="columns">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
 
-<h2 id="resumo-das-intera-es-no-grupo-do-whatsapp">Resumo das Interações no Grupo do WhatsApp</h2>
-<p>Este resumo apresenta os principais temas discutidos em um grupo do WhatsApp durante os meses de Janeiro a Novembro de 2024.</p>
 <h3 id="janeiro">Janeiro</h3>
 <p><strong>Tema: ChatGPT e escrita acadêmica</strong></p>
 <ul>
@@ -296,6 +377,83 @@
 <li><strong>&quot;LinkedIn AI Assistant&quot;:</strong> Continuação da discussão sobre o &quot;LinkedIn AI Assistant&quot;, com o compartilhamento de um artigo sobre a necessidade de regulamentações de privacidade para IA generativa.</li>
 <li><strong>Vídeo da Enel:</strong> Compartilhamento de vídeo humorístico sobre a qualidade do serviço da Enel em São Paulo.</li>
 </ul>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Wrap each month section
+    document.querySelectorAll('h3').forEach(header => {
+        if (header.id) {
+            const content = document.createElement('div');
+            let nextElement = header.nextElementSibling;
+            const section = document.createElement('div');
+            section.className = 'month-section';
+            
+            // Create header with toggle icon
+            const monthHeader = document.createElement('div');
+            monthHeader.className = 'month-header';
+            monthHeader.innerHTML = `
+                <h3>${header.textContent}</h3>
+                <span class="toggle-icon">▼</span>
+            `;
+            
+            // Create content container
+            const monthContent = document.createElement('div');
+            monthContent.className = 'month-content';
+            
+            // Move content
+            while (nextElement && nextElement.tagName !== 'H3') {
+                const clone = nextElement.cloneNode(true);
+                monthContent.appendChild(clone);
+                const temp = nextElement.nextElementSibling;
+                nextElement.remove();
+                nextElement = temp;
+            }
+            
+            section.appendChild(monthHeader);
+            section.appendChild(monthContent);
+            header.parentNode.replaceChild(section, header);
+        }
+    });
+
+    // Distribute sections among columns
+    const columns = document.querySelectorAll('.column');
+    const sections = document.querySelectorAll('.month-section');
+    const sectionsPerColumn = Math.ceil(sections.length / 3);
+    
+    sections.forEach((section, index) => {
+        const columnIndex = Math.floor(index / sectionsPerColumn);
+        if (columnIndex < 3) {
+            columns[columnIndex].appendChild(section);
+        }
+    });
+
+    // Add click handlers
+    document.querySelectorAll('.month-header').forEach(header => {
+        header.addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            const isActive = content.classList.contains('active');
+            
+            // Close all other sections
+            document.querySelectorAll('.month-content').forEach(c => {
+                c.classList.remove('active');
+                c.previousElementSibling.classList.remove('active');
+            });
+            
+            // Toggle current section
+            if (!isActive) {
+                content.classList.add('active');
+                this.classList.add('active');
+            }
+        });
+    });
+
+    // Open first month by default
+    const firstMonth = document.querySelector('.month-header');
+    if (firstMonth) {
+        firstMonth.click();
+    }
+});
+</script>
 </body>
 
 </html>
