@@ -20,7 +20,7 @@ Ferramentas open source alternativas ao Google Workspace e Microsoft Office
 - [Collabora](https://www.collaboraoffice.com)
 - [Libreoffice](https://fr.libreoffice.org/)
 
-### Por que você deveria pagar pelo código-aberto?
+# Por que você deveria pagar pelo código-aberto?
 
 Pagar por software de código aberto pode parecer contraditório, já que o código-fonte está disponível gratuitamente para qualquer pessoa usar, modificar e distribuir. No entanto, há razões para apoiar financeiramente projetos de código aberto:
 
