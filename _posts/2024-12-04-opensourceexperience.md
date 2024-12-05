@@ -13,7 +13,7 @@ draft: false
 
 Ferramentas open source alternativas ao Google Workspace e Microsoft Office
 
-- [Nextcloud](https://nextcloud.com)
+- [Nextcloud](https://nextcloud.com) ➔ soluções para o [setor público](https://nextcloud.com/government/) com exemplos da [França](https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/), [Alemanha](https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/) e [Suiça](https://nextcloud.com/blog/the-city-of-geneva/)
 - [Zeta Office](https://zetaoffice.net/)
 - [OnlyOffice DocSpace](https://www.onlyoffice.com)
 - [Linagora](https://linagora.com)
