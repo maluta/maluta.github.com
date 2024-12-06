@@ -9,9 +9,11 @@ draft: false
 
 # AI & Compentecentes in Education Summit
 
-Recentemente, participei de um summit organizado pela Beyond Education e o Center for Curriculum Redesign (CCR).
+[beyondeducation.tech/pt/ai-competencies-in-education-summit/](https://beyondeducation.tech/pt/ai-competencies-in-education-summit/)
 
+[AGENDA](https://beyondeducation.tech/wp-content/uploads/2024/11/ACE-Summit-Agenda-2024.pdf)
 
+<< WIP >>
 
 ## Quem seguir
 
