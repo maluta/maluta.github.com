@@ -7,6 +7,9 @@ proj-num: 01
 draft: false
 ---
 
+
+![](https://www.learningplanetinstitute.org/wp-content/uploads/2024/09/AI-Competencies-Summit-logo-1024x1024.png)
+
 # AI & Compentecentes in Education Summit
 
 [beyondeducation.tech/pt/ai-competencies-in-education-summit/](https://beyondeducation.tech/pt/ai-competencies-in-education-summit/)
