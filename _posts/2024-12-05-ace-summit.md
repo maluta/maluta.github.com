@@ -65,6 +65,3 @@ draft: false
 ### Lemann Foundation
 - **Tiago Maluta** (hey, it's me)
 
-
-
-com Charles Fadel, um líder de pensamento global sobre IA na educação, e suas ideias foram tão estimulantes quanto preocupantes. Sua apresentação, focada em preparar a educação para a era da IA, me deixou com algumas conclusões principais que queria compartilhar.
