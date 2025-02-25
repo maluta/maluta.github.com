@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Tiago Maluta Whatsapp">
-    <meta http-equiv="refresh" content="0; url=https://api.whatsapp.com/send/?phone=5511982151851&text=Oi" />
+    <!-- <meta http-equiv="refresh" content="0; url=https://api.whatsapp.com/send/?phone=5511982151851&text=Oi" /> -->
 
     <title>WhastApp: Tiago Maluta</title>
     <style>
@@ -161,6 +161,10 @@
         // Initial adjustment and listen for resize events
         window.addEventListener('resize', adjustForScreenSize);
         adjustForScreenSize();
+
+        setTimeout(function() {
+            window.location.href = "https://api.whatsapp.com/send/?phone=5511982151851&text=Oi";
+        }, 2300); 
     </script>
 </body>
 </html>
