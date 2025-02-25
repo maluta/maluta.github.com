@@ -1,17 +1,166 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
 
   <head>
     <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Tiago Maluta Whatsapp">
     <meta http-equiv="refresh" content="0; url=https://api.whatsapp.com/send/?phone=5511982151851&text=Oi" />
 
-    <title></title>
-  </head>
+    <title>WhastApp: Tiago Maluta</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <body>
-    Carregando...
-    Se demorar muito, <a href="https://api.whatsapp.com/send/?phone=5511982151851&text=Oi">clique aqui</a>.
-  </body>
+        body {
+            background-color: #25d366;
+            font-family: sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .marquee {
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            padding: 5px 0;
+            font-weight: bold;
+        }
+
+        .marquee-inner {
+            display: inline-block;
+            animation: marquee 20s linear infinite;
+        }
+
+        .marquee-inner-reverse {
+            display: inline-block;
+            animation: marquee-reverse 20s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes marquee-reverse {
+            0% {
+                transform: translateX(-50%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pyramid-logo {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .logo-text {
+            font-size: 28px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .maluta-text {
+            color: black;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .logo-text {
+                font-size: 24px;
+            }
+
+            .pyramid-logo {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top marquee -->
+    <div class="marquee">
+        <div class="marquee-inner" id="top-marquee"></div>
+    </div>
+
+    <!-- Center content -->
+    <div class="center-content">
+        <div class="logo-container">
+            <svg class="pyramid-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="50" fill="black"/>
+                <path d="M50 20 L20 80 L80 80 Z" fill="#25d366"/>
+            </svg>
+            <div class="logo-text">WhatsApp</div>
+            <div class="maluta-text">11 XXXXX-1851</div>
+            <div class="maluta-text">MALUTA</div>
+        </div>
+    </div>
+
+    <!-- Bottom marquee -->
+    <div class="marquee">
+        <div class="marquee-inner-reverse" id="bottom-marquee"></div>
+    </div>
+
+    <script>
+        // Create repeating MSCHF text for marquees
+        function createMarqueeContent(count) {
+            let content = '';
+            for (let i = 0; i < count; i++) {
+                content += ' MALUTA ';
+            }
+            return content + content; // Duplicate to ensure smooth looping
+        }
+
+        // Set marquee content
+        document.getElementById('top-marquee').textContent = createMarqueeContent(30);
+        document.getElementById('bottom-marquee').textContent = createMarqueeContent(30);
+
+        // Adjust for different screen sizes
+        function adjustForScreenSize() {
+            const width = window.innerWidth;
+            const topMarquee = document.getElementById('top-marquee');
+            const bottomMarquee = document.getElementById('bottom-marquee');
+
+            // Adjust animation speed based on screen width
+            const animationDuration = width < 768 ? '15s' : '20s';
+
+            topMarquee.style.animationDuration = animationDuration;
+            bottomMarquee.style.animationDuration = animationDuration;
+        }
+
+        // Initial adjustment and listen for resize events
+        window.addEventListener('resize', adjustForScreenSize);
+        adjustForScreenSize();
+    </script>
+</body>
 </html>
