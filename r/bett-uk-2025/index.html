@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Diário de Bordo - Bett UK 2025">
-    <meta http-equiv="refresh" content="0; url='https://docs.google.com/document/d/1srbtKdzPt-pYqXWIOPkjPdidxj9jGgTPMSwg-ri18N0/edit?tab=t.0' />
     
     <!-- Open Graph -->
     <meta property="og:title" content="Diário de Bordo - Bett UK 2025">
@@ -16,15 +15,198 @@
     <meta property="og:site_name" content="">
 
     <title>Diário de Bordo - Bett UK 2025</title>
-  </head>
 
-  <body>
-    Carregando...
-    Se demorar muito, <a href="https://docs.google.com/document/d/1srbtKdzPt-pYqXWIOPkjPdidxj9jGgTPMSwg-ri18N0/edit?tab=t.0">clique aqui</a>.
-  </body>
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <script defer data-domain="maluta.github.io" src="https://plausible.io/js/plausible.js"></script>
+        body {
+            background-color:#ff007f;
+            font-family: sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .marquee {
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            padding: 5px 0;
+            font-weight: bold;
+        }
+
+        .marquee-inner {
+            display: inline-block;
+            animation: marquee 20s linear infinite;
+        }
+
+        .marquee-inner-reverse {
+            display: inline-block;
+            animation: marquee-reverse 20s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes marquee-reverse {
+            0% {
+                transform: translateX(-50%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pyramid-logo {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .logo-text {
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .maluta-text {
+            color: white;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .logo-text {
+                font-size: 24px;
+            }
+
+            .pyramid-logo {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top marquee -->
+    <div class="marquee">
+        <div class="marquee-inner" id="top-marquee"></div>
+    </div>
+
+    <!-- Center content -->
+    <div class="center-content">
+        <div class="logo-container">
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base of crown -->
+  <path d="M50 120 L250 120 L240 150 L60 150 Z" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Crown band -->
+  <rect x="60" y="150" width="180" height="20" fill="black" stroke="black" stroke-width="2"/>
+
+  <!-- Crown points -->
+  <path d="M50 120 L80 70 L120 120" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M120 120 L150 40 L180 120" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M180 120 L220 70 L250 120" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Crown jewels -->
+  <circle cx="80" cy="85" r="8" fill="black" stroke="white" stroke-width="1"/>
+  <circle cx="150" cy="65" r="10" fill="black" stroke="white" stroke-width="1"/>
+  <circle cx="220" cy="85" r="8" fill="black" stroke="white" stroke-width="1"/>
+
+  <!-- Small jewels on the band -->
+  <circle cx="90" cy="135" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="130" cy="135" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="170" cy="135" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="210" cy="135" r="5" fill="white" stroke="black" stroke-width="1"/>
+
+  <!-- Crown highlights -->
+  <path d="M65 150 L75 150 L70 155 Z" fill="white" opacity="0.7"/>
+  <path d="M105 150 L115 150 L110 155 Z" fill="white" opacity="0.7"/>
+  <path d="M145 150 L155 150 L150 155 Z" fill="white" opacity="0.7"/>
+  <path d="M185 150 L195 150 L190 155 Z" fill="white" opacity="0.7"/>
+  <path d="M225 150 L235 150 L230 155 Z" fill="white" opacity="0.7"/>
+</svg>
+            <div class="logo-text">BETT UK</div>
+            <div class="maluta-text">DIÁRIO DE BORDO</div>
+            <div class="maluta-text">MALUTA</div>
+        </div>
+    </div>
+
+    <!-- Bottom marquee -->
+    <div class="marquee">
+        <div class="marquee-inner-reverse" id="bottom-marquee"></div>
+    </div>
+
+    <script>
+        // Create repeating MSCHF text for marquees
+        function createMarqueeContent(count) {
+            let content = '';
+            for (let i = 0; i < count; i++) {
+                content += ' MALUTA ';
+            }
+            return content + content; // Duplicate to ensure smooth looping
+        }
+
+        // Set marquee content
+        document.getElementById('top-marquee').textContent = createMarqueeContent(30);
+        document.getElementById('bottom-marquee').textContent = createMarqueeContent(30);
+
+        // Adjust for different screen sizes
+        function adjustForScreenSize() {
+            const width = window.innerWidth;
+            const topMarquee = document.getElementById('top-marquee');
+            const bottomMarquee = document.getElementById('bottom-marquee');
+
+            // Adjust animation speed based on screen width
+            const animationDuration = width < 768 ? '15s' : '20s';
+
+            topMarquee.style.animationDuration = animationDuration;
+            bottomMarquee.style.animationDuration = animationDuration;
+            topMarquee.style.color = 'white';
+            bottomMarquee.style.color = 'white';
+
+        }
+
+        // Initial adjustment and listen for resize events
+        window.addEventListener('resize', adjustForScreenSize);
+        adjustForScreenSize();
+
+        setTimeout(function() {
+            window.location.href = "https://docs.google.com/document/d/1srbtKdzPt-pYqXWIOPkjPdidxj9jGgTPMSwg-ri18N0/edit?tab=t.0";
+        }, 2300); 
+    </script>
+</body>
+
+<script defer data-domain="maluta.github.io" src="https://plausible.io/js/plausible.js"></script>
 
 </html>
+
 
 
