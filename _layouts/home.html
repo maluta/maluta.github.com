@@ -70,13 +70,12 @@
       <div class="posts clearfix container">
 
       {% for post in site.posts %}
-      {% if post.draft == true %}
-      {% else %}
-    
-      {% capture date %}{{post.date | date: '%Y' | plus: 0 }}{% endcapture %}
-    
-      {% if date contains "2021" or date contains "2022" or date contains "2023" or date contains "2024" or date contains "2025" %}
-
+      {% unless post.draft == true %}
+      {% capture current_year %}{{ 'now' | date: '%Y' | plus: 0 }}{% endcapture %}
+      {% capture post_year %}{{ post.date | date: '%Y' | plus: 0 }}{% endcapture %}
+          
+      {% assign years_ago = current_year | minus: post_year %}
+      {% if years_ago <= 5 %}
 
         <article class="post">
           <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
@@ -86,9 +85,9 @@
         </article> 
 
 
-        {% endif %}
-        {% endif %}
-        {% endfor %}
+      {% endif %}
+      {% endunless %}
+      {% endfor %}
 
 
 
