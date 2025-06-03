@@ -1,139 +1,354 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
 <head>
-    <title>Tiago Maluta</title>
-    <link rel="icon" type="image/jpg" href="/images/favicon.jpeg">
-
-    <link rel="stylesheet" media="all" href="style.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Maluta - Innovation for Social Impact</title>
+    <meta name="description" content="Computer engineer and innovation manager at Lemann Foundation, working at the intersection of social impact and digital innovation to improve Brazil's K-12 education system.">
+    <link rel="icon" type="image/jpeg" href="/images/favicon.jpeg">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Tiago Maluta - Innovation for Social Impact">
+    <meta property="og:description" content="Computer engineer and innovation manager working to leverage AI and technology for educational impact in Brazil.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maluta.github.io">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@maluta">
+    <meta name="twitter:title" content="Tiago Maluta - Innovation for Social Impact">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
     <script defer data-domain="maluta.github.io" src="https://plausible.io/js/plausible.js"></script>
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#f6f5ed',
+                        darkgray: '#2d3748',
+                        accent: '#4c51bf'
+                    },
+                    fontFamily: {
+                        serif: ['Georgia', 'serif'],
+                        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
     <style>
-        body {
-            background-color: #f6f5ed;
-            color: #484848;
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        /* Custom highlight effect */
+        .highlight {
+            background: linear-gradient(120deg, #a78bfa 0%, #a78bfa 100%);
+            background-repeat: no-repeat;
+            background-size: 100% 0.2em;
+            background-position: 0 88%;
+            transition: background-size 0.25s ease-in;
         }
-
-        a:link, a:visited {
-            color: #4c51bf;
+        
+        .highlight:hover {
+            background-size: 100% 100%;
+            color: white;
         }
-
-        p {
-            color: #484848;
+        
+        /* Timeline styles */
+        .timeline-item {
+            transition: all 0.3s ease;
         }
-
-        h3 {
-            font-style: italic;
+        
+        .timeline-item:hover {
+            transform: translateY(-2px);
         }
-
-        mark {
-            background: url(/images/bg1.svg) bottom center/97% 78% no-repeat,url(/images/bg2.svg) top left/96% 100% no-repeat;
+        
+        /* Smooth transitions */
+        * {
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
         }
     </style>
-
-
-
-
 </head>
 
-<body>
+<body class="bg-cream dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300">
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-accent text-white px-4 py-2 rounded-md">
+        Skip to main content
+    </a>
 
-    <div class="font-serif max-w-5xl mx-auto p-8">
-
-        <h1 class="font-sans font-bold mb-8"></h1>
-        <h1 class="font-sans font-light uppercase">Tiago Maluta</h1>
-        <p class="text-sm">Innovation for Social impact</p>
-
-        <br>
-        
-        <div class="grid md:grid-cols-3 gap-4 md:divide-x md:divide-gray-300">
-            <div class="divide-y divide-gray-300">
-                <div class="mb-4" align="justify">
-
-                    <h2 class="font-sans font-light uppercase mb-4">🌱 My Experience</h2>
-
-                    <p class="my-4">I'm a computer engineer by training. During those academic years, I engaged with open source, volunteered, and led some students' movements. From 2009 to 2013, I worked intensively with Linux and other embedded systems on many levels of software development.</p>
-
-                    <p class="my-4">Then I shifted my attention to the intersection of <mark>social impact and digital innovation</mark> by joining the <a href="https://fundacaolemann.org.br/en">Lemann Foundation</a> team.</p>
-
-                    <p class="my-4">My role began supporting educational technology startups (a.k.a edtechs) to improve learning outcomes in Brazil's public schools. I got involved with field implementations and pilots of Khan Academy, Code.org,  Scratch, and many others (2015-2017), where I acquired a good perspective on technology in the K-12 public sector in Brazil. This opportunity led me to take a leave of absence from the Foundation to work with product development in a bootstrapped <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/mgov">B-corp startup</a>, Movva (2018-2019).</p>
-                        
-                    <p class="my-4">I returned to Lemann Foundation in 2020, where my focus moved to work on <mark>how innovation can accelerate the pace of solutions to help the Foundation achieve its mission</mark>. In 2022, I served as the interim head of the innovation team, where I reported directly to the CEO and led the team's efforts. Now, in 2023, I have transitioned to the role of Innovation Manager, collaborating with an exceptional team.
-                    </p>
-                                                
-                    <p class="my-4">I'm always looking to understand the bigger picture by continually thinking about handling innovation that could tackle the most complex problems.
-                    </p> 
-                        
-                    <p class="my-4">Nowadays, my experience lies in the zone between the social impact and innovation side. <mark>I contemplate potential technology breakthroughs and figure out how to "connect the dots" by working collaboratively with other organizations and by mapping the challenges with technical expertise. In some cases, I help shape a product concept and follow up on the roadmap until deployment.</mark>
-                    </p>
-                    
-                </div>
-
-
-            </div>
+    <!-- Header with dark mode toggle -->
+    <header class="sticky top-0 bg-cream/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <div>
-                <div class="md:pl-4" align="justify">
-                    <h2 class="font-sans font-light uppercase mb-4">👋🏽 Current Work</h2>
-
-                    <p class="my-4">I am committed to initiatives supporting the Lemann Foundation's goals of enhancing learning outcomes in Brazil's K-12 public education system and empowering leaders addressing Brazil's most challenging social issues.</p>
-                    <p class="my-4">Here is a non-exhaustive list of what I'm currently working on:</p>
-
-                    <p class="my-4">• Investigating how <mark>Artificial Intelligence can leverage LF impact</mark> in the short-term and long-term. </p>
-                    <p class="my-4">• Supporting Lemann Foundation and their grantee's organizations in developing (and deploying) their artificial intelligence strategy.</p>
-                    <!-- <p class="my-4">• Exploring technologies to streamline the assessment process in K-12.</p>
-                    <p class="my-4">• Innovations in writing and reading Literacy assessments aiming to 10x improvements.</p>
-                    <p class="my-4">• How can open-source SaaS add value to the HR process in the Government?</p> -->
-                    <p class="my-4">Overall, my approach involves applying a product mindset and lean experimentation principles, which include formulating clear hypotheses, establishing measurable metrics, and employing strategies for validation.</p>  
-                    <hr>
-                    <p class="my-4">Interested? <br>You can reach me via email at <a class="" href="mailto:tiago@fundacaolemann.org.br">tiago@fundacaolemann.org.br</a>.</p>
-
-                </div>
-
+                <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Tiago Maluta</h1>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Innovation for Social Impact</p>
             </div>
-            <div>
-                <div class="md:pl-4">
-
-                    <h2 class="font-sans font-light uppercase mb-4">📍 Links</h2>
-
-                    <ul class="list-disc list-outside ml-5">
-                        <li>
-                            You'll find my blog at<br>
-                            <a class="" href="https://maluta.github.io/blog"> maluta.github.io/blog</a>
-                        </li>
-                    </ul>
-
-                    
-                    <h3 class="mt-6 mb-2"></h3>
-                    <p>Get in touch:</p>
-                    <ul class="list-disc list-outside ml-5">
-                        <li>
-                            <a href="https://www.linkedin.com/in/maluta/">Linkedin (in/maluta)</a>
-                            <span class="font-sans text-xs"></span>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/maluta">Twitter (@maluta)</a>
-                            <span class="font-sans text-xs"></span>
-                        </li>
-                        <li>
-                            <a href="https://mastodon.social/@maluta">Mastodon (@maluta)</a>
-                            <span class="font-sans text-xs"></span>
-                        </li>
-                        <li>
-                            <a href="https://github.com/maluta">Github (@maluta)</a>
-                            <span class="font-sans text-xs"></span>
-                        </li>                        
-                    </ul>
-                    <h3 class="mt-6 mb-2"></h3>
-                    <style>.libutton { display: flex; flex-direction: column; justify-content: center; padding: 7px; text-align: center; outline: none; text-decoration: none !important; color: #ffffff !important; width: 200px; height: 32px; border-radius: 16px; background-color: #0A66C2; font-family: "SF Pro Text", Helvetica, sans-serif; } </style>
-<a class="libutton" href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=maluta" target="_black">Follow me!</a>
-                </div>
-            </div>
+            
+            <!-- Dark mode toggle -->
+            <button id="theme-toggle" class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" aria-label="Toggle dark mode">
+                <svg id="sun-icon" class="w-5 h-5 text-gray-800 dark:text-gray-200 hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+                </svg>
+                <svg id="moon-icon" class="w-5 h-5 text-gray-800 dark:text-gray-200 block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                </svg>
+            </button>
         </div>
-    </div>
+    </header>
 
+    <main id="main" class="max-w-6xl mx-auto px-6 py-12">
+        <!-- Hero Section -->
+        <section class="mb-16 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
+                    Bridging <span class="highlight">Innovation</span> & <span class="highlight">Social Impact</span>
+                </h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+                    Computer engineer and innovation manager working to leverage AI and technology for educational transformation in Brazil's K-12 public education system.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#contact" class="bg-accent hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-medium transition-colors">
+                        Get in Touch
+                    </a>
+                    <a href="#experience" class="border border-accent text-accent hover:bg-accent hover:text-white px-8 py-3 rounded-lg font-medium transition-colors">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid lg:grid-cols-3 gap-12">
+            <!-- Experience Section -->
+            <section id="experience" class="lg:col-span-2">
+                <h2 class="text-3xl font-bold mb-8 text-gray-900 dark:text-white flex items-center">
+                    <span class="text-2xl mr-3">🌱</span>
+                    My Journey
+                </h2>
+
+                <div class="space-y-8">
+                    <!-- Timeline Item 1 -->
+                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
+                                <span class="text-accent font-bold">🎓</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Computer Engineering Foundation</h3>
+                                <p class="text-sm text-accent mb-3 font-medium">2009-2013</p>
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                                    Built my technical foundation as a computer engineer, engaging deeply with open source projects, volunteering in communities, and leading student movements. Worked intensively with Linux and embedded systems across multiple layers of software development.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Timeline Item 2 -->
+                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
+                                <span class="text-accent font-bold">🚀</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Pivoting to Social Impact</h3>
+                                <p class="text-sm text-accent mb-3 font-medium">2014-2017</p>
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                                    Joined the <a href="https://fundacaolemann.org.br/en" class="text-accent hover:underline">Lemann Foundation</a> to explore the intersection of <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">social impact and digital innovation</mark>. Led field implementations and pilots of Khan Academy, Code.org, Scratch, and other educational technologies in Brazil's public K-12 schools.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Timeline Item 3 -->
+                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
+                                <span class="text-accent font-bold">💼</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Startup Experience</h3>
+                                <p class="text-sm text-accent mb-3 font-medium">2018-2019</p>
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                                    Took a strategic leave to work in product development at <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/mgov" class="text-accent hover:underline">Movva</a>, a bootstrapped B-corp startup, gaining hands-on experience in lean product development and startup operations.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Timeline Item 4 -->
+                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
+                                <span class="text-accent font-bold">🎯</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Innovation Leadership</h3>
+                                <p class="text-sm text-accent mb-3 font-medium">2020-Present</p>
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+                                    Returned to Lemann Foundation with renewed focus on <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">accelerating innovation to achieve the Foundation's mission</mark>. Served as interim head of innovation in 2022, reporting directly to the CEO. Currently Innovation Manager, leading strategic initiatives.
+                                </p>
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                                    <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">I contemplate potential technology breakthroughs and figure out how to "connect the dots" by working collaboratively with other organizations, mapping challenges with technical expertise, and shaping product concepts through to deployment.</mark>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Sidebar -->
+            <aside class="space-y-8">
+                <!-- Current Work -->
+                <section class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                    <h2 class="text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center">
+                        <span class="text-xl mr-3">👋🏽</span>
+                        Current Focus
+                    </h2>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-8 h-8 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mr-3 mt-1">
+                                <span class="text-purple-600 dark:text-purple-400 text-sm">🤖</span>
+                            </div>
+                            <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                                Investigating how <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">Artificial Intelligence can leverage LF impact</mark> in short and long-term initiatives.
+                            </p>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-8 h-8 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mr-3 mt-1">
+                                <span class="text-green-600 dark:text-green-400 text-sm">🎯</span>
+                            </div>
+                            <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                                Supporting Lemann Foundation and grantee organizations in developing and deploying AI strategies.
+                            </p>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mr-3 mt-1">
+                                <span class="text-blue-600 dark:text-blue-400 text-sm">🧪</span>
+                            </div>
+                            <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                                Applying product mindset and lean experimentation: clear hypotheses, measurable metrics, and validation strategies.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                    <h2 class="text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center">
+                        <span class="text-xl mr-3">📍</span>
+                        Connect
+                    </h2>
+                    
+                    <div class="space-y-4">
+                        <div class="p-4 bg-accent/5 rounded-lg border border-accent/20">
+                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Interested in collaborating?</p>
+                            <a href="mailto:tiago@fundacaolemann.org.br" class="text-accent hover:text-purple-700 font-medium transition-colors">
+                                tiago@fundacaolemann.org.br
+                            </a>
+                        </div>
+                        
+                        <div class="space-y-3">
+                            <a href="https://maluta.github.io/blog" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
+                                <span class="w-8 h-8 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center mr-3">📝</span>
+                                <span>Blog</span>
+                            </a>
+                            
+                            <a href="https://www.linkedin.com/in/maluta/" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
+                                <span class="w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mr-3">💼</span>
+                                <span>LinkedIn</span>
+                            </a>
+                            
+                            <a href="https://twitter.com/maluta" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
+                                <span class="w-8 h-8 bg-sky-100 dark:bg-sky-900 rounded-full flex items-center justify-center mr-3">🐦</span>
+                                <span>Twitter</span>
+                            </a>
+                            
+                            <a href="https://github.com/maluta" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
+                                <span class="w-8 h-8 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center mr-3">⚡</span>
+                                <span>GitHub</span>
+                            </a>
+                            
+                            <a href="https://mastodon.social/@maluta" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
+                                <span class="w-8 h-8 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mr-3">🐘</span>
+                                <span>Mastodon</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 dark:border-gray-700 mt-20">
+        <div class="max-w-6xl mx-auto px-6 py-8 text-center">
+            <p class="text-gray-600 dark:text-gray-400 text-sm">
+                © 2025 Tiago Maluta. Working towards innovation for social impact.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for dark mode toggle -->
+    <script>
+        // Dark mode functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        
+        // Check for saved theme preference or default to light mode
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        html.classList.toggle('dark', savedTheme === 'dark');
+        
+        themeToggle.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            const currentTheme = html.classList.contains('dark') ? 'dark' : 'light';
+            localStorage.setItem('theme', currentTheme);
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Add loading animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.3s ease-in-out';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
 </body>
 </html>
-
