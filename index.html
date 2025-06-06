@@ -43,6 +43,17 @@
     <style>
         
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        @font-face {
+            font-family: 'Little Character';
+            src: url('LittleCharacter-Regular.ttf') format('truetype');  /* adjust path as needed */
+            font-weight: normal;
+            font-style: normal;
+        }
+        .little-character {
+            font-family: 'Little Character', cursive;
+        }
+
         
         /* Custom highlight effect */
         .highlight {
@@ -102,9 +113,10 @@
     <header class="sticky top-0 bg-cream/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700 z-50">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <div>
-                <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Tiago Maluta</h1>
-                <p class="text-sm text-gray-600 dark:text-gray-400">Innovation for Social Impact</p>
-            </div>
+                <h1 class="little-character text-2xl font-bold text-gray-900 dark:text-white">Tiago Maluta</h1>
+                <p class="little-character text-sm text-gray-600 dark:text-gray-400">Innovation for Social Impact</p>
+              </div>
+              
             
             <!-- Dark mode toggle -->
             <button id="theme-toggle" class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" aria-label="Toggle dark mode">
@@ -122,11 +134,11 @@
         <!-- Hero Section -->
         <section class="mb-16 text-center">
             <div class="max-w-3xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
+                <h2 class="little-character text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
                     <span class="highlight">Innovation</span> & <span class="highlight">Social Impact</span>
                 </h2>
-                <p class="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-                    Computer engineer and innovation manager working to leverage AI and technology for educational transformation in Brazil's K-12 public education system.
+                <p class="little-character text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+                    Computer engineer and innovation manager working to leverage AI and technology for good.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="https://maluta.github.io/zap"  class="bg-accent hover:bg-purple-700 text-white flex items-center gap-2 px-8 py-3 rounded-lg font-medium transition-colors"
@@ -167,7 +179,6 @@
                             <div>
                                 <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Studying Computer Engineering & Early Career</h3>
                                 <p class="text-sm text-accent mb-3 font-medium">2005-2013</p>
-                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed" style="text-align:justify">
                                     I built my technical foundation while studying Computer Engineering at the Federal University of Itajubá, a top-ranked public university in Brazil. During this time, I fully embraced my inner nerd 🤓 during this period. I immersed myself in open source projects, volunteered in tech communities, and took on leadership roles in student movements. I also gained practical and professional experience working with Linux and embedded systems across various layers of software development.                                </p>
                             </div>
                         </div>
