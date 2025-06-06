@@ -141,30 +141,37 @@
         <div class="grid lg:grid-cols-3 gap-12">
             <!-- Experience Section -->
             <section id="experience" class="lg:col-span-2">
-                <h2 class="text-3xl font-bold mb-8 text-gray-900 dark:text-white flex items-center">
-                    <span class="text-2xl mr-3">🌱</span>
-                    My Journey
-                </h2>
+                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-8">
+                    <h2 class="text-3xl font-bold text-gray-900 dark:text-white flex items-center mb-4 sm:mb-0">
+                        <span class="text-2xl mr-3">🌱</span>
+                        My Journey
+                    </h2>
+                    
+                    <!-- Timeline Order Toggle -->
+                    <button id="timeline-toggle" class="flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors text-sm font-medium text-gray-700 dark:text-gray-300">
+                        <span id="timeline-icon">📈</span>
+                        <span id="timeline-text">Early → Present</span>
+                    </button>
+                </div>
 
-                <div class="space-y-8">
-                    <!-- Timeline Item 1 -->
-                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                <div id="timeline-container" class="space-y-8">
+                    <!-- Timeline Item 1 - Computer Engineering -->
+                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2009">
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
                                 <span class="text-accent font-bold">🎓</span>
                             </div>
                             <div>
-                                <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Computer Engineering Foundation</h3>
-                                <p class="text-sm text-accent mb-3 font-medium">2009-2013</p>
-                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
-                                    Built my technical foundation as a computer engineer, engaging deeply with open source projects, volunteering in communities, and leading student movements. Worked intensively with Linux and embedded systems across multiple layers of software development.
-                                </p>
+                                <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Studying Computer Engineering & Early Career</h3>
+                                <p class="text-sm text-accent mb-3 font-medium">2005-2013</p>
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed" style="text-align:justify">
+                                    I built my technical foundation while studying Computer Engineering at the Federal University of Itajubá, a top-ranked public university in Brazil. During this time, I fully embraced my inner nerd 🤓 during this period. I immersed myself in open source projects, volunteered in tech communities, and took on leadership roles in student movements. I also gained practical and professional experience working with Linux and embedded systems across various layers of software development.                                </p>
                             </div>
                         </div>
                     </article>
 
-                    <!-- Timeline Item 2 -->
-                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                    <!-- Timeline Item 2 - Social Impact Pivot -->
+                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2014">
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
                                 <span class="text-accent font-bold">🚀</span>
@@ -172,15 +179,14 @@
                             <div>
                                 <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Pivoting to Social Impact</h3>
                                 <p class="text-sm text-accent mb-3 font-medium">2014-2017</p>
-                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
-                                    Joined the <a href="https://fundacaolemann.org.br/en" class="text-accent hover:underline">Lemann Foundation</a> to explore the intersection of <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">social impact and digital innovation</mark>. Led field implementations and pilots of Khan Academy, Code.org, Scratch, and other educational technologies in Brazil's public K-12 schools.
-                                </p>
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed" style="text-align:justify">
+                                    I joined the <a href="https://fundacaolemann.org.br/en" class="text-accent hover:underline">Lemann Foundation</a> (LF) in 2015, following a year of work as a consultant. Since then, I’ve been dedicated to exploring the intersection of <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">social impact and digital innovation</mark>. My efforts have centered on supporting the development, implementation, and piloting of educational technologies—such as Khan Academy, Code.org, Scratch, and others—in public K–12 schools throughout Brazil.                                </p>
                             </div>
                         </div>
                     </article>
 
-                    <!-- Timeline Item 3 -->
-                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                    <!-- Timeline Item 3 - Startup Experience -->
+                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2018">
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
                                 <span class="text-accent font-bold">💼</span>
@@ -188,15 +194,15 @@
                             <div>
                                 <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Startup Experience</h3>
                                 <p class="text-sm text-accent mb-3 font-medium">2018-2019</p>
-                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
-                                    Took a strategic leave to work in product development at <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/mgov" class="text-accent hover:underline">Movva</a>, a bootstrapped B-corp startup, gaining hands-on experience in lean product development and startup operations.
-                                </p>
-                            </div>
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed" style="text-align:justify">
+                                    Took a strategic leave from the Foundation to work at <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/mgov" class="text-accent hover:underline">Movva</a>, a bootstrapped B-Corp startup, where I gained hands-on experience in lean product development and startup operations. During that time, I helped build a series of social impact solutions we called <a href="https://medium.com/@guilhermefinkelfarblichand/chatbots-vs-nudgebots-49b11e02b462">NudgeBots</a> (products that combine behavioral science (nudge theory) with bot technology) leveraging accessible channels like SMS to reach and support underserved populations.
+
+                                </div>
                         </div>
                     </article>
 
-                    <!-- Timeline Item 4 -->
-                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                    <!-- Timeline Item 4 - Innovation Leadership -->
+                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2020">
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
                                 <span class="text-accent font-bold">🎯</span>
@@ -204,10 +210,10 @@
                             <div>
                                 <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Innovation Leadership</h3>
                                 <p class="text-sm text-accent mb-3 font-medium">2020-Present</p>
-                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-                                    Returned to Lemann Foundation with renewed focus on <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">accelerating innovation to achieve the Foundation's mission</mark>. Served as interim head of innovation in 2022, reporting directly to the CEO. Currently Innovation Manager, leading strategic initiatives.
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4" style="text-align:justify">
+                                    I returned to the <a href="https://fundacaolemann.org.br/en" class="text-accent hover:underline">Lemann Foundation</a> in 2020 with a renewed focus on <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">accelerating innovation to advance the Foundation's mission</mark>. In 2022, I served as Interim Head of Innovation, reporting directly to the CEO. Since 2023, I’ve been working as Innovation Manager, leading strategic initiatives aimed at scaling impact through innovative approaches.
                                 </p>
-                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed" style="text-align:justify">
                                     <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">I contemplate potential technology breakthroughs and figure out how to "connect the dots" by working collaboratively with other organizations, mapping challenges with technical expertise, and shaping product concepts through to deployment.</mark>
                                 </p>
                             </div>
@@ -240,8 +246,7 @@
                                 <span class="text-green-600 dark:text-green-400 text-sm">🎯</span>
                             </div>
                             <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                                Supporting Lemann Foundation and grantee organizations in developing and deploying AI strategies.
-                            </p>
+                                Helping the Lemann Foundation and its grantee partners strengthen their <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">innovation capacity</mark> [especially by designing and deploying effective AI strategies].                            </p>
                         </div>
                         
                         <div class="flex items-start">
@@ -249,7 +254,7 @@
                                 <span class="text-blue-600 dark:text-blue-400 text-sm">🧪</span>
                             </div>
                             <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                                Applying product mindset and lean experimentation: clear hypotheses, measurable metrics, and validation strategies.
+                                Applying <mark class="bg-yellow-200 dark:bg-yellow-900 px-1 rounded">digital product mindset</mark> and lean experimentation: clear hypotheses, measurable metrics, and validation strategies.
                             </p>
                         </div>
                     </div>
@@ -271,10 +276,7 @@
                         </div>
                         
                         <div class="space-y-3">
-                            <a href="https://maluta.github.io/blog" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
-                                <span class="w-8 h-8 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center mr-3">📝</span>
-                                <span>Blog</span>
-                            </a>
+           
                             
                             <a href="https://www.linkedin.com/in/maluta/" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
                                 <span class="w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mr-3">💼</span>
@@ -283,7 +285,7 @@
                             
                             <a href="https://twitter.com/maluta" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
                                 <span class="w-8 h-8 bg-sky-100 dark:bg-sky-900 rounded-full flex items-center justify-center mr-3">🐦</span>
-                                <span>Twitter</span>
+                                <span>X/Twitter</span>
                             </a>
                             
                             <a href="https://github.com/maluta" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
@@ -294,6 +296,10 @@
                             <a href="https://mastodon.social/@maluta" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
                                 <span class="w-8 h-8 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mr-3">🐘</span>
                                 <span>Mastodon</span>
+                            </a>
+                            <a href="https://maluta.github.io/blog" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
+                                <span class="w-8 h-8 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center mr-3">📝</span>
+                                <span>Blog</span>
                             </a>
                         </div>
                     </div>
@@ -313,6 +319,54 @@
 
     <!-- JavaScript for dark mode toggle -->
     <script>
+        // Timeline order toggle functionality
+        const timelineToggle = document.getElementById('timeline-toggle');
+        const timelineContainer = document.getElementById('timeline-container');
+        const timelineIcon = document.getElementById('timeline-icon');
+        const timelineText = document.getElementById('timeline-text');
+        let isChronological = true; // Default: early to present (chronological)
+        
+        timelineToggle.addEventListener('click', () => {
+            const timelineItems = Array.from(timelineContainer.children);
+            
+            // Toggle the order
+            isChronological = !isChronological;
+            
+            if (isChronological) {
+                // Sort chronologically (early to present) by data-year
+                timelineItems.sort((a, b) => {
+                    const yearA = parseInt(a.getAttribute('data-year'));
+                    const yearB = parseInt(b.getAttribute('data-year'));
+                    return yearA - yearB;
+                });
+                timelineIcon.textContent = '📈';
+                timelineText.textContent = 'Early → Present';
+            } else {
+                // Sort reverse chronologically (present to early) by data-year
+                timelineItems.sort((a, b) => {
+                    const yearA = parseInt(a.getAttribute('data-year'));
+                    const yearB = parseInt(b.getAttribute('data-year'));
+                    return yearB - yearA;
+                });
+                timelineIcon.textContent = '📉';
+                timelineText.textContent = 'Present → Early';
+            }
+            
+            // Clear container and re-append sorted items with animation
+            timelineContainer.style.opacity = '0.7';
+            timelineContainer.style.transform = 'translateY(10px)';
+            
+            setTimeout(() => {
+                timelineContainer.innerHTML = '';
+                timelineItems.forEach(item => {
+                    timelineContainer.appendChild(item);
+                });
+                
+                timelineContainer.style.opacity = '1';
+                timelineContainer.style.transform = 'translateY(0)';
+            }, 150);
+        });
+        
         // Dark mode functionality
         const themeToggle = document.getElementById('theme-toggle');
         const html = document.documentElement;
