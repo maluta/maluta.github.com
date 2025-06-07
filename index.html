@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
@@ -27,9 +28,11 @@
             theme: {
                 extend: {
                     colors: {
-                        cream: '#f6f5ed',
+                        cream: '#052B47',
                         darkgray: '#2d3748',
-                        accent: '#4c51bf'
+                        accent: '#4c51bf',
+                        fafafa: '#fafafa'
+
                     },
                     fontFamily: {
                         serif: ['Georgia', 'serif'],
@@ -66,7 +69,7 @@
         
         .highlight:hover {
             background-size: 100% 100%;
-            color: white;
+            color: #fafafa;
         }
         
         /* Timeline styles */
@@ -103,18 +106,18 @@
     </style>
 </head>
 
-<body class="bg-cream dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300">
+<body class="dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300">
     <!-- Skip to main content link for accessibility -->
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-accent text-white px-4 py-2 rounded-md">
         Skip to main content
     </a>
 
     <!-- Header with dark mode toggle -->
-    <header class="sticky top-0 bg-cream/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700 z-50">
+    <header class="sticky top-0 bg-cream/90 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700 z-50">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <div>
-                <h1 class="little-character text-2xl font-bold text-gray-900 dark:text-white">Tiago Maluta</h1>
-                <p class="little-character text-sm text-gray-600 dark:text-gray-400">Innovation for Social Impact</p>
+                <h1 class="little-character text-2xl font-bold text-white dark:text-white">Tiago Maluta</h1>
+                <p class="little-character text-sm text-white dark:text-gray-400">Innovation for Social Impact</p>
               </div>
               
             
@@ -141,7 +144,7 @@
                     Computer engineer and innovation manager working to leverage AI and technology for good.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="https://maluta.github.io/zap"  class="bg-accent hover:bg-purple-700 text-white flex items-center gap-2 px-8 py-3 rounded-lg font-medium transition-colors"
+                    <a href="https://maluta.github.io/zap"  class="little-character bg-accent hover:bg-purple-700 text-white flex items-center gap-2 px-8 py-3 rounded-lg font-medium transition-colors"
                         aria-label="Get in touch">
                        <i class="fa-brands fa-whatsapp text-xl"></i>
                        Get in Touch
@@ -157,7 +160,7 @@
             <!-- Experience Section -->
             <section id="experience" class="lg:col-span-2">
                 <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-8">
-                    <h2 class="text-3xl font-bold text-gray-900 dark:text-white flex items-center mb-4 sm:mb-0">
+                    <h2 class="little-character text-3xl font-bold text-gray-900 dark:text-white flex items-center mb-4 sm:mb-0">
                         <span class="text-2xl mr-3">🌱</span>
                         My Journey
                     </h2>
@@ -165,13 +168,13 @@
                     <!-- Timeline Order Toggle -->
                     <button id="timeline-toggle" class="flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors text-sm font-medium text-gray-700 dark:text-gray-300">
                         <span id="timeline-icon">📈</span>
-                        <span id="timeline-text">Early → Present</span>
+                        <span id="timeline-text"><small>Early → Present</small></span>
                     </button>
                 </div>
 
                 <div id="timeline-container" class="space-y-8">
                     <!-- Timeline Item 1 - Computer Engineering -->
-                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2009">
+                    <article class="timeline-item bg-fafafa dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2009">
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
                                 <span class="text-accent font-bold">🎓</span>
@@ -179,13 +182,15 @@
                             <div>
                                 <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Studying Computer Engineering & Early Career</h3>
                                 <p class="text-sm text-accent mb-3 font-medium">2005-2013</p>
+                                <p class="text-gray-700 dark:text-gray-300 leading-relaxed" style="text-align:justify">
                                     I built my technical foundation while studying Computer Engineering at the Federal University of Itajubá, a top-ranked public university in Brazil. During this time, I fully embraced my inner nerd 🤓 during this period. I immersed myself in open source projects, volunteered in tech communities, and took on leadership roles in student movements. I also gained practical and professional experience working with Linux and embedded systems across various layers of software development.                                </p>
+                                </p>
                             </div>
                         </div>
                     </article>
 
                     <!-- Timeline Item 2 - Social Impact Pivot -->
-                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2014">
+                    <article class="timeline-item bg-fafafa dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2014">
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
                                 <span class="text-accent font-bold">🚀</span>
@@ -200,7 +205,7 @@
                     </article>
 
                     <!-- Timeline Item 3 - Startup Experience -->
-                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2018">
+                    <article class="timeline-item bg-fafafa dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2018">
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
                                 <span class="text-accent font-bold">💼</span>
@@ -216,7 +221,7 @@
                     </article>
 
                     <!-- Timeline Item 4 - Innovation Leadership -->
-                    <article class="timeline-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2020">
+                    <article class="timeline-item bg-fafafa dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700" data-year="2020">
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mr-4">
                                 <span class="text-accent font-bold">🎯</span>
@@ -239,8 +244,8 @@
             <!-- Sidebar -->
             <aside class="space-y-8">
                 <!-- Current Work -->
-                <section class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-                    <h2 class="text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center">
+                <section class="bg-fafafa dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                    <h2 class="little-character text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center">
                         <span class="text-xl mr-3">👋🏽</span>
                         Current Focus
                     </h2>
@@ -276,7 +281,7 @@
 
                 <!-- Contact Section -->
                 <section id="contact" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-                    <h2 class="text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center">
+                    <h2 class="little-character text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center">
                         <span class="text-xl mr-3">📍</span>
                         Connect
                     </h2>
@@ -294,7 +299,7 @@
                             
                             <a href="https://www.linkedin.com/in/maluta/" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
                                 <span class="w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mr-3">💼</span>
-                                <span>LinkedIn</span>
+                                <span>LinkedIn ★</span>
                             </a>
                             
                             <a href="https://twitter.com/maluta" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-accent transition-colors">
@@ -323,7 +328,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t border-gray-200 dark:border-gray-700 mt-20">
+    <footer class="little-character border-t border-gray-200 dark:border-gray-700 mt-20">
         <div class="max-w-6xl mx-auto px-6 py-8 text-center">
             <p class="text-gray-600 dark:text-gray-400 text-sm">
                 © 2025 Tiago Maluta
