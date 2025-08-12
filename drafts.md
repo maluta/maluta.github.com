@@ -9,7 +9,7 @@ permalink: /drafts/
   {% if post.draft == true %}
   <article class="post">
       <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
-      <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif;">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'Lora', serif;">{{ post.title }}</a></h1>
       <!--<a href="{{ site.baseurl }}{{ post.url }}"><img src="images/{{ post.url | remove: "/" }}.png" alt="post img" /></a> -->
       <div class="entry">
       <!--<p>{{ post.desc }}</p>

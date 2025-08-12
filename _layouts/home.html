@@ -20,7 +20,9 @@
     <!-- <link rel="preload" href="../fonts/etbookot-roman-webfont.woff2" crossorigin type="font/woff2" as="font" /> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
 
     <style>
       .collapsible {
@@ -32,7 +34,7 @@
           border: none;
           text-align: left;
           outline: none;
-          font-family: 'EB Garamond', monospace;
+          font-family: 'Lora', monospace;
           font-size: 15px;
         }
 
@@ -79,7 +81,7 @@
 
         <article class="post">
           <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
-          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif;">{{ post.title }}</a></h1>
+          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'Lora', serif;">{{ post.title }}</a></h1>
           <a href="{{ site.baseurl }}{{ post.url }}"><img src="images/{{ post.url | remove: "/" }}.png" alt="post img" /></a>
           <div class="entry"></div>
         </article> 
@@ -113,7 +115,7 @@
     
       <article class="post">
           <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
-          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'EB Garamond', serif; color: #7a7a7a;">{{ post.title }}</a></h1>
+          <h1><a href="{{ site.baseurl }}{{ post.url }}" style="font-family: 'Lora', serif; color: #7a7a7a;">{{ post.title }}</a></h1>
           <a href="{{ site.baseurl }}{{ post.url }}"><img src="images/{{ post.url | remove: "/" }}.png" style="width: 75%; height: auto;" alt="post img" /></a>
           <div class="entry">
           </div>
