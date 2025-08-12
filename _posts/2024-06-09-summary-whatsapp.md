@@ -7,11 +7,13 @@ proj-num: 01
 draft: false
 ---
 
-### Sumarizando Conversas no WhatsApp com Inteligência Artificial
+_[ Escrito tem 09.06.2024 ]_
+
+# Sumarizando Conversas no WhatsApp com Inteligência Artificial
 
 *Como eu faço para gerar um resumo de conversas no WhatsApp?*
 
-**1. Extração das Conversas**
+## **1. Extração das Conversas**
 
 Inicialmente, é preciso exportar a conversa desejada diretamente do aplicativo do WhatsApp. 
 
@@ -22,14 +24,14 @@ Para tal, acesse o menu através de `⋮ → Mais opções → Mais → Exportar
 Veja aqui mais detalhes de [como fazer](https://faq.whatsapp.com/1180414079177245/) esse processo.
 
 
-**1.1 Segmentação do histórico** (Opcional)
+### **1.1 Segmentação do histórico** (Opcional)
 
 Para concentrar em uma janela de tempo específica, você pode editar o arquivo texto com o histórico da conversa.
 
 No meu caso, eu utilizo um script em Python que lê o conteúdo exportado e cria um novo arquivo contendo apenas as mensagens de um período pré-determinado, como os últimos 7 dias. Embora seja possível "pedir" para o LLM fazer essa segmentação, essa etapa é particularmente é útil para "economizar tokens" e focar a análise em dados mais relevantes ou recentes.
 
 
-**2. Análise das Mensagens usando IA**
+## **2. Análise das Mensagens usando IA**
 
 Depois de exportar o arquivo, eu inicio o processo de análise em si. Se for a primeira vez, será um processo é bastante interativo, com várias interações a partir de um prompt inicial, até alcançar o resultado ideal.
 
@@ -42,8 +44,16 @@ Algumas notas:
 - Para lidar com históricos com muitas mensagens, recomendo o uso do AI Studio ([aistudio.google.com](https://aistudio.google.com)). Este serviço (até então gratuito) é um dos poucos que oferece uma interface simples e eficaz para trabalhar com grandes janelas de contexto, suportando até 1 milhão de tokens. *Nota: Nos meus testes tenho gostado dos resutaldos usando o Gemini 1.5 Pro.*
 
 
-**3. Compartilhamento dos Resultados**
+## **3. Compartilhamento dos Resultados**
 
 Após a análise, faço as edições necessárias nos resumos gerados, dependdo do lugar onde eu vou postar eu faço ajustes para formatar o texto em markdown, HTML ou outro formato.
 
-> Veja um [exemplo](https://sites.google.com/view/aprendizados-ia-educacao/home/semana-2705-0306) usando o Google Sites a partir do [prompt](https://docs.google.com/document/d/1epgEfimlHJHnlZtCizDTGm6NrDS-H3vgnnJjysuaOkY/edit) mencionado anteriormente.
+> Veja um [exemplo](https://sites.google.com/view/aprendizados-ia-educacao/) usando o Google Sites a partir do [prompt](https://docs.google.com/document/d/1epgEfimlHJHnlZtCizDTGm6NrDS-H3vgnnJjysuaOkY/edit) mencionado anteriormente.
+
+---
+
+### Update 12-ago-2025 
+
+- Mais de um ano depois o processo continua essencialmente o mesmo, mas agora conta com melhorias nos prompts e nos modelos.
+
+- Para quem tem conhecimentos em programação, vale conferir este [código-fonte](https://manualdousuario.net/orbita-post/apresentando-meu-pequeno-projeto-de-codigo-aberto-para-analise-de-historicos-de-conversas-no-whatsapp/)
