@@ -3,15 +3,13 @@ layout: default
 permalink: /blog/
 ---
 
-[BROKEN]
-
 <div class="posts clearfix">
       {% for post in site.posts %}
       {% if post.draft == true %}
       {% else %}
       {% capture date %}{{post.date | date: '%Y' | plus: 0 }}{% endcapture %}
     
-      {% if date contains "2025" or contains "2024" or contains "2023" or contains "2022" or date contains "2021" or date contains "2020" %}
+      {% if date contains "2025" or date contains "2024" or date contains "2023" or date contains "2022" or date contains "2021" or date contains "2020" %}
     
       <article class="post">
           <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
