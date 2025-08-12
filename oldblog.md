@@ -3,6 +3,8 @@ layout: default
 permalink: /blog/
 ---
 
+[BROKEN]
+
 <div class="posts clearfix">
       {% for post in site.posts %}
       {% if post.draft == true %}
