@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,105 @@
     <script defer data-domain="maluta.github.io" src="https://plausible.io/js/plausible.js"></script>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Hack:wght@400;700&display=swap');
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-Thin.woff') format('woff');
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-ThinItalic.woff') format('woff');
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-Light.woff') format('woff');
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-LightItalic.woff') format('woff');
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-Book.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-BookItalic.woff') format('woff');
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-Medium.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-MediumItalic.woff') format('woff');
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-Semibold.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-SemiboldItalic.woff') format('woff');
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-Bold.woff') format('woff');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-BoldItalic.woff') format('woff');
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-Heavy.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'CooperHewitt';
+            src: url('./CooperHewitt-HeavyItalic.woff') format('woff');
+            font-weight: 900;
+            font-style: italic;
+        }
         
         * {
             margin: 0;
@@ -38,6 +137,13 @@
             max-width: 720px;
             margin: 0 auto;
             position: relative;
+        }
+
+        /* Main text paragraphs */
+        p {
+            font-family: 'Crimson Text', serif;
+            margin-bottom: 1.6rem;
+            font-weight: 400;
         }
         
         /* Handwritten elements */
@@ -77,13 +183,15 @@
             transform-origin: left;
         }
         
-        p {
-            margin-bottom: 1.6rem;
-            font-weight: 300;
-        }
         
         strong {
             font-weight: 500;
+        }
+
+        /* Section titles */
+        .section-title {
+            font-family: 'Hack', monospace;
+            font-weight: 700;
         }
         
         /* Highlight effect - like highlighter pen */
@@ -113,6 +221,20 @@
             opacity: 0.7;
         }
         
+        /* Navigation links */
+        .nav-links a {
+            font-family: 'Hack', monospace;
+            color: var(--ink);
+            text-decoration: none;
+            border-bottom: 1px solid var(--whisper);
+            transition: border-color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            border-bottom-color: var(--ink);
+            background: var(--highlight);
+        }
+
         /* Links */
         a {
             color: var(--ink);
@@ -120,7 +242,7 @@
             border-bottom: 1px solid var(--whisper);
             transition: border-color 0.3s ease;
         }
-        
+
         a:hover {
             border-bottom-color: var(--ink);
             background: var(--highlight);
@@ -187,13 +309,14 @@
             margin: 30px 0;
             padding-left: 40px;
             position: relative;
+            font-family: 'Crisom', cursive;
         }
         
         .focus-item::before {
             content: '→';
             position: absolute;
             left: 10px;
-            font-family: 'Kalam', cursive;
+            font-family: 'CooperHewitt', cursive;
             font-size: 1.2rem;
             transform: rotate(-5deg);
         }
@@ -208,6 +331,7 @@
         .connect a {
             margin-right: 2rem;
             font-size: 0.9rem;
+            font-family: 'Hack', monospace;
         }
         
         /* Doodles */
@@ -292,8 +416,10 @@
     <div class="doodle doodle-2"></div>
     <h1 class="handwritten">TIAGO MALUTA</h1>
     <div class="doodle doodle-1"></div>
+    <div class="nav-links">
         <a href="https://www.linkedin.com/in/maluta/recent-activity/all/">LinkedIn </a>•
-        <a href="https://maluta.github.io/blog">Writings</a>  
+        <a href="https://maluta.github.io/blog">Writings</a>
+    </div>  
     <br><br>  
     <p>
         Computer engineer and innovation manager working to leverage <mark>AI and technology for good</mark>.
@@ -304,7 +430,7 @@
         <div class="moment">
             <div class="when">2005-2013</div>
             <div class="what">
-                <strong><b>Studying Computer Engineering & Early Career</b></strong>
+                <strong class="section-title">Studying Computer Engineering & Early Career</strong>
                 <p>I built my technical foundation while studying Computer Engineering at the <a href="https://unifei.edu.br">Federal University of Itajubá</a>, a top-ranked public university in Brazil. During this time. I immersed myself in <mark>open source movement</mark>, volunteered in tech communities, and took on leadership roles in student movements. I also gained practical and professional experience working with Linux and embedded systems across various layers of software development.</p>
                 <span class="annotation">I fully embraced my inner nerd 🤓 during this period</span>
             </div>
@@ -313,7 +439,7 @@
         <div class="moment">
             <div class="when">2014-2017</div>
             <div class="what">
-                <strong><b>Pivoting to Social Impact</b></strong>
+                <strong class="section-title">Pivoting to Social Impact</strong>
                 <p>I joined the <a href="https://fundacaolemann.org.br/en">Lemann Foundation</a>  in 2015, following a year in consulting. My work centers on leveraging digital innovation for social impact, supporting the design, piloting, and implementation of educational technologies in Brazil's public K12 system.</p>
                 <span class="annotation">Learning about the implementation of Khan Academy, Code.org, and Scratch in public schools</span>
             </div>
@@ -322,7 +448,7 @@
         <div class="moment">
             <div class="when">2018-2019</div>
             <div class="what">
-                <strong><b>Startup Experience</b></strong>
+                <strong class="section-title">Startup Experience</strong>
                 <p>Took a strategic leave from the Foundation to work at <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/mgov">Movva</a>, a bootstrapped B-Corp startup, where I gained hands-on experience in lean product development and startup operations. During that time, I helped build a series of social impact solutions we called <a href="https://medium.com/@guilhermefinkelfarblichand/chatbots-vs-nudgebots-49b11e02b462">NudgeBots</a> to support underserved populations.</p>
                 <span class="annotation">“Nudgebots” are bots that apply behavioral science through messaging channels like SMS or WhatsApp</span>
 
@@ -332,7 +458,7 @@
         <div class="moment">
             <div class="when">2020-Present</div>
             <div class="what">
-                <strong><b>Innovation Leadership</b></strong>
+                <strong class="section-title">Innovation Leadership</strong>
                 <p>I returned to the <a href="https://fundacaolemann.org.br/en">Lemann Foundation</a> in 2020 with a renewed focus on <mark>accelerating innovation to advance the Foundation's mission</mark>. In 2022, I served as Interim Head of Innovation, reporting directly to the CEO. Since 2023, I've been working as Innovation Manager, leading strategic initiatives aimed at scaling impact through innovative approaches.</p>
                 <p></p>
                 <span class="annotation"><mark>I contemplate potential technology breakthroughs and figure out how to "connect the dots"</mark> by working collaboratively with other organizations, mapping challenges with technical expertise, and shaping product concepts through to deployment.</span>
