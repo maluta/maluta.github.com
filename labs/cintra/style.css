@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+    --primary-color: #478DD2;
+    --secondary-color: #CA140B;
+    --accent-color: #E9A251;
+    --success-color: #478DD2;
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --text-primary: #E8EDE7;
+    --text-secondary: #cbd5e1;
+    --cauldron-color: #334155;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: linear-gradient(135deg, var(--bg-color) 0%, #1e293b 100%);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    animation: fadeInDown 0.6s ease-out;
+}
+
+header h1 {
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    font-size: clamp(1.1rem, 3.5vw, 1.4rem);
+    opacity: 0.95;
+    font-weight: 500;
+}
+
+/* Game Screen */
+.game-screen {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.instruction {
+    text-align: center;
+    padding: 20px;
+    background: var(--card-bg);
+    border-radius: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.instruction p {
+    font-size: clamp(1rem, 3.5vw, 1.2rem);
+    color: var(--text-secondary);
+}
+
+/* Cauldron */
+.cauldron-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cauldron {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    background: linear-gradient(135deg, var(--cauldron-color), #475569);
+    border-radius: 50% 50% 45% 45%;
+    position: relative;
+    box-shadow:
+        inset 0 -10px 30px rgba(0, 0, 0, 0.4),
+        0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.cauldron::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 20px;
+    background: linear-gradient(135deg, #64748b, #475569);
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cauldron-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    transition: height 0.6s ease;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.cauldron.bubbling {
+    animation: bubble 0.5s ease;
+}
+
+.cauldron-content.filling {
+    animation: glow 1s ease infinite;
+}
+
+.ingredient-in-cauldron {
+    font-size: 1.8rem;
+    animation: dropIn 0.5s ease;
+}
+
+.progress-text {
+    font-size: clamp(1rem, 3.5vw, 1.2rem);
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+#progressCount {
+    color: var(--accent-color);
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
+}
+
+/* Ingredients Grid */
+.ingredients-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.ingredient {
+    background: linear-gradient(135deg, var(--card-bg), #334155);
+    border: 2px solid rgba(99, 102, 241, 0.3);
+    border-radius: 16px;
+    padding: 25px 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    touch-action: manipulation;
+}
+
+.ingredient:active {
+    transform: scale(0.95);
+}
+
+.ingredient[data-added="false"]:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.4);
+}
+
+.ingredient[data-added="true"] {
+    opacity: 0.3;
+    cursor: not-allowed;
+    border-color: rgba(99, 102, 241, 0.1);
+}
+
+.ingredient-icon {
+    font-size: clamp(2.5rem, 8vw, 3.5rem);
+    margin-bottom: 10px;
+    display: block;
+}
+
+.ingredient-name {
+    font-size: clamp(0.9rem, 3vw, 1.1rem);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.ingredient.adding {
+    animation: addIngredient 0.6s ease;
+}
+
+/* Celebration Screen */
+.celebration-screen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, var(--bg-color), #1e293b);
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.celebration-screen.show {
+    display: block;
+    animation: fadeIn 1s ease;
+}
+
+.fireworks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.fireworks::before,
+.fireworks::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    box-shadow:
+        0 0 100px 50px var(--accent-color),
+        100px 50px 100px 50px var(--primary-color),
+        -100px 100px 100px 50px var(--secondary-color),
+        150px 150px 100px 50px var(--success-color);
+    animation: firework 3s ease infinite;
+}
+
+.fireworks::after {
+    animation-delay: 1.5s;
+}
+
+.celebration-content {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding: 40px 20px;
+}
+
+.celebration-title {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    text-align: center;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: bounce 1s ease;
+}
+
+.celebration-name {
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    text-align: center;
+    color: var(--text-primary);
+    margin-bottom: 40px;
+    animation: fadeIn 1.5s ease;
+}
+
+.celebration-message {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 30px 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: slideUp 1s ease;
+}
+
+.celebration-message > p {
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.recipe-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    font-size: clamp(1rem, 3.5vw, 1.2rem);
+    padding: 15px;
+    margin-bottom: 10px;
+    background: rgba(99, 102, 241, 0.1);
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+    animation: slideIn 0.5s ease backwards;
+}
+
+.recipe-list li:nth-child(1) { animation-delay: 0.2s; }
+.recipe-list li:nth-child(2) { animation-delay: 0.4s; }
+.recipe-list li:nth-child(3) { animation-delay: 0.6s; }
+.recipe-list li:nth-child(4) { animation-delay: 0.8s; }
+.recipe-list li:nth-child(5) { animation-delay: 1s; }
+.recipe-list li:nth-child(6) { animation-delay: 1.2s; }
+
+.final-wish {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.2), rgba(139, 92, 246, 0.2));
+    border: 2px solid var(--accent-color);
+    border-radius: 20px;
+    padding: 30px 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    animation: slideUp 1.5s ease;
+}
+
+.final-wish p {
+    font-size: clamp(1.1rem, 3.5vw, 1.3rem);
+    color: var(--text-primary);
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.signature {
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
+    color: var(--accent-color);
+    font-weight: 600;
+    font-style: italic;
+}
+
+.btn-restart {
+    width: 100%;
+    padding: 18px 32px;
+    font-size: clamp(1.1rem, 3.5vw, 1.3rem);
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    transition: all 0.3s ease;
+    touch-action: manipulation;
+    animation: slideUp 2s ease;
+}
+
+.btn-restart:active {
+    transform: scale(0.98);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes bubble {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes glow {
+    0%, 100% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(1.3);
+    }
+}
+
+@keyframes addIngredient {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2) rotate(10deg);
+    }
+    100% {
+        transform: scale(0) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes dropIn {
+    from {
+        transform: translateY(-100px) scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes firework {
+    0% {
+        transform: translateY(100vh);
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
+/* Responsive */
+@media (max-width: 375px) {
+    .container {
+        padding: 15px;
+    }
+
+    header {
+        padding: 20px 15px;
+    }
+
+    .cauldron {
+        width: 180px;
+        height: 180px;
+    }
+
+    .ingredients-grid {
+        gap: 12px;
+    }
+}
+
+@media (min-width: 600px) {
+    .ingredients-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

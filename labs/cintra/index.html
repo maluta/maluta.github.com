@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Feliz Aniversário Guilherme Cintra!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎂 Receita de Aniversário</h1>
+            <p class="subtitle">Guilherme Cintra</p>
+        </header>
+
+        <div class="game-screen" id="gameScreen">
+            <div class="instruction">
+                <p>Toque nos ingredientes para adicionar ao caldeirão da inovação!</p>
+            </div>
+
+            <div class="cauldron-container">
+                <div class="cauldron" id="cauldron">
+                    <div class="cauldron-content" id="cauldronContent"></div>
+                </div>
+                <div class="progress-text">
+                    <span id="progressCount">0</span> de <span id="totalCount">6</span> ingredientes
+                </div>
+            </div>
+
+            <div class="ingredients-grid" id="ingredientsGrid">
+                <div class="ingredient" data-ingredient="ia" data-added="false">
+                    <div class="ingredient-icon">🤖</div>
+                    <div class="ingredient-name">IA na Educação</div>
+                </div>
+
+                <div class="ingredient" data-ingredient="ipd" data-added="false">
+                    <div class="ingredient-icon">🏛️</div>
+                    <div class="ingredient-name">IPD</div>
+                </div>
+
+                <div class="ingredient" data-ingredient="leman" data-added="false">
+                    <div class="ingredient-icon">💡</div>
+                    <div class="ingredient-name">Fundação Lemann</div>
+                </div>
+
+                <div class="ingredient" data-ingredient="tech" data-added="false">
+                    <div class="ingredient-icon">🚀</div>
+                    <div class="ingredient-name">Inovação</div>
+                </div>
+
+                <div class="ingredient" data-ingredient="education" data-added="false">
+                    <div class="ingredient-icon">📚</div>
+                    <div class="ingredient-name">Educação</div>
+                </div>
+
+                <div class="ingredient" data-ingredient="olivia" data-added="false">
+                    <div class="ingredient-icon">💝</div>
+                    <div class="ingredient-name">Carinho da Olivia</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="celebration-screen" id="celebrationScreen">
+            <div class="fireworks"></div>
+            <div class="celebration-content">
+                <h1 class="celebration-title">🎉 Feliz Aniversário! 🎉</h1>
+                <h2 class="celebration-name">Guilherme Cintra</h2>
+
+                <div class="celebration-message">
+                    <p>A receita perfeita da inovação:</p>
+                    <ul class="recipe-list">
+                        <li>🤖 Uma dose generosa de IA na Educação</li>
+                        <li>🏛️ A base sólida da Infraestrutura Pública Digital</li>
+                        <li>💡 O time Tech da Fundação Lemann</li>
+                        <li>🚀 Inovação constante</li>
+                        <li>📚 Paixão pela Educação</li>
+                        <li>💝 E muito carinho da Olivia!</li>
+                    </ul>
+                </div>
+
+                <div class="final-wish">
+                    <p>Que seu novo ano seja repleto de realizações,<br>
+                    projetos transformadores e muita felicidade!</p>
+                    <p class="signature">Com carinho, Maluta </p>
+                </div>
+
+                <button class="btn-restart" onclick="restartGame()">🔄</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
