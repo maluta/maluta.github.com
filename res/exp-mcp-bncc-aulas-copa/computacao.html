@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula de Computação · Copa do Mundo 2026 · 7º ano</title>
+<style>
+  :root{ --cor:#00897b; --cor-clara:#e0f2f0; --cor-escura:#00564d; --texto:#16302c; }
+  *{box-sizing:border-box;}
+  body{font-family:'Segoe UI',system-ui,Arial,sans-serif;line-height:1.6;color:var(--texto);margin:0;background:#eef5f4;}
+  .wrap{max-width:880px;margin:0 auto;background:#fff;box-shadow:0 1px 8px rgba(0,0,0,.08);}
+  header{background:linear-gradient(120deg,var(--cor),var(--cor-escura));color:#fff;padding:32px 40px;}
+  header .tag{display:inline-block;background:rgba(255,255,255,.2);padding:4px 12px;border-radius:20px;font-size:.8rem;letter-spacing:.5px;text-transform:uppercase;}
+  header h1{margin:14px 0 4px;font-size:1.9rem;}
+  header p{margin:0;opacity:.92;}
+  .meta{display:flex;flex-wrap:wrap;gap:10px;padding:16px 40px;background:var(--cor-clara);font-size:.9rem;}
+  .meta span{background:#fff;border:1px solid #c4e3df;padding:5px 12px;border-radius:6px;}
+  main{padding:24px 40px 48px;}
+  h2{color:var(--cor-escura);border-left:5px solid var(--cor);padding-left:12px;margin-top:34px;font-size:1.25rem;}
+  .jogos{width:100%;border-collapse:collapse;margin:14px 0;font-size:.92rem;}
+  .jogos th,.jogos td{border:1px solid #c4e3df;padding:8px 10px;text-align:left;}
+  .jogos th{background:var(--cor);color:#fff;}
+  .jogos tr:nth-child(even){background:#f4faf9;}
+  .bncc{background:var(--cor-clara);border:1px solid #c4e3df;border-radius:8px;padding:14px 18px;margin:10px 0;}
+  .bncc code{background:var(--cor);color:#fff;padding:2px 8px;border-radius:5px;font-weight:bold;font-size:.85rem;}
+  .passos{counter-reset:p;list-style:none;padding:0;}
+  .passos li{counter-increment:p;position:relative;padding:10px 10px 10px 52px;margin:8px 0;background:#f4faf9;border-radius:8px;}
+  .passos li::before{content:counter(p);position:absolute;left:12px;top:10px;background:var(--cor);color:#fff;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;}
+  .destaque{background:#fff8e1;border-left:4px solid #ffb300;padding:12px 16px;border-radius:0 8px 8px 0;margin:16px 0;}
+  .codigo{background:#06302b;color:#aef5e8;font-family:'Consolas',monospace;font-size:.86rem;padding:16px 20px;border-radius:8px;overflow-x:auto;line-height:1.5;}
+  .codigo .kw{color:#ffd166;} .codigo .cm{color:#7fae9f;}
+  footer{padding:18px 40px;background:#00564d;color:#e0f2f0;font-size:.82rem;}
+  @media print{body{background:#fff;}.wrap{box-shadow:none;}.codigo{background:#eef5f4;color:#06302b;}.codigo .kw{color:#b26a00;}.codigo .cm{color:#5d7d75;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="tag">Computação · 7º ano</span>
+  <h1>O algoritmo que decide quem se classifica</h1>
+  <p>Pensamento computacional com a tabela de classificação da Copa</p>
+</header>
+<div class="meta">
+  <span>📅 Aula de 15/06/2026</span>
+  <span>⏱️ 2 tempos (90 min)</span>
+  <span>🎯 Pensamento Computacional</span>
+  <span>💻 Componente: Computação (complemento BNCC)</span>
+</div>
+<main>
+
+  <h2>⚽ Jogos da Copa usados nesta aula</h2>
+  <p>Os jogos de hoje atualizam duas tabelas de grupo. São esses dados que o nosso algoritmo vai processar:</p>
+  <table class="jogos">
+    <tr><th>Horário</th><th>Jogo</th><th>Grupo</th></tr>
+    <tr><td>13:00</td><td>🇪🇸 Espanha × Cabo Verde 🇨🇻</td><td>H</td></tr>
+    <tr><td>16:00</td><td>🇧🇪 Bélgica × Egito 🇪🇬</td><td>G</td></tr>
+    <tr><td>19:00</td><td>🇸🇦 Arábia Saudita × Uruguai 🇺🇾</td><td>H</td></tr>
+    <tr><td>22:00</td><td>🇮🇷 Irã × Nova Zelândia 🇳🇿</td><td>G</td></tr>
+  </table>
+
+  <h2>💡 Por que escolhi este tema</h2>
+  <p>A tabela de classificação parece simples, mas é, na verdade, um <strong>algoritmo</strong> rodando: para cada jogo entram dados (placar), aplicam-se regras (vitória = 3 pontos, empate = 1, derrota = 0) e, no fim, critérios de desempate decidem a ordem. É o cenário perfeito para ensinar <strong>pensamento computacional</strong> — entradas e saídas, estruturas de seleção (se/senão) e decomposição — sem precisar de computador, partindo de algo que a turma já entende de cor.</p>
+
+  <h2>🔗 Como a Copa e o conteúdo se conectam</h2>
+  <ul>
+    <li><strong>Entrada → Processamento → Saída:</strong> entrada = placar do jogo; processamento = regra de pontos; saída = pontos atualizados na tabela.</li>
+    <li><strong>Estrutura de seleção:</strong> "SE gols do time A &gt; gols do time B ENTÃO 3 pontos, SENÃO SE empate ENTÃO 1 ponto..." — condicionais aninhadas idênticas às de programação.</li>
+    <li><strong>Critérios de desempate = decisão em cascata:</strong> mesmos pontos? compara saldo de gols; mesmo saldo? compara gols marcados — uma sequência de SEs.</li>
+    <li><strong>Estrutura de dados:</strong> a tabela do grupo é um <em>registro/vetor</em>, com um campo por seleção (pontos, saldo, gols).</li>
+  </ul>
+
+  <h2>🧮 O algoritmo da aula (pseudocódigo)</h2>
+  <div class="codigo">
+<span class="cm"># Entrada: gols_A, gols_B de um jogo</span><br>
+<span class="kw">SE</span> gols_A &gt; gols_B <span class="kw">ENTÃO</span><br>
+&nbsp;&nbsp;pontos_A ← pontos_A + 3<br>
+<span class="kw">SENÃO SE</span> gols_A = gols_B <span class="kw">ENTÃO</span><br>
+&nbsp;&nbsp;pontos_A ← pontos_A + 1<br>
+&nbsp;&nbsp;pontos_B ← pontos_B + 1<br>
+<span class="kw">SENÃO</span><br>
+&nbsp;&nbsp;pontos_B ← pontos_B + 3<br>
+<br>
+<span class="cm"># Desempate na classificação do grupo</span><br>
+<span class="kw">SE</span> pontos iguais <span class="kw">ENTÃO</span> comparar saldo_de_gols<br>
+<span class="kw">SE</span> saldo igual <span class="kw">ENTÃO</span> comparar gols_marcados
+  </div>
+
+  <h2>📚 Habilidades da BNCC (Computação)</h2>
+  <div class="bncc"><code>EF69CO05</code><br>
+  Identificar os recursos ou insumos necessários (entradas) para a resolução de problemas, bem como os resultados esperados (saídas), determinando os respectivos tipos de dados, e estabelecendo a definição de problema como uma relação entre entrada e saída.</div>
+  <div class="bncc"><code>EF69CO02</code><br>
+  Elaborar algoritmos que envolvam instruções sequenciais, de repetição e de seleção usando uma linguagem de programação.</div>
+  <div class="bncc"><code>EF07CO01</code><br>
+  Criar soluções de problemas para os quais seja adequado o uso de registros e matrizes unidimensionais para descrever suas informações e automatizá-las usando uma linguagem de programação.</div>
+  <div class="bncc"><code>EF69CO01</code><br>
+  Classificar informações, agrupando-as em coleções (conjuntos) e associando cada coleção a um "tipo de dado".</div>
+
+  <h2>🎯 Objetivos de aprendizagem</h2>
+  <ul>
+    <li>Descrever um problema como relação entre entrada e saída.</li>
+    <li>Construir um algoritmo com estrutura de seleção (se/senão) e desempate em cascata.</li>
+    <li>Representar a tabela do grupo como um vetor/registro de dados.</li>
+    <li>Testar o algoritmo com os placares reais dos jogos de hoje.</li>
+  </ul>
+
+  <h2>🗂️ Roteiro da aula</h2>
+  <ol class="passos">
+    <li><strong>Disparo (10 min):</strong> "Como o computador da FIFA sabe quem está em 1º lugar?" Levantar hipóteses.</li>
+    <li><strong>Entrada/saída (15 min):</strong> identificar juntos o que entra (placar) e o que sai (pontos, posição) num jogo.</li>
+    <li><strong>Construindo o algoritmo (25 min):</strong> em duplas, escrever no papel o pseudocódigo dos pontos usando SE/SENÃO.</li>
+    <li><strong>Desempate (20 min):</strong> introduzir os critérios em cascata (saldo, gols marcados) como SEs encadeados.</li>
+    <li><strong>Teste com dados reais (15 min):</strong> rodar o algoritmo "na mão" com o placar do Grupo G ou H após os jogos de hoje.</li>
+    <li><strong>Fechamento (5 min):</strong> onde mais usamos algoritmos de decisão no dia a dia?</li>
+  </ol>
+
+  <div class="destaque"><strong>Avaliação:</strong> pseudocódigo da dupla (correção da estrutura de seleção) + execução manual correta com os dados reais. Extensão opcional: implementar no Scratch ou numa planilha com função SE.</div>
+
+  <h2>🧰 Material necessário</h2>
+  <p>Papel e lápis (a aula funciona "desplugada"). Opcional: Scratch ou planilha eletrônica para implementar. Placares atualizados dos grupos G e H.</p>
+
+</main>
+<footer>Plano de aula contextualizado · BNCC – Computação (complemento homologado em 2022) · Copa do Mundo FIFA 2026 · 7º ano</footer>
+</div>
+</body>
+</html>

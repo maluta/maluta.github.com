@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula de Matemática · Copa do Mundo 2026 · 7º ano</title>
+<style>
+  :root{ --cor:#1565c0; --cor-clara:#e3f0fb; --cor-escura:#0d3c75; --texto:#1c2733; }
+  *{box-sizing:border-box;}
+  body{font-family:'Segoe UI',system-ui,Arial,sans-serif;line-height:1.6;color:var(--texto);margin:0;background:#f4f6f8;}
+  .wrap{max-width:880px;margin:0 auto;background:#fff;box-shadow:0 1px 8px rgba(0,0,0,.08);}
+  header{background:linear-gradient(120deg,var(--cor),var(--cor-escura));color:#fff;padding:32px 40px;}
+  header .tag{display:inline-block;background:rgba(255,255,255,.2);padding:4px 12px;border-radius:20px;font-size:.8rem;letter-spacing:.5px;text-transform:uppercase;}
+  header h1{margin:14px 0 4px;font-size:1.9rem;}
+  header p{margin:0;opacity:.92;}
+  .meta{display:flex;flex-wrap:wrap;gap:10px;padding:16px 40px;background:var(--cor-clara);font-size:.9rem;}
+  .meta span{background:#fff;border:1px solid #cfe0f2;padding:5px 12px;border-radius:6px;}
+  main{padding:24px 40px 48px;}
+  h2{color:var(--cor-escura);border-left:5px solid var(--cor);padding-left:12px;margin-top:34px;font-size:1.25rem;}
+  .jogos{width:100%;border-collapse:collapse;margin:14px 0;font-size:.92rem;}
+  .jogos th,.jogos td{border:1px solid #d4dde6;padding:8px 10px;text-align:left;}
+  .jogos th{background:var(--cor);color:#fff;}
+  .jogos tr:nth-child(even){background:#f7fafd;}
+  .bncc{background:var(--cor-clara);border:1px solid #cfe0f2;border-radius:8px;padding:14px 18px;margin:10px 0;}
+  .bncc code{background:var(--cor);color:#fff;padding:2px 8px;border-radius:5px;font-weight:bold;font-size:.85rem;}
+  .bncc .foco{background:#ffb300;color:#3a2c00;font-size:.7rem;padding:2px 7px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+  .passos{counter-reset:p;list-style:none;padding:0;}
+  .passos li{counter-increment:p;position:relative;padding:10px 10px 10px 52px;margin:8px 0;background:#f7fafd;border-radius:8px;}
+  .passos li::before{content:counter(p);position:absolute;left:12px;top:10px;background:var(--cor);color:#fff;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;}
+  .destaque{background:#fff8e1;border-left:4px solid #ffb300;padding:12px 16px;border-radius:0 8px 8px 0;margin:16px 0;}
+  footer{padding:18px 40px;background:#0d3c75;color:#cfe0f2;font-size:.82rem;}
+  @media print{body{background:#fff;}.wrap{box-shadow:none;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="tag">Matemática · 7º ano</span>
+  <h1>Quem vai vencer? A matemática por trás dos palpites</h1>
+  <p>Probabilidade e estatística com os jogos da Copa do Mundo 2026</p>
+</header>
+<div class="meta">
+  <span>📅 Aula de 15/06/2026</span>
+  <span>⏱️ 2 tempos (90 min)</span>
+  <span>🎯 Probabilidade e Estatística</span>
+  <span>🔢 Componente: Matemática</span>
+</div>
+<main>
+
+  <h2>⚽ Jogos da Copa usados nesta aula</h2>
+  <p>Os quatro confrontos de hoje (horário de Brasília) são a fonte de dados da turma. Os dois primeiros jogos já podem ter resultado na hora da aula — perfeito para coletar dados reais:</p>
+  <table class="jogos">
+    <tr><th>Horário</th><th>Jogo</th><th>Grupo</th></tr>
+    <tr><td>13:00</td><td>🇪🇸 Espanha × Cabo Verde 🇨🇻</td><td>H</td></tr>
+    <tr><td>16:00</td><td>🇧🇪 Bélgica × Egito 🇪🇬</td><td>G</td></tr>
+    <tr><td>19:00</td><td>🇸🇦 Arábia Saudita × Uruguai 🇺🇾</td><td>H</td></tr>
+    <tr><td>22:00</td><td>🇮🇷 Irã × Nova Zelândia 🇳🇿</td><td>G</td></tr>
+  </table>
+  <p>Como apoio, usamos também os placares da 1ª rodada já encerrada (ex.: Brasil 1×1 Marrocos, Alemanha 7×1 Curaçao, EUA 4×1 Paraguai, México 2×0 África do Sul) para ter uma amostra maior de gols.</p>
+
+  <h2>💡 Por que escolhi este tema</h2>
+  <p>Probabilidade e estatística costumam parecer abstratas para o 7º ano. A Copa resolve isso: todo torcedor já faz <em>intuitivamente</em> um cálculo de probabilidade ("é mais fácil a Espanha ganhar"). A aula transforma esse palpite informal em raciocínio matemático — <strong>estimar probabilidade pela frequência de ocorrências</strong>, calcular a <strong>média de gols</strong> e organizar dados em <strong>tabelas e gráficos</strong>. O contexto é motivador, os dados são reais e atualizados, e o erro de previsão vira aprendizado (probabilidade ≠ certeza).</p>
+
+  <h2>🔗 Como a Copa e o conteúdo se conectam</h2>
+  <ul>
+    <li><strong>Probabilidade por frequência:</strong> com os placares da 1ª rodada, estimamos "qual a chance de um jogo ter mais de 2 gols?" contando ocorrências sobre o total — exatamente o conceito de probabilidade frequentista.</li>
+    <li><strong>Média e amplitude:</strong> calculamos a média de gols por partida e a amplitude (maior − menor placar), discutindo por que a goleada 7×1 "puxa" a média.</li>
+    <li><strong>Pesquisa e gráficos:</strong> a turma coleta os resultados, monta uma tabela e um gráfico de barras dos gols por seleção — uma mini-pesquisa estatística.</li>
+    <li><strong>Porcentagem:</strong> posse de bola e aproveitamento (% de vitórias) ligam o tema a acréscimos/decréscimos e leitura de dados da mídia esportiva.</li>
+  </ul>
+
+  <h2>📚 Habilidades da BNCC</h2>
+  <div class="bncc"><code>EF07MA34</code><span class="foco">Mapa de Foco</span><br>
+  Planejar e realizar experimentos aleatórios ou simulações que envolvem cálculo de probabilidades ou estimativas por meio de frequência de ocorrências.</div>
+  <div class="bncc"><code>EF07MA35</code><span class="foco">Mapa de Foco</span><br>
+  Compreender, em contextos significativos, o significado de média estatística como indicador da tendência de uma pesquisa, calcular seu valor e relacioná-lo, intuitivamente, com a amplitude do conjunto de dados.</div>
+  <div class="bncc"><code>EF07MA36</code><span class="foco">Mapa de Foco</span><br>
+  Planejar e realizar pesquisa envolvendo tema da realidade social, identificando a necessidade de ser censitária ou de usar amostra, e interpretar os dados para comunicá-los por meio de relatório escrito, tabelas e gráficos, com o apoio de planilhas eletrônicas.</div>
+  <div class="bncc"><code>EF07MA02</code><span class="foco">Mapa de Foco</span><br>
+  Resolver e elaborar problemas que envolvam porcentagens, como os que lidam com acréscimos e decréscimos simples, utilizando estratégias pessoais, cálculo mental e calculadora (apoio para posse de bola e aproveitamento).</div>
+
+  <h2>🎯 Objetivos de aprendizagem</h2>
+  <ul>
+    <li>Estimar a probabilidade de um evento a partir da frequência observada nos jogos.</li>
+    <li>Calcular média e amplitude de um conjunto de placares e interpretar seu significado.</li>
+    <li>Organizar dados coletados em tabela e gráfico de barras.</li>
+    <li>Diferenciar palpite (intuição) de estimativa fundamentada em dados.</li>
+  </ul>
+
+  <h2>🗂️ Roteiro da aula</h2>
+  <ol class="passos">
+    <li><strong>Aquecimento (10 min):</strong> "Quem vence o Espanha × Cabo Verde? Por quê?" Registrar os palpites da turma no quadro.</li>
+    <li><strong>Coleta de dados (15 min):</strong> em grupos, listar os placares já conhecidos da 1ª rodada numa tabela.</li>
+    <li><strong>Probabilidade frequentista (20 min):</strong> contar quantos jogos tiveram +2 gols e estimar a probabilidade (ocorrências ÷ total). Comparar com o palpite inicial.</li>
+    <li><strong>Média e amplitude (20 min):</strong> calcular a média de gols por partida e a amplitude; discutir o efeito da goleada 7×1.</li>
+    <li><strong>Gráfico (15 min):</strong> cada grupo monta um gráfico de barras dos gols por seleção (papel ou planilha).</li>
+    <li><strong>Fechamento (10 min):</strong> revisitar os palpites — a matemática "acertaria" mais? Por que probabilidade não é garantia?</li>
+  </ol>
+
+  <div class="destaque"><strong>Avaliação:</strong> ficha de coleta preenchida + cálculo correto de média/amplitude + um parágrafo justificando o palpite do grupo com os dados. Critério central: usar dados para argumentar.</div>
+
+  <h2>🧰 Material necessário</h2>
+  <p>Quadro, ficha de coleta impressa, calculadora (ou celular), papel quadriculado ou planilha eletrônica. Resultados atualizados dos jogos (TV, site da FIFA ou jornal).</p>
+
+</main>
+<footer>Plano de aula contextualizado · BNCC validada na base oficial · Copa do Mundo FIFA 2026 · 7º ano do Ensino Fundamental</footer>
+</div>
+</body>
+</html>
