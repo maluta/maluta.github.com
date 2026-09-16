@@ -86,6 +86,6 @@ Things from code that are found in docs...
 <ul>
 	<li>CLONE_FS means that<em> parent</em> and <em>child</em> share filesystem information.</li>
 	<li><span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; line-height: 18px; font-size: 12px; white-space: pre;">CLONE_FILES means that<em> parent </em>and <em>child</em> open files.</span></li>
-	<li><span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; line-height: 18px; font-size: 12px; white-space: pre;">CLONE_SIGHANDmeans that <em>parent</em> and <em>child</em> share signal handlers.</span></li>
+	<li><span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; line-height: 18px; font-size: 12px; white-space: pre;">CLONE_SIGHAND means that <em>parent</em> and <em>child</em> share signal handlers.</span></li>
 </ul>
-I use arbitrarily<em>msleep()</em> just to allow user "see" what is happening when dumping kernel ring buffer.
+I use arbitrarily <em>msleep()</em> just to allow user "see" what is happening when dumping kernel ring buffer.

@@ -13,10 +13,10 @@ tags: [oldblog]
 <pre style="text-align: left;">&gt; setenv mtdparts mtdparts=nand0:0x80000@0x0(uboot),0x400000@0x80000(kernel),-@0x480000(root)</pre>
 If you type <strong>mtd</strong><strong> </strong> you I'll see:
 <pre>device nand0 &lt;nand0&gt;, # parts = 3
- #: name  size  offset  mask_flags
-0: uboot 0x00080000 0x00000000 0
-1: kernel  0x00400000 0x00080000 0
-2: root 0x1fb80000 0x00480000 0</pre>
+ #: name        size        offset        mask_flags
+ 0: uboot     0x00080000    0x00000000    0
+ 1: kernel    0x00400000    0x00080000    0
+ 2: root      0x1fb80000    0x00480000    0</pre>
 <p style="text-align: left;">UBI deal with volume and not partitions. Let's create one.</p>
 
 <pre style="text-align: left;">&gt; ubi part kernel</pre>
@@ -31,7 +31,7 @@ Next step is create the volume:
 <pre>&gt; ubi create kernel_vol
 Creating dynamic volume kernel_vol of size <strong>3354624</strong></pre>
 <p style="text-align: justify;">The value in bold is the max size of that volume in bytes (~3MB). Note that is less than the 4MB (0x400000) defined in mtdparts. This happens because UBI works with logical blocks instead (LEB) of physical ones (PEB).</p>
-<p style="text-align: justify;">In order to write the kernel you need transfer the image to u-boot. Since Ethernet isn't working in my board I choose between <a href="http://www.coding.com.br/embarcado/accessing-u-boot-with-picocom-to-transfer-files-via-serial-interface/" target="_blank">serial</a> or mmc. As serial is too slow to large files I opted to write the image on FAT partition on SD card and load through:</p>
+<p style="text-align: justify;">In order to write the kernel you need transfer the image to u-boot. Since Ethernet  isn't working in my board I choose between <a href="http://www.coding.com.br/embarcado/accessing-u-boot-with-picocom-to-transfer-files-via-serial-interface/" target="_blank">serial</a> or mmc.  As serial is too slow to large files I opted to write the image on FAT partition on SD card and load through:</p>
 
 <pre>&gt; mmcinfo
 &gt; fatload mmc 0 ${loadaddr} uImage</pre>
@@ -42,6 +42,6 @@ Finally write it:
 <pre>&gt; ubi write ${loadaddr} kernel_vol 0x2b69c0</pre>
 You can check if everything went fine comparing
 <pre>&gt; ubi read 0x90AC0000 kernel_vol
-&gt; cmp.b ${loadaddr} 0x90ac0000 0x2b69c0
+&gt; cmp.b ${loadaddr} 0x90ac0000  0x2b69c0
 Total of 2845120 bytes were the same</pre>
 0x90AC0000 is some place on RAM different from ${loadaddr} (check using echo ${loadaddr}).

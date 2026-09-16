@@ -9,9 +9,9 @@ tags: [oldblog]
 
 
 <p align="justify">
-Sempre tive curiosidade de fazer um agregador para o Twitter, ou seja, criar um usurio que fizesse o <em>retwitt</em> de todos os termos que aparecem sobre determinada palavra. Parafazer um teste resolvi criar um usurio chamado <a href="http://www.twitter.com/hashunifei">@hashunifei</a> que ir agregar o que pessoal escrever sobre a <a href="http://www.unifei.edu.br">UNIFEI</a> (Universidade Federal de Itajub) incluindo o nome antigo ;-)
+Sempre tive curiosidade de fazer um agregador para o Twitter, ou seja, criar um usuário que fizesse o <em>retwitt</em> de todos os termos que aparecem sobre determinada palavra. Para fazer um teste resolvi criar um usuário chamado <a href="http://www.twitter.com/hashunifei">@hashunifei</a> que irá agregar o que pessoal escrever sobre a <a href="http://www.unifei.edu.br">UNIFEI</a> (Universidade Federal de Itajubá) incluindo o nome antigo ;-)
 
-Seguindo a filosofia <em>code less, create more</em> decidi fazer um <em>script</em> em Python que acessa a <a href="http://apiwiki.twitter.com/">API</a> do Twitter. Depois s configurar algum agendador de tarefas (ex.: <a href="http://en.wikipedia.org/wiki/Cron">cron</a>) para executar o programa de tempos em tempos. Para evitar que a cada busca os mesmos <em>twitts</em> sejam publicados h um arquivo chamado <em>.hashunifei</em> que grava o nmero de identificao (id) das mensagens publicadas. 
+Seguindo a filosofia <em>code less, create more</em> decidi fazer um <em>script</em> em Python que acessa a <a href="http://apiwiki.twitter.com/">API</a> do Twitter. Depois só configurar algum agendador de tarefas (ex.: <a href="http://en.wikipedia.org/wiki/Cron">cron</a>) para executar o programa de tempos em tempos. Para evitar que a cada busca os mesmos <em>twitts</em> sejam publicados há um arquivo chamado <em>.hashunifei</em> que grava o número de identificação (id) das mensagens publicadas. 
 </p>
 <pre lang="python"> 
 # -*- coding: utf-8 -*-
@@ -53,13 +53,13 @@ for twitt in result:
 f.close() 
 </pre>
 
-Se quiser testar o cdigo-fonte (lembre-se de mudar o usurio e senha e a palavra da busca)
+Se quiser testar o código-fonte (lembre-se de mudar o usuário e senha e a palavra da busca)
 <blockquote>
 $ touch .hashunifei
 $ wget <a href="http://github.com/maluta/junk/raw/master/hashunifei.py">http://github.com/maluta/junk/raw/master/hashunifei.py</a>
 </blockquote>
 
-Limitaes: A mensagem  truncada em 140 caracteres (limite do twitter). 
+Limitações: A mensagem é truncada em 140 caracteres (limite do twitter). 
 
-Eu sinceramente no sei se  assim que o pessoal faz, foi a primeira idia que tive..., se o pessoal que entende de <em>web</em> quiser colaborar seria timo.
+Eu sinceramente não sei se é assim que o pessoal faz, foi a primeira idéia que tive..., se o pessoal que entende de <em>web</em> quiser colaborar seria ótimo.
 

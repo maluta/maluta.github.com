@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mscaras de bits
+title: Máscaras de bits
 tags: [oldblog]
 ---
 
@@ -8,20 +8,20 @@ tags: [oldblog]
 
 
 
-Este  um pequeno resumo para utilizar <a href="http://en.wikipedia.org/wiki/Mask_(computing)">mscara-de-bits</a> quando voc precisar armazenar <em>flags</em> booleanas em uma nica varivel inteira.Abaixo esto dois exemplos, um em C e outro em Python.
+Este é um pequeno resumo para utilizar <a href="http://en.wikipedia.org/wiki/Mask_(computing)">máscara-de-bits</a> quando você precisar armazenar <em>flags</em> booleanas em uma única variável inteira. Abaixo estão dois exemplos, um em C e outro em Python.
 <h2>Linguagem C</h2>
 <pre lang="c" escaped="true">#define FLAG_TEMPERATURA 1
 #define FLAG_ALARME_1    2
 #define FLAG_ALARME_2    4
 #define FLAG_INTERRUPCAO 8</pre>
-Lembre-se de organizar em potncias de 2.
-<h3>1) Para verificar o valor utilize a lgica AND:</h3>
+Lembre-se de organizar em potências de 2.
+<h3>1) Para verificar o valor utilize a lógica AND:</h3>
 <pre lang="c;" escaped="true">if (flags &amp; FLAG_TEMPERATURA) {
 /* ... */
 }</pre>
-<h3>2) Para setar em TRUE o valor, utilize a lgica OR:</h3>
+<h3>2) Para setar em TRUE o valor, utilize a lógica OR:</h3>
 <pre lang="c" escaped="true">flags |= FLAG_ALARME_1;</pre>
-<h3>3) Para setar em FALSE o valor, utilize a lgica AND e NOT:</h3>
+<h3>3) Para setar em FALSE o valor, utilize a lógica AND e NOT:</h3>
 <pre lang="c" escaped="true">flags &amp;= ~FLAG_ALARME_2;</pre>
 <h2>Python</h2>
 <pre lang="python" escaped="true">#!/usr/bin/python
@@ -58,7 +58,7 @@ else:
 # volta-se ao estado inicial (false)
 flags &amp;= ~FLAG_INTERRUPCAO
 
-# novo status da FLAG_INTERRUPO
+# novo status da FLAG_INTERRUPÇãO
 if flags &amp; FLAG_INTERRUPCAO:
 	print "FLAG_INTERRUPCAO: TRUE"
 else:

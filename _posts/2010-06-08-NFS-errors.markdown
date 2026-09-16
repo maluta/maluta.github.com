@@ -12,7 +12,7 @@ If you use NFS to mount your root filesystem you should probably faced with this
 <blockquote>Root-NFS: Unable to get mountd port number from server, using default
 Root-NFS: Server returned error -5 while mounting /my/nfs/server/path/
 VFS: Unable to mount root fs via NFS, trying floppy.</blockquote>
-<p style="text-align: justify;">The <strong>-5 </strong>and<strong> -13 </strong>are the most common on my daily usage, but I always forgot what this number means... So, I decided to get it from source by checking <em>nfs-utils </em>package. The following values where extracted from <em>utils/mount/error.c</em>.</p>
+<p style="text-align: justify;">The <strong>-5 </strong>and<strong> -13 </strong>are the most common on my daily usage, but I always forgot what this number means... So, I decided to get it from source by checking <em>nfs-utils </em>package. The following values where extracted  from <em>utils/mount/error.c</em>.</p>
 
 <pre>EPERM  ........................................ -1
 

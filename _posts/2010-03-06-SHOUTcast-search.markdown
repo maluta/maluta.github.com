@@ -8,7 +8,7 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">I'm working on a project using <a href="http://yp.shoutcast.com/">SHOUTCast</a>. In order to know about  services requests, especially XML output, I made this small program to display search queries. The program perform an Http request and parse the result in a appropriate view.</p>
+<p style="text-align: justify;">I'm working on a project using <a href="http://yp.shoutcast.com/">SHOUTCast</a>. In order to know about  services requests, especially XML output, I made this small program to display search queries.  The program perform an Http request and parse the result in a appropriate view.</p>
 <p style="text-align: center;"><img class="size-medium wp-image-713 aligncenter" title="ShoutCast Search" src="http://www.coding.com.br/wp-content/uploads/2010/03/sc-300x233.png" alt="" width="300" height="233" /><a href="http://farm5.static.flickr.com/4068/4410975721_5faa4f3bf2_o.png" target="_blank">screenshot</a></p>
 <p style="text-align: center;">This code is hosted in <a title="Shoutcast search repository " href="http://github.com/maluta/shoutcast-search" target="_blank">Github</a>.</p>
 

@@ -8,7 +8,7 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;"><a title="STLinux " href="http://www.stlinux.com/drupal/" target="_blank">STLinux</a> Distribution comes with <a title="libusb web-site" href="http://www.libusb.org/" target="_blank">libusb</a>-0.1 to access USB interface in user-space, it works but the new version implements new features (i.e asynchronous interface). Note that libusb-1.0 is not backwards compatible with libusb-0.1 although you can have both libusb versions present on the same system without conflict.</p>
+<p style="text-align: justify;"><a title="STLinux " href="http://www.stlinux.com/drupal/" target="_blank">STLinux</a> Distribution comes with <a title="libusb web-site" href="http://www.libusb.org/" target="_blank">libusb</a>-0.1 to access USB interface in user-space, it works but the new version implements new features (i.e asynchronous interface).  Note that libusb-1.0 is not backwards compatible with libusb-0.1 although you can have both libusb versions present on the same system without conflict.</p>
 <p style="text-align: justify;">Select one mirror <a title="Download libusb-1.0.2" href="http://ufpr.dl.sourceforge.net/project/libusb/libusb-1.0/libusb-1.0.2/libusb-1.0.2.tar.bz2" target="_blank">near</a> to you and set your cross compiler to produce an object SH4-compatible. I'm using some <a href="http://www.coding.com.br/wiki/BuildingGuidelines">building guidelines</a> to organize my files.</p>
 
 <pre>  CC=sh4-linux-gcc ./configure --host=sh4-linux --prefix=$(cd ../install &amp;&amp; pwd)

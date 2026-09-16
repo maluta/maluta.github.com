@@ -14,12 +14,12 @@ tags: [oldblog]
 	<li>procfs is a generic window into kernel internals</li>
 	<li>sysfs is specific to device model</li>
 </ul>
-Information such as process descriptors and sysctls parameters belong to procfs and not sysfs. Note that:Sysfs is not a replacement for procfs.
+Information such as process descriptors and sysctls parameters belong to procfs and not sysfs. Note that: Sysfs is not a replacement for procfs.
 
 Lets create two useless (in a practical way) that presents the "idea" behind these constructions.
 
 <strong>1. Procfs</strong>
-<p style="text-align: justify;">The snippet below creates a <em>/proc/coding</em> allowing read or write some content.</p>
+<p style="text-align: justify;">The snippet  below creates a <em>/proc/coding</em> allowing read or write some content.</p>
 
 <pre><span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;linux/kernel.h&gt;</span></strong></span>
 <span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;linux/module.h&gt;</span></strong></span>
@@ -82,7 +82,7 @@ Lets create two useless (in a practical way) that presents the "idea" behind the
 <span style="color: #2040a0;">MODULE_LICENSE</span><span style="color: #4444ff;">(</span><span style="color: #008000;">"GPL"</span><span style="color: #4444ff;">)</span><span style="color: #4444ff;">;</span></pre>
 <strong>2. Sysfs</strong>
 
-This example only creates a <em>/sys/class/&lt;module-name&gt; </em>directorywith nothing inside. This may not be clear now but remember when I show - in the next posts - some practical use with device node (/dev).
+This example only creates a <em>/sys/class/&lt;module-name&gt; </em>directory with nothing inside. This may not be clear now but remember when I show - in the next posts - some practical use with device node (/dev).
 <pre><span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;linux/kernel.h&gt;</span></strong></span>
 <span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;linux/module.h&gt;</span></strong></span>
 <span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;linux/init.h&gt;</span></strong></span>

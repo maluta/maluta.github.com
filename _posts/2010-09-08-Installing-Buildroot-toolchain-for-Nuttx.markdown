@@ -25,7 +25,7 @@ $ cd Nuttx</p>
 <p style="padding-left: 30px;">$ wget http://sourceforge.net/projects/nuttx/files/nuttx/nuttx-5.10/nuttx-5.10.tar.gz/download
 $ wget http://sourceforge.net/projects/nuttx/files/buildroot/buildroot-1.8/buildroot-1.8.tar.gz/download</p>
 <p style="padding-left: 30px;">$ ls
-buildroot-1.8.tar.gz nuttx-5.10.tar.gz</p>
+buildroot-1.8.tar.gz  nuttx-5.10.tar.gz</p>
 
 <h2>3. Install</h2>
 <p style="padding-left: 30px;">$ tar zxf buildroot-1.8.tar.gz

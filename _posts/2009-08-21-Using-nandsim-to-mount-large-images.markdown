@@ -8,7 +8,7 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">Since I'm still using 32-bit machines I had to switch the way I mount large (&gt; 128MiB) JFFS2 images. Now I'm using NAND simulator, an extremely useful debugging and development tool which simulates NAND flashes in RAM. The main problem with mtdram is related with space reserved to vmalloc function on 32-bits processors (an hardware dependent issue). Checking /proc/meminfo you can see the difference:</p>
+<p style="text-align: justify;">Since I'm still using 32-bit machines I had to switch the way I mount large (&gt; 128MiB) JFFS2 images. Now I'm using NAND simulator, an extremely useful debugging and development tool which simulates NAND flashes in RAM. The main problem with mtdram is  related with space reserved to vmalloc function on 32-bits processors (an hardware dependent issue). Checking /proc/meminfo you can see the difference:</p>
 
 <pre>32-bit: VmallocTotal:   122880 kB
 64-bit: VmallocTotal:   34359738367 kB</pre>
@@ -33,7 +33,7 @@ And check both:
 dev:    size   erasesize  name
 mtd0: 08000000 00004000 "NAND simulator partition 0"
 mtd1: 00400000 00004000 "mtdram test device"</pre>
-<p style="text-align: justify;">With mtdram you can define any value to <em>erase_size</em> but with nandsim you need pre-defined memory parameters found in manufacturer datasheet, to select the simulated flash type one should specify ID bytes of your flasher (I've tested with pages of 512 and 2048 bytes). For more information click <a href="http://www.linux-mtd.infradead.org/faq/nand.html#L_nand_nandsim" target="_blank">here</a>.</p>
+<p style="text-align: justify;">With mtdram you can define any value to <em>erase_size</em> but with nandsim you need pre-defined memory parameters found in manufacturer datasheet, to select the simulated flash type one should specify ID bytes of your flasher (I've tested with pages of 512 and 2048 bytes).  For more information click <a href="http://www.linux-mtd.infradead.org/faq/nand.html#L_nand_nandsim" target="_blank">here</a>.</p>
 <p style="text-align: justify;">You can use nandsim to mount another flash file systems, such as: YAFFS2, CramFS and UBIFS.</p>
 <p style="text-align: justify;">As described on first paragraph, nandsim is much more than just a "mount tool". It can reproduce real condition of memory and lead developers make experiments without real hardware. I'm still learning the possibilities, if you would like to contribute leave an comment.</p>
 

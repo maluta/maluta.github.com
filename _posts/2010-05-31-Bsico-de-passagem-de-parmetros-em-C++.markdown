@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bsico de passagem de parmetros em C++
+title: Básico de passagem de parâmetros em C++
 tags: [oldblog]
 ---
 
@@ -8,8 +8,8 @@ tags: [oldblog]
 
 
 
-<p style="text-align: right;"><em>para no acontecer certos erros que vi por a...</em></p>
-Em C++ h <strong>trs</strong> maneiras de passar um parmetro para uma funo, as tradicionais herdadas da linguagem C: <em>valor </em>e <em>ponteiro</em>; alm da novidade: a passagem por <em>referncia. </em>Para ilustrar veja o seguinte exemplo, passar uma estrutura de dados "grande" (neste caso aproximadamente 10 kilobytes) para uma funo:
+<p style="text-align: right;"><em>para não acontecer certos erros que vi por aí...</em></p>
+Em C++ há <strong>três</strong> maneiras de passar um parâmetro para uma função, as tradicionais herdadas da linguagem C: <em>valor </em>e <em>ponteiro</em>; além da novidade: a passagem por <em>referência. </em>Para ilustrar veja o seguinte exemplo, passar uma estrutura de dados "grande" (neste caso aproximadamente 10 kilobytes) para uma função:
 
 <span style="color: #0000ff;"><strong>#include<span style="color: #008000;">&lt;iostream&gt;</span></strong></span>
 <span style="color: #0000ff;"><strong>#include <span style="color: #008000;">&lt;string.h&gt;</span> </strong></span>
@@ -56,7 +56,7 @@ Em C++ h <strong>trs</strong> maneiras de passar um parmetro para uma funo, as t
 <span style="color: #4444ff;"><strong>
 </strong></span>
 
-Veja o cdigo <em>assembly</em> gerado pelo compilador (g++) para cada um dos trs casos:
+Veja o código <em>assembly</em> gerado pelo compilador (g++) para cada um dos três casos:
 
 <strong>1) Ponteiro</strong>
 <pre lang="asm">mov    -0xc(%ebp),%eax
@@ -76,14 +76,14 @@ addl   $0x1,-0x2728(%ebp)
 cmpl   $0x2714,-0x2728(%ebp)
 jb     0x8048a16
 call   0x80488fe</pre>
-<strong>3) Referncia</strong>
+<strong>3) Referência</strong>
 <pre lang="asm">mov    -0x8(%ebp),%eax
 mov    %eax,(%esp)
 call   0x804880c</pre>
 Talvez seja importante:
 <ul>
-	<li>Se voc prefere a sintaxe da intel? Mude no GDB: <em>set disassembly-flavor intel</em></li>
-	<li>No precisa ser muito esperto para ver que a passagem por valor  a pior de todas, veja quanto cdigo <em>assembly</em> foi gerado [#fail]</li>
-	<li>A passagem por referncia  inclusive mais eficiente pois aloca no %ebp (<em>base pointer</em>) [8 bytes ao invs de 12 bytes do ponteiro].</li>
-	<li>A passagem por referncia prov a eficincia da passagem por ponteiros com a clareza da passagem por valor.</li>
+	<li>Se você prefere a sintaxe da intel? Mude no GDB: <em>set disassembly-flavor intel</em></li>
+	<li>Não precisa ser muito esperto para ver que a passagem por valor é a pior de todas, veja quanto código <em>assembly</em> foi gerado [#fail]</li>
+	<li>A passagem por referência é inclusive mais eficiente pois aloca no %ebp (<em>base pointer</em>) [8 bytes ao invés de 12 bytes do ponteiro].</li>
+	<li>A passagem por referência provê a eficiência da passagem por ponteiros com a clareza da passagem por valor.</li>
 </ul>

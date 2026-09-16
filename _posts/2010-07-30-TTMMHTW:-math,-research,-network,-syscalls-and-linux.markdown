@@ -16,7 +16,7 @@ Some things that made me happy this week.
 	<li>poll vs select vs event-based <a href="http://daniel.haxx.se/docs/poll-vs-select.html" target="_blank">http://daniel.haxx.se/docs/poll-vs-select.html</a></li>
 	<li>Free Electrons presentation at 11th Libre Software Meeting about <em>Linux Kernel: devices and drivers architecture</em> <a href="http://2010.rmll.info/Linux-kernel-architecture-and-device-driver-model.html" target="_blank">http://2010.rmll.info/Linux-kernel-architecture-and-device-driver-model.html
 </a></li>
-	<li>Command Interface to System Calls - <a href="http://sourceforge.net/projects/clint-sc/" target="_blank">http://sourceforge.net/projects/clint-sc/</a></li>
+	<li>Command Interface to System Calls -  <a href="http://sourceforge.net/projects/clint-sc/" target="_blank">http://sourceforge.net/projects/clint-sc/</a></li>
 	<li><strong> </strong>Bloatwatch - powerful tool for watching kernel size trends <a href="http://www.selenic.com/bloatwatch" target="_blank">http://www.selenic.com/bloatwatch/</a></li>
 	<li>Get to know Ksplice <a href="http://www.ibm.com/developerworks/aix/library/au-spunix_ksplice/index.html" target="_blank">http://www.ibm.com/developerworks/aix/library/au-spunix_ksplice/index.html</a></li>
 </ul>

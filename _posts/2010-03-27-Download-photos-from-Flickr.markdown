@@ -8,9 +8,9 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">I think that one problem regarding creating a <em>script</em> to download photos form Flickr is getting copyrighted material. Suppose that you want all photos from Itajub city. You can use Flickr API or an YQL request, as follows:</p>
+<p style="text-align: justify;">I think that one problem regarding creating a <em>script</em> to download photos form Flickr is getting copyrighted material. Suppose that you want all photos from Itajubá city. You can use Flickr API or an YQL request, as follows:</p>
 
-<pre>select * from flickr.photos.search where text="itajub"</pre>
+<pre>select * from flickr.photos.search where text="itajubá"</pre>
 <p style="text-align: justify;">My first try to get license information was showing the pertinent part of JSON output. You could see that there isn't a field telling that, but if you look at documentation there's a "license" parameter.</p>
 
 <blockquote>"farm": "5",

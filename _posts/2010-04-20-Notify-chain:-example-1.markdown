@@ -8,7 +8,7 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">This is a basic skeleton of a Linux kernel module about <em>notify chain</em> that I'll put as examples on my final course paper.When user presses a key, kernel "reads" it and then, using notify chain informs all subsystems which want to be informed about pressed key.</p>
+<p style="text-align: justify;">This is a basic skeleton of a Linux kernel module about <em>notify chain</em> that I'll put as examples on my final course paper. When user presses a key, kernel "reads" it and then, using notify chain informs all subsystems which want to be informed about pressed key.</p>
 
 <pre><span style="color: #444444;">/* keyboard-dump.c
  *

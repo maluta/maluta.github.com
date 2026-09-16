@@ -11,7 +11,7 @@ draft: false
 
 Some things that made me happy this week.
 <ul>
-	<li><a rel="nofollow" href="http://www.pablomartin.com/emulator/" target="_blank">Emulator</a> for Traktor Pro, running on Tken multitouch device (<a rel="nofollow" href="http://www.youtube.com/watch?v=OVD_Lvv4UOI" target="_blank"><strong>video</strong></a>).</li>
+	<li><a rel="nofollow" href="http://www.pablomartin.com/emulator/" target="_blank">Emulator</a> for Traktor Pro, running on Töken multitouch device (<a rel="nofollow" href="http://www.youtube.com/watch?v=OVD_Lvv4UOI" target="_blank"><strong>video</strong></a>).</li>
 	<li>Microkernel Construction - this <a rel="nofollow" href="http://www.inf.tu-dresden.de/index.php?node_id=1317" target="_blank"><strong>lecture</strong></a> focuses on current developments in the area of 2nd generation microkernels.</li>
 	<li>Recent posts from Marcelo Barros blog discussing his works on RTOS: part <strong><a href="http://jedizone.wordpress.com/2010/08/07/sistema-operacional-de-tempo-real-faco-voce-mesmo-v/" target="_blank">V</a></strong> part <strong><a href="http://jedizone.wordpress.com/2010/08/07/sistema-operacional-de-tempo-real-faco-voce-mesmo-vi/" target="_blank">VI</a></strong> a <em>finally</em> part <strong><a href="http://jedizone.wordpress.com/2010/08/07/sistema-operacional-de-tempo-real-faco-voce-mesmo-vii/" target="_blank">VII</a></strong> (also <a href="http://jedizone.wordpress.com/2010/08/11/ajude-a-divulgar-a-serie/" target="_blank">all parts</a>).</li>
 	<li><strong><a rel="nofollow" href="http://matt.might.net/articles/productivity-tips-hints-hacks-tricks-for-grad-students-academics/">Productivity</a></strong> hints, tips, hacks and tricks for graduate students and professors.</li>

@@ -8,11 +8,11 @@ tags: [oldblog]
 
 
 
-24 horas se passaram desde o lanamento do snow leopard, como vivo em um pas de terceiro mundo que no teve pr-lanamento do mesmo e tambm o lanamento esta previsto para daqui 1 ms, no pude conter minha curiosidade, obtive a imagem atravs do diabo verde e realizei uma "fresh install" no meu macbook.
+24 horas se passaram desde o lançamento do snow leopard, como vivo em um país de terceiro mundo que não teve pré-lançamento do mesmo e também o lançamento esta previsto para daqui 1 mês, não pude conter minha curiosidade, obtive a imagem através do diabo verde e realizei uma "fresh install" no meu macbook.
 
-Realmente o boot esta mais rpido em comparao ao leopard (ambos depois de instalado), mas ainda no tive tempo de verificar todas as novas funcionalidades, assim que descobrir algo interessante fao um post por aqui, segue o screenshot para aqueles que so um tanto quanto cticos heheh
+Realmente o boot esta mais rápido em comparação ao leopard (ambos depois de instalado), mas ainda não tive tempo de verificar todas as novas funcionalidades, assim que descobrir algo interessante faço um post por aqui, segue o screenshot para aqueles que são um tanto quanto céticos heheh
 
-abraos
+abraços
 <p style="text-align: center;"></p>
 
 

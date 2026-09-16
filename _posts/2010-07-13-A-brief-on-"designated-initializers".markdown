@@ -8,7 +8,7 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">The GNU Compiler Collection (GCC) for C language doesn't initialize variables <em>zeroed.</em> For simple variables types like <em>int</em> or <em>float</em> is just equal to 0 or 0.0 respectively. Now, suppose that you have a "large" <em>struct</em> and doesn't want to set each member individually... you could just type "={0}" which means that the first member is explicitly initialized to zero and  the remaining members are implicitly initialized, also zero. Let's see an example:</p>
+<p style="text-align: justify;">The GNU Compiler Collection (GCC) for C language doesn't initialize variables <em>zeroed.</em> For simple variables types like <em>int</em> or <em>float</em> is just equal to 0 or 0.0 respectively. Now, suppose that you have a "large" <em>struct</em> and doesn't want to set each member  individually... you could just type "={0}" which means that the first member is explicitly initialized to zero and  the remaining members are implicitly initialized, also zero. Let's see an example:</p>
 <strong>typedef</strong> <strong>struct</strong>
 <span style="color: #4444ff;"><strong>{</strong></span>
 <strong> int</strong> <span style="color: #2040a0;">a</span><span style="color: #4444ff;">;</span>

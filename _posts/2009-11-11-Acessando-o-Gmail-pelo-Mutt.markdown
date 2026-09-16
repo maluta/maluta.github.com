@@ -8,7 +8,7 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">Para acessar seus <em>emails</em> da conta do GMAIL no modo texto, utilizando o <a title="mutt website" href="http://www.mutt.org/" target="_blank">mutt</a>, adicione ao arquivo ~/.muttrc</p>
+<p style="text-align: justify;">Para acessar seus <em>emails</em> da conta do GMAIL no modo texto, utilizando o <a title="mutt website" href="http://www.mutt.org/" target="_blank">mutt</a>,  adicione ao arquivo ~/.muttrc</p>
 
 <pre style="text-align: justify;">
 set imap_user = "USERNAME@gmail.com"

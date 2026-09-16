@@ -8,9 +8,9 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">The objective here is describe a didactic way to build GNU GCC on MacOSX. In order to compile GCC you need three libraries: GMP, MPFR and MPC.To organize I usually create folders for each purpose. In this case, three, respectively: <em>source</em>, <em>build</em> and <em>install</em>. [It's not a rule]. My original enviroment is MacOSX 10.6.4 andgcc version 4.2.1 (Apple Inc. build 5659). All files will be on GCC folder, the description below shows:</p>
+<p style="text-align: justify;">The objective here is describe a didactic way to build GNU GCC on MacOSX.  In order to compile GCC you need three libraries: GMP, MPFR and MPC. To organize I usually create folders for each purpose. In this case, three, respectively: <em>source</em>, <em>build</em> and <em>install</em>. [It's not a rule].  My original enviroment is MacOSX 10.6.4 and gcc version 4.2.1 (Apple Inc. build 5659). All files will be on GCC folder, the description below shows:</p>
 <p style="padding-left: 30px;">$ mkdir ~/Projects/GCC # <em>compiler + libs</em>
-$ mkdir ~/Projects/GCC/libs #<em>gmp, mpfr and mp</em>c
+$ mkdir ~/Projects/GCC/libs # <em>gmp, mpfr and mp</em>c
 $ mkdir ~/Projects/GCC/libs/files <em># downloaded files</em>
 $ mkdir ~/Projects/GCC/libs/install <em># store libs objects and include</em></p>
 <strong>Step #1 - Download</strong>
@@ -55,7 +55,7 @@ $ ln -s ../../install/include/mpf2mpfr.h .
 $ ln -s ../../install/include/mpfr.h .
 $ ln -s ../../install/include/gmp.h .</p>
 <strong>Step #6 - Download &amp; Build GCC (~4.6)</strong>
-<p style="text-align: justify;">I used GCC from git (fda0037801fb258a2191aba59e1e9f0df019e3b6) and I don't know if it will work on newer versions. You'll have to try. Sorry. [Howto:<a href="http://gcc.gnu.org/wiki/GitMirror" target="_blank">GitMirror</a>]. Use <em>git checkout </em>to specify one commit.</p>
+<p style="text-align: justify;">I used GCC from git (fda0037801fb258a2191aba59e1e9f0df019e3b6) and I don't know if it will work on newer versions. You'll have to try. Sorry. [Howto: <a href="http://gcc.gnu.org/wiki/GitMirror" target="_blank">GitMirror</a>]. Use <em>git checkout </em>to specify one commit.</p>
 <p style="padding-left: 30px;">$ cd ~/Projects/GCC/</p>
 <p style="padding-left: 30px;">$ git clone git://gcc.gnu.org/git/gcc.git</p>
 <p style="padding-left: 30px;">$ mkdir build

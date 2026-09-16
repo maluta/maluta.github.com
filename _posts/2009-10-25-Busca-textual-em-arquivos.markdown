@@ -8,8 +8,8 @@ tags: [oldblog]
 
 
 
-<p>Como resolver o problema de arquivos com espao em branco na hora de fazer uma busca textual?</p>
-<p>Qualquer uma das trs formas funciona:</p>
+<p>Como resolver o problema de arquivos com espaço em branco na hora de fazer uma busca textual?</p>
+<p>Qualquer uma das três formas funciona:</p>
 <pre>
    1. find PATH -iname FILTRO -exec grep -n PALAVRA '{}' \; -print
    2. find PATH -iname FILTRO -exec grep -n PALAVRA /dev/null '{}' \;
@@ -22,7 +22,7 @@ De modo que o comando:</p>
 <pre>
 $ find . -iname "nome*"
 </pre>
-<p>Mostre todos os arquivos que comeam com "nome"</p>
+<p>Mostre todos os arquivos que começam com "nome"</p>
 <p style="padding-left: 30px;">
 <span style="color: #ff0000;"><br />
 ./c/c3/nome2 sobrenome2<br />
@@ -40,7 +40,7 @@ $ find . -iname "nome*"
 <pre>
 $ find . -iname "nome*" | xargs grep teste
 </pre>
-<p>Mas o espao em branco iria atrapalhar a interpretao dos arquivos...</p>
+<p>Mas o espaço em branco iria atrapalhar a interpretação dos arquivos...</p>
 <p style="padding-left: 30px;">
 <span style="color: #ff0000;"><br />
 grep: ./c/c3/nome2: No such file or directory<br />
@@ -60,7 +60,7 @@ grep: ./a/a1/nome1: No such file or directory<br />
 grep: sobrenome1: No such file or directory<br />
 </span>
 </p>
-<p>Uma das solues est no prprio find:</p>
+<p>Uma das soluções está no próprio find:</p>
 <pre>
 $ find . -iname "nome*" -exec grep teste '{}' \;
 </pre>
@@ -69,7 +69,7 @@ $ find . -iname "nome*" -exec grep teste '{}' \;
 teste 123<br />
 </span>
 </p>
-<p>Contudo,  importante saber o nmero da linha da ocorrncia e o nome do arquivo, logo:</p>
+<p>Contudo, é importante saber o número da linha da ocorrência e o nome do arquivo, logo:</p>
 <pre>
 find . -iname "nome*" -exec grep -n teste '{}' \; -print
 </pre>

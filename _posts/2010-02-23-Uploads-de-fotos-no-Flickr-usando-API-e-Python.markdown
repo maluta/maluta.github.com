@@ -8,16 +8,16 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">A API (Interface de Programao de Aplicativo) do <a href="www.flickr.com" target="_blank">Flickr!</a>  bem <a href="http://www.flickr.com/services/api/" target="_blank">documetada</a> e rapidamente voc pode fazer bastante coisa. Se voc desejar usar a linguagem Python como mtodo de acesso, em linhas gerais voc precisa.</p>
+<p style="text-align: justify;">A API (Interface de Programação de Aplicativo) do <a href="www.flickr.com" target="_blank">Flickr!</a> é bem <a href="http://www.flickr.com/services/api/" target="_blank">documetada</a> e rapidamente você pode fazer bastante coisa. Se você desejar usar a linguagem Python como método de acesso, em linhas gerais você precisa.</p>
 
 <ol>
 	<li><a href="http://www.flickr.com/services/apps/create/" target="_blank">Criar</a> uma chave na API do Flickr!</li>
 	<li>Download do <em>binding</em> para acesso a API (<a href="http://pypi.python.org/pypi/flickrapi" target="_blank">flickrapi</a>)</li>
 </ol>
-Nas distribuies Linux, um dos jeitos de instalar  usar o easy_install
+Nas distribuições Linux, um dos jeitos de instalar é usar o easy_install
 <pre>easy_install flickrapi</pre>
 <p align="justify">
-Um modo eficaz para fazer o <em>upload</em> das fotos no servio seria um <em>script</em> que varre e submete todas as imagens, por exemplo, de uma pasta definida. O exemplo abaixo recebe como parmetro um diretrio e busca por todos os arquivos com extenso .jpg. A funo <em>status</em>  apenas para mostrar o andamento do <em>upload</em> e  executada como uma chamada <em>callback</em> no mtodo flickr.upload(). Nos meus testes, precisei pegar o nmero definido na varivel <em>token</em>, antes, executando na interface de linha de comando do Python os seguintes passos:
+Um modo eficaz para fazer o <em>upload</em> das fotos no serviço seria um <em>script</em> que varre e submete todas as imagens, por exemplo, de uma pasta definida. O exemplo abaixo recebe como parâmetro um diretório e busca por todos os arquivos com extensão .jpg. A função <em>status</em> é apenas para mostrar o andamento do <em>upload</em> e é executada como uma chamada <em>callback</em> no método flickr.upload(). Nos meus testes, precisei pegar o número definido na variável <em>token</em>, antes, executando na interface de linha de comando do Python os seguintes passos:
 </p>
 <pre lang="python">
 >>> api_key = "<API>"
@@ -29,7 +29,7 @@ Um modo eficaz para fazer o <em>upload</em> das fotos no servio seria um <em>scr
 >>> print frob
 </pre>
 
-Na hora o <em>browser</em> padro ir abrir e pedir para voc confirmar o uso do aplicativo.
+Na hora o <em>browser</em> padrão irá abrir e pedir para você confirmar o uso do aplicativo.
 
 <pre lang="python">
 # -*- coding: utf-8 -*-
@@ -73,4 +73,4 @@ Um exemplo de uso:
 python upload.py /Fotos
 </pre>
 
-Utilize sua criatividade para extender essa idia e criar aplicativos que ensinem e facilite sua vida. :-)
+Utilize sua criatividade para extender essa idéia e criar aplicativos que ensinem e facilite sua vida. :-)

@@ -22,8 +22,8 @@ dd if=pt4 of=final.ogv bs=1M seek=15
 </pre>
 After you can verify the integrity by using some hash generator, <em>md5sum</em> or <em>sha1sum</em> are examples.
 <p style="padding-left: 30px;">$ md5sum final.ogv MOVIE.ogv
-71ac8962779dcb733599dba1ce54d783 final.ogv
-71ac8962779dcb733599dba1ce54d783 MOVIE.ogv</p>
+71ac8962779dcb733599dba1ce54d783  final.ogv
+71ac8962779dcb733599dba1ce54d783  MOVIE.ogv</p>
 * this will never happen since both <em>dd</em> and <em>split</em> are on <a href="http://www.gnu.org/software/coreutils/" target="_blank">coreutils</a> package.
 
 <strong>Code</strong>

@@ -8,7 +8,7 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">There are <a title="List of URL shortening services" href="http://mashable.com/2008/01/08/url-shortening-services/" target="_blank">many</a> URL shortening services. I just picked one (<a href="http://u.nu" target="_blank">u.nu</a>) to use from <em>command line interface </em>andchose something really quick and simple. Here's the code:</p>
+<p style="text-align: justify;">There are <a title="List of URL shortening services" href="http://mashable.com/2008/01/08/url-shortening-services/" target="_blank">many</a> URL shortening services. I just picked one (<a href="http://u.nu" target="_blank">u.nu</a>) to use from <em>command line interface </em>and chose something really quick and simple. Here's the code:</p>
 
 <pre><span style="color: #444444;"># -*- coding: utf-8 -*-</span>
 <strong>from</strong> <span style="color: #2040a0;">urllib</span> <strong>import</strong> <span style="color: #2040a0;">urlencode</span>

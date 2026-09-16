@@ -8,10 +8,10 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">Se voc precisar entrar em contato com o mantendor de algum sub-sistema do kernel <a href="http://www.kernel.org" target="_blank">Linux</a> mas no sabe onde procurar, utilize um <em>script</em> (get_maintainer.pl) includo no prprio cdigo. Um exemplo, suponha que voc utilize o sistema de arquivos <a href="http://ext4.wiki.kernel.org/index.php/Main_Page" target="_blank">ext4</a> e deseje sugerir alguma idia. Se for um <em>bug</em>  recomendado utilizar a <a href="http://bugzilla.kernel.org/" target="_blank">plataforma</a> de submisso de bugs (bugzilla) que alm de seguir uma metodologia para descrever o erro  uma forma de catalogar o problema. Estou considerando neste <em>post</em> que voc ainda no  um desenvolvedor e quer achar o mantenedor pois gostaria de fazer uma sugesto ou comentrio acerca da rea do cdigo-fonte que ele mantm. Este tipo de busca talvez seja mais intessante nos <em>devices drivers...</em></p>
+<p style="text-align: justify;">Se você precisar entrar em contato com o mantendor de algum sub-sistema do kernel <a href="http://www.kernel.org" target="_blank">Linux</a> mas não sabe onde procurar, utilize um <em>script</em> (get_maintainer.pl) incluído no próprio código. Um exemplo,  suponha que você utilize o sistema de arquivos <a href="http://ext4.wiki.kernel.org/index.php/Main_Page" target="_blank">ext4</a> e deseje sugerir alguma idéia. Se for um <em>bug</em> é recomendado utilizar a <a href="http://bugzilla.kernel.org/" target="_blank">plataforma</a> de submissão de bugs (bugzilla) que além de seguir uma metodologia para descrever o erro é uma forma de catalogar o problema. Estou considerando neste <em>post</em> que você ainda não é um desenvolvedor e quer achar o mantenedor pois gostaria de fazer uma sugestão ou comentário acerca da área do código-fonte que ele mantém. Este tipo de busca talvez seja mais intessante nos <em>devices drivers...</em></p>
 <p style="text-align: justify;"><em><span style="font-style: normal;">Um exemplo com o ext4:</span></em></p>
 <p style="text-align: justify;"><em> </em></p>
-<p style="padding-left: 30px; "><strong>./scripts/get_maintainer.pl -f fs/ext4/</strong></p>
+<p style="padding-left: 30px; "><strong>./scripts/get_maintainer.pl -f  fs/ext4/</strong></p>
 <p style="padding-left: 60px; "><em><em>"Theodore Ts'o" &lt;tytso@...&gt;</em></em></p>
 <p style="padding-left: 60px; "><em><span style="background-color: #ffffff; font-style: normal;"><em> </em></span>Aneesh Kumar K.V &lt;aneesh.kumar@...&gt; </em></p>
 <p style="padding-left: 60px; "><em><span style="background-color: #ffffff; font-style: normal;"><em>Eric Sandeen &lt;sandeen@...&gt; </em></span></em></p>
@@ -46,4 +46,4 @@ Um exemplo com o <em>driver</em> de video da Intel:
 <p style="padding-left: 60px; ">linux-kernel@vger.kernel.org</p>
 <p style="padding-left: 30px; "></p>
 
-<span style="background-color: #ffffff;">Dar o retorno do uso de algum programa  timo para o desenvolvedor e garante a qualidade do sotfware. </span>
+<span style="background-color: #ffffff;">Dar o retorno do uso de algum programa é ótimo para o desenvolvedor e garante a qualidade do sotfware. </span>

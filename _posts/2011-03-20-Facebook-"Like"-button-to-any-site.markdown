@@ -16,4 +16,4 @@ javascript:void(location.href='http://www.facebook.com/plugins/like.php?href='+e
 
 <center><iframe src="http://www.screenr.com/embed/sWo" width="650" height="396" frameborder="0"></iframe></center>
 
-I dont know if its the correct way just opted for that because I want share some content that arent integrated with Facebook API.
+I don’t know if it’s the correct way… just opted for that because I want share some content that aren’t integrated with Facebook API.

@@ -8,7 +8,7 @@ tags: [oldblog]
 
 
 
-<p style="text-align: justify;">If you are reading this post it's probably that you already <a href="http://www.arduino.cc/playground/Linux/Gentoo" target="_blank">checked</a> other resources and had some problem to build <em>avr-g++ </em>using <a href="http://en.gentoo-wiki.com/wiki/Crossdev" target="_blank">crossdev</a> utility.</p>
+<p style="text-align: justify;">If you are reading this post it's probably that you already <a href="http://www.arduino.cc/playground/Linux/Gentoo" target="_blank">checked</a> other resources and had some problem to build  <em>avr-g++ </em>using <a href="http://en.gentoo-wiki.com/wiki/Crossdev" target="_blank">crossdev</a> utility.</p>
 
 <pre>crossdev -t avr -s4</pre>
 Note that <em>cpp </em>compiler wasn't created.
