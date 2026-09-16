@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kernel stats horrios dos commits
+title: Kernel stats horários dos commits
 tags: [oldblog]
 ---
 
@@ -9,10 +9,10 @@ tags: [oldblog]
 
 
 <p align="justify">
-Durante sua apresentao na Linux.conf.au 2010, o fundador do site LWN.net e contribuidor do kernel Jonathan Corbet <a href="http://www.lca2010.org.nz/programme/schedule/view_talk/50141?day=wednesday">demonstrou</a> uma anlise das contribuies no kernel Linux durante aproximadamente 1 ano (entre Dez 2008 e Jan 2010). Uma das concluses  que 75% cdigo  escrito por programadores pagos por empresas, lideram a lista: Red Hat (12%), Intel (8%), IBM e Novell (6% cada), Oracle (3%). 
+Durante sua apresentação na Linux.conf.au 2010, o fundador do site LWN.net e contribuidor do kernel Jonathan Corbet <a href="http://www.lca2010.org.nz/programme/schedule/view_talk/50141?day=wednesday">demonstrou</a> uma análise das contribuições no kernel Linux durante aproximadamente 1 ano (entre Dez 2008 e Jan 2010). Uma das conclusões é que 75% código é escrito por programadores pagos por empresas, lideram a lista: Red Hat (12%), Intel (8%), IBM e Novell (6% cada), Oracle (3%). 
 <p>
 <p align="justify">
-Um dos pontos que a estatstica no mostra  que - mesmo sendo empregado de grandes empresas - boa parte do trabalho  feita fora do horrio "comercial", se algum observar as datas de todos os <em>commits</em> e organiz-los pela frequncia em horas, voc tem o seguinte resultado para diferentes <em>releases</em>. 
+Um dos pontos que a estatística não mostra é que - mesmo sendo empregado de grandes empresas - boa parte do trabalho é feita fora do horário "comercial", se alguém observar as datas de todos os <em>commits</em> e organizá-los pela frequência em horas, você tem o seguinte resultado para diferentes <em>releases</em>. 
 </p> 
 
 <pre>
@@ -49,4 +49,4 @@ Comando utilizado para gerar esses dados:
 git log v2.6.33 | grep ^Date: | perl -pe 's/^(?:\S+\s+){4}(\d+).*/$1/' | sort -g | uniq -c
 </blockquote>
 
-A concluso  que muitos desenvolvedores fazem o cdigo durante a noite e acordam tarde. ;-)
+A conclusão é que muitos desenvolvedores fazem o código durante a noite e acordam tarde. ;-)
